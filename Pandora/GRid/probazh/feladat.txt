@@ -1,0 +1,9 @@
+A feladat egy egyszerű webshop létrehozása az alábbi funkciókkal:
+
+1, termékek listázása és szűrése kategória alapján (legördülő lista). Egy termék névből, kategóriából és árból áll. A termékek egy fix listát alkotnak (kódba égetve meg lehet adni).
+
+2, Termékek "kosárba rakása" és a kosár tartalmának megjelenítése. Legyen lehetőség a darabszám megadására, csak számokat elfogadó mező segítségével (JavaScript validálás szükséges)
+
+3, Vásárlás véglegesítése egy űrlapon, ahol szerepel: vezetéknév*, keresztnév*, telefonszám, e-mail cím, szállítási cím*. Legyen egy "A számlázási cím megegyezik a szállítási címmel" checkbox, amely alapból be van pipálva. Ha kivesszük a pipát, megjelenik a "számlázási cím" mező is. A *-gal jelölt mezők kötelezők, JS validálás szükséges.
+
+4, Az oldal adminisztrátorának egy külön oldalon legyen lehetősége a megrendelések adatait kilistázni, törölni. Nem szükséges hitelesítés.

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1395151646 source:c:\users\mimtaat\desktop\bead1.1\bead1\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<locale>
+	<string>
+	<vector>
+	"read.h"
+
+1395152045 c:\users\mimtaat\desktop\bead1.1\bead1\read.h
+	<string>
+	"read.cpp"
+
+1395151944 c:\users\mimtaat\desktop\bead1.1\bead1\read.cpp
+	"read.h"
+	<iostream>
+	<stdlib.h>
+

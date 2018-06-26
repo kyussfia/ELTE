@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1392736927 source:c:\users\kyussfia\desktop\prog_bea\bead0\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	<fstream>
+	<vector>
+

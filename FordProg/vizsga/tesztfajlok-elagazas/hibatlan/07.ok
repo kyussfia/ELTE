@@ -1,0 +1,6 @@
+INPUT x&
+INPUT y&
+WHILE x& > 0
+    PRINT y&
+    LET x& = x&-1
+WEND

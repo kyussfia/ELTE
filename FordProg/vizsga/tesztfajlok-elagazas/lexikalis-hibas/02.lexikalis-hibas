@@ -1,0 +1,4 @@
+INPUT x &
+LET x& = x&+1
+PRINT x&
+END

@@ -1,0 +1,40 @@
+<html>
+	<body>
+		<table>
+			<tr>
+				<td>Név</td>
+				<td>Tel</td>
+				<td>Email</td>
+				<td>Szállítási</td>
+				<td>Számlázási</td>
+				<td>Rendelés sorai</td>
+				<td></td>
+			</tr>
+			<?php foreach ($rendelesek as $id=>$rendeles){ /*a rendelések tömbön végigiterálunk, ebből lesznek a táblázat sorai*/ ?>
+			<tr>
+				<td><?php echo $rendeles['vezeteknev']; ?> <?php echo $rendeles['keresztnev']; ?></td>
+				<td><?php echo $rendeles['telefonszam']; ?></td>
+				<td><?php echo $rendeles['email']; ?></td>
+				<td><?php echo $rendeles['szallitasi']; ?></td>
+				<td><?php echo $rendeles['szamlazasi']; ?></td>
+				<td>
+					<ul>
+						<?php foreach ($rendeles['termekek'] as $termek){ /*A rendelés tételein végigiterálva egy listát készítünk*/ ?>
+						<li><?php echo $termek['db']?> db <?php echo $termek['nev']?></li>
+						<?php } ?>
+					</ul>
+				</td>
+				<td>
+					<form method="post">
+						<input type="hidden" name="id" value="<?php echo $id; /*Minden törlés gombhoz egy form is tartozik, egy hidden mező segítségével küldjük el a törölni kívánt elem sorszámát*/ ?>"/>
+						<input type="submit" value="töröl"/>
+					</form>
+				</td>
+			</tr>
+			<?php } ?>
+			
+		</table>
+		
+	</body>
+
+</html>

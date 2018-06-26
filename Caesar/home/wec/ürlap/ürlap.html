@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>Ûrlap létrhozás</title>
+<style type="text/css">
+	label {display:block;
+			font-weight:bold;
+			margin-top:10px}
+	fieldset#szemadat {background-color:blue;}
+	div.cimsor label {display:inline;
+						font-weight:normal;}
+	input[type="checkbox"]		
+	</style>
+</head>
+<body>
+<h1>Kérfõív</h1>
+<form action="mailto:kenji92@freemail.hu"
+		method="post"
+		enctype="text/plain">	<!--van get/post -->    <!-- akcio mondja hogy mit csinálak, pls egy mailre cÍmzés vagy url re iráynítás ami ezen van azt írányítja arra-->
+<fieldset id ="szemadat">
+<legend>Személyes adatok </legend>
+
+<label for="neved">Neved:</label>
+<input size= "50" maxlength="30" id="neved" name="nev" type="text"> <!--a size csak a box szélét mutatja a karaketr hosszra : maxlenght-->
+
+<label for="email">E-mailed:</label>
+<input  id="email" name="emailcim" type="text">
+
+<label for="honlap">Honlapod címe:</label>
+<input  id="honlap" name="honlapcim" type="text" value="https://">
+
+<label for="kor">Életkorod:</label>
+<select size="1" name="kor" id="kor" >  <!--multiple kód a selectbe -->
+	<option value="10evalatt">10 év alatt</option>
+	<option value="10evalatt">20 év alatt</option>
+	<option value="10evalatt">30 év alatt</option>
+	<option value="10evalatt">40 év alatt</option>
+	<option value="10evalatt">60 év alatt</option>
+	<option value="10evalatt">100 év alatt</option>
+	
+</select>
+</fieldset>
+<fieldset>
+<legend> Vélemény a honlapról</legend>
+
+<label for="tetszes">Miaz ami tetszett?</label>
+<select size="6" name="tetzses" id="tetszes" multiple>  <!--multiple kód a selectbe -->
+	<option value="A közérzet">Már mennék haza</option>
+	<option value="arculat">Arculat</option>
+	<option value="hasznalhat">Jól használható</option>
+	<option value="anya">Anyád!!</option>
+	<option value="baz+">bazmeg</option>
+	<option value="nema">Na nem máááá</option>
+</select>
+	
+<label>Mely böngészõket szoktad használni?</label>
+<div class="cimsor">
+
+<p><input type="checkbox" name="ie" id="ie">
+<label for="ie">Internet Explorer</label></p>
+<p><input type="checkbox" name="op" id="op">
+<label for="op">Opera</label></p>
+<p><input type="checkbox" name="gc" id="gc">
+<label for="gc">Google chrome</label></p>
+<p><input type="checkbox" name="ff" id="ff">
+<label for="ff">firefox</label></p>
+</div>
+<div class=
+"cimsor">
+<label>pls osztalyozd a honlapomat:</label>
+<label>Arculat</label>
+<input type="radio" name="arc" value="1" id="arc1">
+<label for="arc1">1</label>
+<input type="radio" name="arc" value="2" id="arc2">
+<label for="arc2">2</label>
+<input type="radio" name="arc" value="3" id="arc3">
+<label for="arc3">3</label>
+<input type="radio" name="arc" value="4" id="arc4">
+<label for="arc4">4</label>
+<input type="radio" name="arc" value="5" id="arc5">
+<label for="arc5">5</label>
+</div>
+</fieldset>
+
+
+
+<input type="submit">
+<input type="reset">
+
+</form>
+
+<textarea>
+</textarea>
+
+
+
+
+</body>
+
+</html>

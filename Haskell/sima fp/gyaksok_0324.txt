@@ -1,0 +1,69 @@
+﻿minimum :: Ord a => [a]{-véges, nemüres-} -> a
+minimum [x] = x
+minimum (x:xs) = min x $ minimum xs
+
+concat :: [[a]] -> [a]
+concat [] = []
+concat (x:xs) = x ++ concat xs
+
+(++) :: [a] -> [a] -> [a]
+[] ++ xs = xs
+(x:xs) ++ (ys) = x:(xs ++ ys)
+
+merge :: [a] -> [a] -> [a]
+merge [] xs = xs
+merge xs [] = xs
+merge (x:xs) (y:ys) = x:y:(merge xs ys)
+
+***********************************
+zip :: [a] -> [b] -> [(a,b)]
+zip [] as = []
+zip as [] = []s
+zip (a:as) (b:bs) = (a,b):(zip as bs)
+
+vagy:
+
+zip (a:as) (b:bs) = (a,b):(zip as bs)
+zip _      _      = []
+***************************************
+
+isPrefixOf :: Eq a => [a] -> [a] -> Bool
+[] `isPrefixOf` as = True
+as `isPrefixOf` [] = False
+(a:as) `isPrefixOf` (b:bs)
+ |a==b = as `isPrefixOf` bs
+ |otherwise = False
+ 
+elem :: Eq a => a -> [a]{-véges-} -> Bool
+elem _ [] = False
+elem n (x:xs)
+ | n == x = True
+ | otherwise = elem n xs 
+****************************** 
+nub :: Eq a => [a] -> [a]
+nub [] = []
+nub (x:xs)
+ | x `elem` xs = nub xs
+ | otherwise = x: nub xs
+ 
+ vagy:
+ 
+ nub [] = []
+nub (x:xs) = x: nub [n | n<-xs, x/=n]
+*******************************
+polinom :: Num a => [a] -> a -> a
+polinom [] _ = 0
+polinom (x:xs) n = (polinom xs n) * n + x
+
+runs :: Int -> [a] -> [[a]]
+runs _ [] = []
+runs n xs = [take n xs] ++ runs n (drop n xs)
+
+slice :: [Int] -> [a] -> [[a]]
+slice [] _ = []
+slice (x:xs) as = [take x as] ++ slice xs (drop x as)
+
+every :: Int -> [a] -> [a]
+every _ [] = []
+every n (x:xs) = x:(every n (drop n(x:xs)))
+

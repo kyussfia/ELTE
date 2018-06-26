@@ -1,0 +1,114 @@
+1. elõadás
+----------
+Bemutatkozás, saját és Kiss Attila honlap ismertetése
+ (people.inf.elte.hu/nikovits, people.inf.elte.hu/kiss)
+
+A félév tematikája
+ Tankönyv (Tk.): Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom: 
+                 Adatbázisrendszerek megvalósítása. Panem kiadó, Budapest, 2001.
+Számonkérés módja
+ Írásbeli vizsga, két tételt kell kidolgozni 90 perc alatt.
+ Tételsort lásd a tematika után.
+
+Egy adatbázis-kezelõ rendszer felépítése, mûködése, komponensei; példány, adatállományok, 
+memóriakezelés, a legfontosabb adatbázisbeli objektumok, rendszergazdai feladatok. 
+A fenti fogalmak konkretizálása az Oracle rendszer esetén.
+ ab2_ea1.ppt (01_Oracle_architecture.ppt, 01_Oracle_storage.ppt)
+
+2. elõadás
+----------
+Adattárolással kapcsolatos fogalmak, lemezek felépítése, RAID megoldások,
+rekordok, blokkok szerkezete. Memóriapufferek kezelése.
+ storage.ppt, Raid.doc
+Adatblokkok olvasása, rekordok, mezõk megtalálása egy lekérdezés végrehajtása során.
+ Select_vegrehajtas.ppt
+
+Fizikai fájlszervezés. Jelölések, feltevések, számítási modell.
+Kupac (Heap) szervezés 
+fizika.ppt (1-6. oldal)
+
+3. elõadás
+----------
+Hasítás, statikus hasítás, dinamikus hasítás, kiterjeszthetõ és lineáris hasítás. 
+ dinamikus_hasitas.txt, UW_dinamikus_tordeles.doc
+Rendezett állomány, Indexek, sûrû illetve ritka, elsõdleges illetve másodlagos.
+Klaszter szervezésû tábla, klaszter index.
+fizika.ppt (7-45. oldal)
+EN*.png (Elmasri-Navathe: Fundamentals of Database Systems könyvbõl vett képek)
+
+4. elõadás
+----------
+Többszintû indexek, B-fa B+ fa. Különbség a B-fa és B+ fa között, B-fa változatok.
+ fizika.ppt (46-64. old.), UW_b_fa.doc,  B_fa.jpg, B_plus_fa.jpg
+Bittérkép index; bittérképek tömörítése szakaszhossz kódolással 
+ Bitmap_index.ppt, UW_szakaszhossz_kodolas.doc
+Lekérdezések optimalizálása. Algebrai optimalizáció, átalakítási szabályok 
+ algebrai_opt.ppt (1-18 old.)
+
+5. elõadás
+----------
+Lekérdezések optimalizálása. Algebrai optimalizáció, átalakítási szabályok 
+ algebrai_opt.ppt (19-36 old.)
+A relációs algebrai mûveletek megvalósítása, egy és többmenetes algoritmusok. 
+A mûveleti költségek, outputméretek becslése.
+ optimization.ppt (1-33 old.) Operation_cost_examples.ppt
+
+6. elõadás
+----------
+Outputméretek becslése. optimization_NT.ppt (34-35 old.) output_estimate.ppt
+Futószalagosítás (pipeline), materializáció. optimization.ppt (36-39. old.)
+Összekapcsolások sorrendje, dinamikus programozás.
+ Joinorder.ppt (1-17 old.) Selinger_alg.ppt (1-19. old.)
+A félig-összekapcsolás (semijoin) és annak alkalmazása elosztott lekérdezésekre
+ Semijoin.ppt (1-15 old.)
+
+7. elõadás
+----------
+A Q(A,B) JOIN R(B,C) JOIN S(C,D) háromféle kiszámítási módja és költsége
+ Tetel9_kidolgozott.pdf
+Az Oracle költségalapú és szabályalapú optimalizálása, lekérdezésterveinek 
+megjelenítése, értelmezése, trace állományok, hintek, statisztikák létrehozása, 
+analyze utasítás, hisztogrammok.
+ 9ituning.ppt 
+
+
+
+Vizsgakérdések: (Korábbi évek tételei, apró módosítások még lehetnek benne)
+
+1.  Az Oracle adatbázis-kezelõ felépítése, mûködése, komponensei, példányok, rendszerállományok, 
+    memóriakezelése, rendszergazdai feladatok.
+2.  Lemezegységek, blokkok, fájlok felépítése, RAID megoldások. (Tk. 2.2, 2.4, 2.5, 2.6)
+3.  Fizikai fájlszervezés, feladata, költségek, paraméterek, kupac, rendezett, hasító indexelt megoldások, 
+    módosítás, keresés, példákkal, elõnyök, hátrányok. (Tk. 4.1, 4.4)
+4.  Fizikai fájlszervezés, feladata, költségek, paraméterek, elsõdleges index, másodlagos index, 
+    bitmap index, módosítás, keresés, példákkal, elõnyök, hátrányok. (Tk. 4.1, 4.2, 5.4)
+5.  Fizikai fájlszervezés, feladata, költségek, paraméterek, többszintû indexek, B-fa, B+-fa, B*-fa, 
+    módosítás, keresés, példákkal, elõnyök, hátrányok. (Tk. 4.1.4, 4.3)
+6.  Sql lekérdezés átalakítása relációs algebrai kifejezéssé, lekérdezésfordító, algebrai optimalizálás, 
+    szabályok, heurisztikákon alapuló algoritmus, példákkal. (Tk. 7.1, 7.2)
+7.  A relációs algebrai mûveletek megvalósítása, egy és többmenetes algoritmusok, mûveleti költségek, 
+    outputméretek becslése. (Tk. 6.3, 6.4, 6.5, 6.6, 7.4)
+8.  Több tábla összekapcsolása, összekapcsolások sorrendje, futószalagosítás, materializáció, 
+    dinamikus programozási feladat, a félig-összekapcsolás (semi-join) és alkalmazása osztott 
+    lekérdezésekre. (Tk. 7.6, 7.7)
+9.  A Q(A,B) JOIN R(B,C) JOIN S(C,D) háromféle kiszámítási módja és költsége, (feltéve, hogy Q,R,S paraméterei
+    megegyeznek, Q.B-re és S.C-re klaszterindexünk van). 
+    a) balról  jobbra, b) balról jobbra és a memóriában összekapcsolva a harmadik táblával, 
+    c) a középsõ ténytábla soraihoz kapcsolva a szélsõ dimenziótáblákat.
+10. Az Oracle költségalapú és szabályalapú optimalizálása, lekérdezésterveinek megjelenítése, értelmezése, 
+    Explain plan, tkprof, hintek, példák.
+11. Rendszerhibák kezelése, konzisztens adatbázis, tranzakciók, hibafajták, semmisségi (undo) naplózás 
+    és helyreállítás, ellenõrzõpont, ellenõrzõpont mûködés közben, példák. (Tk. 8.1, 8.2)
+12. Helyrehozó (Redo) maplózás, semmiségi/helyrehozó (Undo/Redo) naplózás, archiválás, példák. (Tk. 8.3, 8.4, 8.5)
+13. Az Oracle naplózási/helyreállítási megoldásai.
+14. Konkurenciavezérlés, ütemezés, sorbarendezhetõség, konfliktus-sorbarendezhetõség, megelõzési gráf,
+    fogalmak, állítások (bizonyítás nélkül), példák. (Tk. 9.1, 9.2)
+15. Zárolási ütemezõ, kétfázisú zárolás, holtpont, várakozási gráf, fogalmak, állítások (bizonyítás nélkül), 
+    példák. (Tk. 9.3)
+16. Különbözõ zármódú zárolási rendszerek, kompatibilitási mátrix, felminõsítés, módosítási zárak, 
+    növelési zárak, fogalmak, állítások (bizonyítás nélkül), példák. (Tk. 9.4)
+17. Zárolási ütemezõ felépítése, zártáblák. (Tk. 9.5)
+18. Figyelmeztetõ zárak, fantomok, nem megismételhetõ olvasás. (Tk. 9.6)
+19. Idõbélyegzés, érvényesítés (Ez a tétel nem fog szerepelni vizsgán!)
+20. Az Oracle tranzakció-kezelési megoldásai, elkülönítési szintek, zárolások.
+

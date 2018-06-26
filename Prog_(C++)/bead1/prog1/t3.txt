@@ -1,0 +1,8 @@
+2 3
+Kerek Berci
+Nagy János
+Matek
+Föci
+Orosz
+5   3   5
+5   5   5

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1259656806 source:f:\saci\progalap\felveteli\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1322465994 source:g:\saci\progalap\felveteli\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+
+1354802458 source:c:\users\mimtaat\desktop\felveteli\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+

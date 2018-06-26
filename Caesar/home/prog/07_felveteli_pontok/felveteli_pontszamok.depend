@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1329925737 source:d:\codeblocks\armin\felveteli_pontok\main.cpp
+	<iostream>
+	<stdlib.h>
+
+1330385397 source:d:\codeblocks\armin\taatact_02\07_felveteli_pontok\main.cpp
+	<iostream>
+	<stdlib.h>
+

@@ -1,0 +1,4 @@
+INPUT x&
+WHILE x& = 10
+    PRINT x&
+WEND

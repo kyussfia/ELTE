@@ -1,0 +1,7 @@
+
+ul#menu{list-style-type:none;
+text-align:center}
+ul#menu li{display:inline;
+			padding:10px;
+			}
+ul#menu li:first-child {border:0;}	

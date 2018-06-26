@@ -1,0 +1,447 @@
+/*----------------------------------------------------------------------
+
+	WEB-FEJLESZTÉS 2. Beadandó:
+	
+	Készítette: Mikus Márk (CM6TSV)
+
+----------------------------------------------------------------------*/
+
+.html {
+	width:100%;
+}
+body {
+	font-family:"Istok Web","Arial","DejaVu Sans","Verdana",sans-serif;
+	font-size:13px;
+	margin:0;
+	height: 100%;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	color: green;
+	text-shadow:2px 2px 0 #c87781;
+	font-size:34px;
+}
+
+h3 {
+	margin:30px 0 30px;
+	padding:0;
+	font-size:20px;
+}
+
+p, ul {
+
+	font-size:15px;
+	line-height:20px;
+	margin:15px 0 0
+}
+
+p a {
+	color: green;
+}
+
+table {
+	padding:0;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+td {
+	border:1px solid #555;
+	padding:0;
+	text-align:center;
+	height:22px;
+	width:22px;
+	line-height:20px;
+	font-size:15px;
+	font-weight:700;
+	color:#333;
+}
+div#reg {
+	
+	background:#800080;
+	background:-webkit-linear-gradient(top,#800080,#ffc0cb);
+	background:-moz-linear-gradient(top,#800080,#ffc0cb);
+	background:-o-linear-gradient(top,#800080 0%,#ffc0cb 100%);
+}
+
+.regs {
+	text-align:center;
+	margin-left:200px;
+}
+
+.left-menu {
+	position:absolute;
+	width:170px;
+	height:210px;
+	background-color:#800040;
+	border:15px double #800080;
+	}
+
+#login {
+}
+
+#rememberMe {
+	float:right !important;
+	margin-right:75px;
+}
+
+div#menu {
+	margin-top: 10px;
+	float: left;
+	width: 24%;
+	height:100%;
+	text-align:center;
+}
+
+#registerForm {
+	margin: auto;
+	text-align: center;
+}
+
+.wrapper {
+	width:720px;
+	margin:0 auto;
+	height: 50%;
+}
+
+div#leftmrg {
+	position:relative;
+	margin-left:60px;
+	width:850px !important;
+	height: 200px;
+}
+
+.head {
+	background:#77c8be;
+	background:-webkit-linear-gradient(top,#77c8be,#ffc0cb);
+	background:-moz-linear-gradient(top,#77c8be,#ffc0cb);
+	background:-o-linear-gradient(top,#77c8be 0%,#ffc0cb 100%);
+	height: 400px; 
+	border-bottom:1px double #333;
+	padding:20px 0 45px;
+}
+
+.head .wrapper {
+	position:relative;
+}
+
+#sign {
+	position:absolute;
+	bottom:-215px;
+	border:1px solid #333;
+	margin:0 auto;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	background:#555;
+	width:400px;
+	border-radius:10px;
+	left:160px;
+	font-weight:700;
+}
+
+.home-page img {
+	width:206px;
+	margin:0 auto;
+	height:206px;
+	display:block;
+	border:0;
+}
+
+
+.size1of2 {
+	width:50%;
+}
+.size2of2{
+
+
+}
+
+.unit {
+	float:left;
+}
+
+.home-page a {
+	width:240px;
+	padding:10px 0;
+	margin:0 auto;
+	text-align:center;
+	background:#402965;
+	background:-webkit-linear-gradient(bottom,#402965,#b1caef);
+	background:-moz-linear-gradient(bottom,#402965,#b1caef);
+	background:-o-linear-gradient(bottom,#402965 0%,#b1caef	 100%);
+	text-decoration:none;
+	font-size:15px;
+	font-weight:700;
+	text-shadow:0 -1px 1px #D1A779,0 1px 1px #D1A779;
+	border:1px solid #9E6222;
+	display:block;
+	border-radius:4px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.game-page {
+	height: 600px;
+	display:none;
+}
+
+.game-main {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.field-wrong {
+	background:#cc0000;
+	background:-moz-linear-gradient(bottom,#cc0000,#800000);
+	background:-webkit-linear-gradient(bottom,#cc0000,#800000);
+	background:-o-linear-gradient(bottom,#cc0000 0% ,#800000 100%);
+	
+}
+
+.field-normal {
+	background:#fff;
+}
+
+.field-black {
+	background:#111;
+	background:-moz-linear-gradient(top,#222,#000);
+	background:-o-linear-gradient(top,#222 0%,#000 100%);
+	color:#fff;
+}
+
+.field-grey {
+	background:#ccc;
+	background:-moz-linear-gradient(top,#ccc,#aaa);
+	background:-o-linear-gradient(top,#ccc 0%,#aaa 100%);
+}
+
+
+
+.foot {
+	background:#be77c8;
+	background:-webkit-linear-gradient(top,#be77c8,#9677c8); 
+	background:-moz-linear-gradient(top,#be77c8,#9677c8); 
+	background:-o-linear-gradient(top,#be77c8 0%,#9677c8 100%); 
+	height: 100%;
+		
+}
+
+.foot .wrapper {
+	padding:0 0 30px;
+}
+
+#select-small-game{
+	margin-left:15%	!important;
+	margin-top: -2.66%;
+	background-color:#402965;
+	width:240px;
+	padding:10px 0;
+	color: #c1afde;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:700;
+	text-shadow:0 -1px 1px #c1afde,0 1px 1px #c1afde;
+	border:1px solid #9E6222;
+	display:block;
+	border-radius:4px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+#select-large-game {
+	margin-left: 125% !important;
+	margin-top: -8%;
+	background-color:#402965;
+	width:240px;
+	padding:10px 0;
+	color: #c1afde;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:700;
+	text-shadow:0 -1px 1px #c1afde,0 1px 1px #c1afde;
+	border:1px solid #9E6222;
+	display:block;
+	border-radius:4px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.button-area a {
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+	font-weight:700;
+	border-width:1px;
+	border-style:solid;
+	display:block;
+	margin:10px auto;
+	border-radius:4px;
+	width:200px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.button-area a:hover {
+	cursor:pointer;
+}
+
+.button-green {
+	background:#b01b77;
+	background:-moz-linear-gradient(bottom,#b01b77,#dc2295);
+	background:-webkit-linear-gradient(bottom,#b01b77,#dc2295);
+	background:-o-linear-gradient(bottom,#b01b77 0%,#dc2295 100%);
+	text-shadow:0 -1px 1px #14853F,0 1px 1px #14853F;
+	border-color:#14853F;
+}
+
+.button-green:hover {
+	background:#169145;
+	background:-moz-linear-gradient(bottom,#169145,#1FC55E);
+	background:-o-linear-gradient(bottom,#169145 0%,#1FC55E 100%);
+}
+
+.button-blue {
+	background:#1B74B0;
+	background:-moz-linear-gradient(bottom,#155E8F,#1B74B0);
+	background:-o-linear-gradient(bottom,#155E8F 0%,#1B74B0 100%);
+	text-shadow:0 -1px 1px #155E8F,0 1px 1px #155E8F;
+	border-color:#155E8F;
+}
+
+.button-blue:hover {
+	background:#0F466B;
+	background:-moz-linear-gradient(bottom,#0F466B,#1B74B0);
+	background:-o-linear-gradient(bottom,#0F466B 0%,#1B74B0 100%);
+}
+
+.button-title {
+	font-size:18px;
+	text-align:center;
+	margin:20px auto;
+	font-weight:700;
+	color:#888
+}
+
+.clock-box {
+	background:#2238dc;
+	background:-moz-linear-gradient(bottom,#2238dc,#6473e7);
+	background:-webkit-linear-gradient(bottom,#2238dc,#6473e7);
+	background:-o-linear-gradient(bottom,#2238dc 0%,#6473e7 100%);
+	color:yellow;
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+	font-weight:700;
+	text-shadow:0 -1px 1px #9E6222,0 1px 1px #9E6222;
+	border:1px solid #9E6222;
+	display:block;
+	margin:0 auto 50px;
+	border-radius:4px;
+	width:200px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.clock {
+	font-size:26px;
+}
+
+.button-area {	
+	float: right;
+	width:200px;
+	margin-left:50px;
+	margin-right: 20%;
+	margin-top: 4%;
+}
+
+.game-main {
+	float:left;
+}
+
+
+.game-play {
+	border:2px solid #555;
+	float:right;
+}
+
+.game-top {
+	border:2px solid #555;
+	float:right;
+	margin-bottom:10px;
+	border-width:3px 2px
+}
+
+.game-left {
+	border:2px solid #555;
+	float:left;
+	margin-right:10px;
+	border-width:2px 3px
+}
+
+.game-play div, .game-top div, .game-left div {
+	float:left;
+}
+
+.gamefield {
+}
+
+.game-left td {
+	border-width:1px 0;
+}
+
+.game-top td {
+	border-width:0 1px;
+}
+
+.cb, .cl {
+	line-height:0;
+	font-size:0;
+	height:0;
+}
+
+.cb {
+	clear:both;
+}
+.cl {
+	clear:left;
+}
+
+.popup-layer {
+	position:fixed;
+	z-index:2;
+	width:100%;
+	height:100%;
+	background:rgba(255,255,255,0.5);
+	cursor:pointer;
+	display:none;
+}
+
+.size1of2_unit div {background:}
+
+.popup-window {
+	width:500px;
+	background:green;
+	margin:40px auto;
+	border:0px solid #555;
+	padding:20px 0;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.7);
+	border-radius:10px;
+	text-align:center;
+	color:#010101;
+	font-size:24px;
+}
+
+
+
+.popup-window img {
+	border:0;
+	width:200px;
+	height:200px;
+	display:block;
+	margin:0 auto;
+}
+
+.popup-window strong {
+	font-size:34px;
+	color:#222;
+}

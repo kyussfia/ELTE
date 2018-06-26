@@ -1,0 +1,16 @@
+{ Ez egy tobbsoros
+komment}
+INPUT a&
+LET i& = 2
+WHILE i& < a& { Tobbsoros megjegyzes
+
+    barhol
+elofordulhat!
+}    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = {i& +} 1
+    LET i& = i& + 1
+    PRINT i&
+WEND

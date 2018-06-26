@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>Kezdőlap - Labirintus</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="images/style.css" type="text/css" />
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
+</head>
+<body>
+<div class="content">
+  <div class="preheader">
+  </div>
+  <div class="header">
+    <div class="title">Labirintus</div>
+    <div class="slogan">Mikus Márk - Javascript beadnadó</div>
+  </div>
+  <div id="nav">
+    <ul>
+      <li id="current"><a href="">Kezdőlap</a></li>
+      <!--<li><a href="">B</a></li>
+      <li><a href="">C</a></li>
+      <li><a href="">D</a></li>
+      <li ><a href="">E</a></li>
+      <li><a href="">F</a></li> -->
+    </ul>
+  </div>
+  <div id="fullContent">
+    <div class="main_content">
+      <div class="sd_left">
+        <div class="text_padding">
+          <h2>Labirintus</h2>
+          "Kréta szigetén élt egy szörny egy labirintusban, akit Minótaurusznak hívtak. Mínosz király knószoszi csodaszép palotájában állt ez a labirintus, szövevényes útvesztőiből ember még élve nem került ki, mert a bikafejű ember testű szörny felfalta az áldozatul odaküldötteket." A monda szerint a szörnyet az ifjú Thészeusznak sikerült legyőznie, aki nagyon elgyengült a harcban. Thészeusznak a kezében csupán egyetlen fáklya ég, az sem sokáig, és minden lépéssel gyengül az ereje. Sajnos most nem segített neki a szépfürtű Ariadné, így Neked kell segíteni Thészeusznak kijutni a labirintusból, mielőtt végképp elgyengül.
+          <br>
+          <h2><strong>Szabályok</strong></h2>
+          A labirintus egy NxM elemből álló játéktábla, amely alapvetően kétféle elemből: falból és padlóból épül fel. A játékmezőt mindenhol fal veszi körbe, csupán egy helyen van rajta kijárat, ide kell Thészeusznak eljutnia, akinek a kiindulási pontja valahol a labirintus gyomrában van.<br>
+          A labirintusban nincsen világítás, csupán Thészeusz fáklyája világítja meg az utat két mező távolságra, azaz a főhős körül egy 5x5-ös négyzetben, de a falakon a fáklya sem tud átvilágítani.
+          <br>
+          Thészeusz kiindulási pontja valahol a labirintus gyomrában van. Irányítása a billentyűzet kurzorbillentyűivel történik, egyszerre egyet léphet vízszintesen vagy függőlegesen.
+          <br>
+          Kezdetben Thészeusznak van valamennyi életerő pontja, és a fáklyájának égési ideje másodpercben. Minden lépéssel az életerő pont eggyel csökken, a fáklya égési ideje pedig az eltelt időnek megfelelően fogy. Elérve a kijáratot írjuk ki a hátralévő időt és az életerőpontot.
+          <br>
+          <br>
+          Speciális mezők:
+          <ul>
+            <li>víz: erre lépve az életerő két ponttal csökken.</li>
+            <li>bozótos: erre lépve az életerő tíz ponttal csökken.</li>
+            <li>étel: erre lépve az életerő 20 ponttal nő. Lelépve eltűnik.</li>
+            <li>fáklya: erre lépve újra a teljes idő áll a feladat elvégzésére. Lelépve eltűnik.</li>
+          </ul><br>
+          Elérhető funkciók:
+          <ul>
+            <li>Legyen lehetőség a játék félbehagyására, és visszatérni a pályaválasztóhoz.</li>
+            <li>Legyen lehetőség a labirintus világítását be-, illetve kikapcsolni (a könnyebb tesztelés végett).</li>
+        </div>
+        <button type="button" id="playButton" class="btn btn-default btn-lg btn-block">Play Game</button>
+      </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="padding"> Készítette:<a href="mailto:kyussfia@gmail.com" title="CM6TSV">Mikus Márk</a> | <a href="http://webprogramozas.inf.elte.hu/gyak/js_labirintus.html" title="A feladat kiírása"> A Webfejlesztés II. Javascript beadnadó feladat leírása</a> alapján</div>
+</div>
+  
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

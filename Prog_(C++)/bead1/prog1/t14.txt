@@ -1,0 +1,7 @@
+1 4
+Kerek Berci
+Matek
+Föci
+Magyar
+Töri
+5 5 5 3

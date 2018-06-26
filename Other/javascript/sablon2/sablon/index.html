@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>X. gyakorlat - Webfejlesztés 2.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/sablon.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand" href="#">Webfejlesztés 2.</a>
+				</div>
+			</div>
+		</div>
+		
+	    <div class="container-fluid">
+			<div class="row-fluid">
+				
+				<div class="span3">
+					<div class="well sidebar-nav">
+						<ul class="nav nav-list">
+							<li><a href="#feladat1">1. feladat</a></li>
+							<li><a href="#feladat2">2. feladat</a></li>
+						</ul>
+					</div><!--/.well -->
+				</div><!--/span-->
+				
+				<div class="span9">
+					<div class="well">
+						<h1>X. gyakorlat <small>Webfejlesztés 2.</small></h1>
+					</div>
+					
+					<h2 id="feladatok">Feladatok</h2>
+					
+					<h3 id="feladat1">1. feladat</h3>
+					<p>Feladat szövege</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						
+						<script type="text/javascript">
+				function kiir() {
+						var font_size=0;
+				if(!isNaN(hello_db.value)){
+						for(var i=1;i<=hello_db.value;++i)
+						{
+						font_size=10+i*2;
+						document.writeln('<p style="font-size: '+font_size+'px">Helllo Világ!</p>');
+
+						} 
+				}
+				else
+				{
+				console.log('Nem szám');
+				}
+							//alert(hello_db.value);
+						}
+						
+						</script>
+						
+						
+						<input type="text">
+						<input type="button" id="hello_db" value="Írd ki!" onclick="kiir()">
+						
+						
+					</div>
+
+					<h3 id="feladat2">2. feladat</h3>
+					<p>Feladat szövege</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						
+					</div>
+
+					
+
+				</div><!--/span-->
+				
+			</div><!--/row-->
+		</div>
+	</body>
+</html>

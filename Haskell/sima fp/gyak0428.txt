@@ -1,0 +1,51 @@
+uncurry ujabb megoldás:
+uncurry f = h where
+ h (a,b) = f a b
+
+decompress újabb megoldás:
+decompress = concatMap (uncurry replicate)
+
+weightedSum :: Num a => [(a,a)] -> a
+weightedSum = sum . map (uncurry (*)) 
+
+/****************
+Függvénykompozíció:
+
+infixr 9 .
+(.) :: (b -> c) -> (a -> b) -> (a -> c)
+(f . g) x = f (g x)
+
+numbersMadeOfOnes :: [Integer]
+numbersMadeOfOnes = iterate ((+1) . (*10)) 1
+
+numbersMadeOfThrees :: [Integer]
+numbersMadeOfThrees = iterate ((+3) . (*10)) 3
+
+numbersMadeOfThreesAndOne :: [Integer]
+numbersMadeOfThreesAndOne = iterate ((+21) . (*10)) 1
+
+dropSpaces :: String -> String
+dropSpaces = dropWhile (==' ')
+
+trim :: String{-véges-} -> String
+trim = reverse . dropSpaces . reverse . dropSpaces
+
+maximumOfMinimums :: Ord a => [[a]] -> a
+maximumOfMinimums = maximum . (map minimum)
+
+mapMap :: (a -> b) -> [[a]] -> [[b]]
+mapMap f = map (map f)
+
+firstLetters :: String -> String
+firstLetters xs = unwords $ map (take 1) (words xs)
+
+monogram :: String -> String
+monogram xs = unwords $ map ((++".") .take 1) (words xs)
+
+reduce :: Eq a => [a] -> [a]
+reduce = concat . map (take 1) . group
+
+uniq :: Ord a => [a]{-véges-} -> [a]
+uniq = (map head) . group . sort
+
+repeated :: Ord a => [a]{-véges-} -> [a]

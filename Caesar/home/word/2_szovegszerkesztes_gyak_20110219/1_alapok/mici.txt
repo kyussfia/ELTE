@@ -1,0 +1,3766 @@
+TI: Micimackó
+AU: Milne, A. A.
+NA: Karinthy Frigyes  (fordító)
+NA: w24@moha.szikszi.hu  (begépelõ)
+NA: Gyulai Mihály  <http://gyulai.freeyellow.com/> (szövegellenõrzõ)
+DT: mese
+PD: 1975 (nyomtatott kiadás)
+PD: 1997/01  (elektronikus változat)
+PD: 2001/03/14 (javított elektronikus változat)
+KW: angol irodalom, 20. sz.
+NT: Ellenõrizve "A.A. Milne: Micimackó", 
+NT: Móra Ferenc Könyvkiadó, Budapest, 1975. kiadása alapján
+NT: A dõlt betûs kifejezések `` jelek között találhatók.
+
+
+  //////////////// MAGYAR ELEKTRONIKUS KÖNYVTÁR \\\\\\\\\\\\\\\\
+
+  Ez a dokumentum a Magyar Elektronikus Könyvtárból származik. A
+  szerzõi  és  egyéb  jogok  a dokumentum szerzõjét/tulajdonosát
+  illetik (amennyiben  az illetõ fel van tüntetve).  Ha a szerzõ
+  vagy tulajdonos külön is rendelkezik a szövegben a terjesztési
+  és felhasználási jogokról, akkor az õ megkötései felülbírálják
+  az alábbi megjegyzéseket.  Ugyancsak õ  a felelõs azért,  hogy
+  ennek a  dokumentumnak elektronikus formában  való terjesztése
+  nem sérti mások szerzõi jogait.  A MEK üzemeltetõi fenntartják
+  maguknak a jogot, hogy ha kétség merül fel a dokumentum szabad
+  terjesztésének lehetõségét illetõen, akkor  töröljék azt a MEK
+  állományából.
+
+  Ez  a  dokumentum  elektronikus  formában  szabadon másolható,
+  terjeszthetõ,  de csak saját célokra, nem-kereskedelmi jellegû
+  alkalmazásokhoz,  változtatások  nélkül  és  a  forrásra  való
+  megfelelõ hivatkozással használható. Minden más terjesztési és
+  felhasználási  forma esetében  a szerzõ/tulajdonos  engedélyét
+  kell kérni. Ennek a copyright szövegnek a dokumentumban mindig
+  benne kell maradnia.
+
+  A Magyar Elektronikus Könyvtár elsõsorban az oktatási/kutatási
+  szférát  szeretné  ellátni  magyar  vagy  magyar  vonatkozású,
+  szabad terjesztésû elektronikus  szövegekkel. A MEK projekttel
+  kapcsolatban  a  MEK-L@listserv.iif.hu   e-mail  címen   lehet
+  információkat  kapni és kérdéseket  feltenni.  A MEK  központi
+  Internet szolgáltatásainak URL címei: <http://www.mek.iif.hu>,
+  <gopher://gopher.mek.iif.hu> és <ftp://ftp.iif.hu/pub/MEK>.
+
+  \\\\\\\\\\\\\\\\ HUNGARIAN ELECTRONIC LIBRARY ////////////////
+
+
+
+		A. A. MILNE:
+
+
+		MICIMACKÓ
+
+
+		(fordította: Karinthy Frigyes)
+
+
+		Az olvasóhoz
+
+	Köszöntünk, kéz a kézben
+	(részemrõl mondjunk mancsot),
+	hogy teljesítsük részben
+	kérésed és parancsod,
+	mely minket felidézett,
+	mint mackóvágy a mézet.
+	Róbert Gida meg én
+	egy lélek, két legény,
+	egymást nagyon szeretjük,
+		és együtt
+		s evégett
+	ketten szeretünk téged.
+
+
+---------------------------------------------------------------------------
+
+Elsõ fejezet,
+
+amelyben bemutatnak bennünket Micimackónak és a méheknek, mellékesen  könyv is elkezdõdik
+
+---------------------------------------------------------------------------
+
+Íme, Medveczky Medve úr, amint bukdácsol lefelé a lépcsõn, kopogtatva
+feje búbjával, kipp-kopp, minden lépcsõfokon egy koppanás. Elõtte
+Róbert Gida, az õ gazdája. Amennyire Micimackó értelme terjed, meg
+van gyõzõdve róla, hogy ez az egyetlen módja a lépcsõn való
+közlekedésnek. Néha ugyan kétség fogja el, mintha lehetne másképp is,
+de ezt csak akkor tudná megfontolni, ha egy pillanatra megállnának a
+lépcsõn, és módjában volna fontolgatni. Talán akkor se.
+
+Különben is épp most ért le a lépcsõ aljára, és hajlandó nektek
+bemutatkozni:
+
+-- Micimackó.
+
+Amikor elõször hallottam a nevét, én is azt kérdeztem, amit ti
+akartok kérdezni: "Hát nem fiú? Azt hittem, fiú."
+
+-- Én is azt hittem -- mondja Róbert Gida.
+
+-- De hát akkor nem lehet Mici a neve! Mért hívod Micinek?
+
+-- Nem én hívom...
+
+-- De hát azt mondtad.
+
+-- Mert úgy hívják. Nem érted, hogy úgy hívják?
+
+-- De igen, hogyne -- mondtam gyorsan, és remélem, hogy ti is
+befejezitek ezzel a kérdezõsködést, mert bõvebb magyarázat nem áll
+rendelkezésre.
+
+Egyébként Micimackó néha játszani szeret, néha pedig leül szemben a
+kandallóval, és ilyenkor mesélni kell neki.
+
+-- Mesélünk? Micimackónak mesélj valami szépet -- mondottad te.
+
+-- Megpróbálhatom -- mondottam én. -- Milyen mesét szeret?
+
+-- Mesét saját magáról. Õ már egy ilyen Mackó.
+
+-- Értem.
+
+-- De szépet!
+
+-- Majd meglássuk -- mondtam én.
+
+-- Hát lássuk...
+
+Réges-régen, valamikor az õsidõkben, de legalábbis múlt péntek elõtt,
+Micimackó egy erdõben élt, saját kunyhójában, Kovács János név alatt.
+
+(`Mi az, hogy Kovács János név alatt -- kérdezi Róbert Gida.
+
+-- Ezt úgy kell érteni, hogy ez a név állott az ajtaja fölött
+aranybetûkkel, és õ ott lakott.
+
+-- Micimackó, azt hiszem, nem tudta ezt eddig -- mondja Róbert Gida.
+
+-- Most már tudom -- feleli egy dörmögõ hang.
+
+-- Akkor talán folytatom -- jegyzem meg kissé sértõdötten.`)
+
+-- Egy napon, mikor kint sétált az erdõben, egy tisztásra ért, és a
+tisztás közepén állt egy jókora tölgy, és a tölgy koronájából hangos
+döngicsélés és zümmögés ütötte meg a fülét.
+
+Micimackó letelepedett a fa alá; mancsai közé fogta a fejét, és
+gondolkozni kezdett.
+
+Így kezdte: "Ez a döngicsélés jelent valamit. Olyan nincs, hogy csak
+döngicsélés van meg zümmögés, és az nem jelent semmit. Ha döngicsélés
+van meg zümmögés, akkor ez azt jelenti, hogy valaki vagy valami
+döngicsél, illetve zümmög, és amennyire az én mûveltségem futja, az
+egyetlen elképzelhetõ ok, ami valakit döngicsélésre, illetve
+zümmögésre indíthat, abban a tényben leli magyarázatát, hogy az
+illetõ egy méhecske."
+
+Azután még hosszasan gondolkozott, és így fejezte be:
+
+"Ami pedig azt illeti, ha valaki már méh, ezt a minõségét arra szokta
+felhasználni, hogy mézet készítsen."
+
+Ezek után felállt, és így szólt:
+
+-- A mézkészítésnek pedig egyetlen értelmes okát és célját abban
+látom, hogy én a mézet megegyem.
+
+És már kapaszkodott is a fára.
+
+És kapaszkodott, és kapaszkodott, és kapaszkodott, és miközben
+kapaszkodott, egy kis dalt dúdolt csak úgy, saját magának.
+
+Ez a kis dal így hangzott:
+
+Erdei körökben az a nézet,
+hogy a medve szereti a mézet,
+ez nem csak afféle szerény
+vélemény,
+ez tény, tény, tény.
+
+Azután egy kicsit továbbkapaszkodott... megint egy kicsit tovább...
+és még egy kicsit tovább. De közben egy másik verset költött:
+
+Ha medvécske volna a méhecske,
+fatörzs alján gyûlne a mézecske,
+s ha méh volna a medve, amit feltehetek,
+nem kéne megmászni ennyi emeletet.
+
+Tudniillik közben egy kicsit elfáradt, azért lett a vers ilyen
+bánatos. Már majdnem egészen fönt volt, de amint rálépett az egyik
+ágra...
+
+Reccs!!!
+
+-- Segítség! -- suttogta Micimackó, de csak halkan és finoman, hogy
+ne zavarjon vele senkit, miközben a két méterrel alatta terpeszkedõ
+ág felé zuhant.
+
+-- Tulajdonképpen... -- mondotta a három méternél lejjebb nyúló ágra
+pottyanva.
+
+-- Véleményem szerint... -- magyarázta tovább két bukfenc között,
+miközben öt méterrel alább került -- csak azt akartam mondani...
+
+-- Természetesen ebben az esetben... -- folytatta udvariasan,
+miközben rekordsebességgel zuhant keresztül a következõ hat darab
+faág között.
+
+-- Feltevésem szerint mindez csak azt jelenti... -- határozott végre,
+elbúcsúzva az utolsó faágtól, hogy további három bukfenc árán végre
+kecsesen elhelyezkedjék a rekettyebokorban -- azt jelenti, hogy
+bizonyos szempontból nagyon szeretem a mézet. Egyébként pedig:
+Segítség!
+
+Kievickélt a bokorból, a tüskéket kikefélte orrából, és ismét átadta
+magát gondolatainak. Az elsõ, aki eszébe jutott, gazdája volt, Róbert
+Gida.
+
+(`Mármint én? -- kérdezte Róbert Gida ámulva, alig mert hinni a
+fülének.
+
+-- Te bizony!
+
+Róbert Gida nem felel, de egyszerre nagyobbra mereszti
+zsebóra-szemeit, és kipirul.`)
+
+Így hát Micimackó egyenesen Róbert Gidát kereste fel, aki az erdõ
+másik sarkában lakott egy szép, zöldre festett ajtó mögött.
+
+-- Jó reggelt, Róbert Gida! -- mondta õ.
+
+-- Jó reggelt, Micimackó! -- mondtad te.
+
+-- Mondd kérlek -- jegyezte meg Micimackó könnyedén --, nincs nálad
+véletlenül valami léggömbféle?
+
+-- Mármint léggömb?
+
+-- Igen... Ahogy jövök, mondok magamban, ennek a kedves Róbert
+Gidának biztosan van valami léggömbje vagy efféléje -- mondok
+magamnak --, mert éppen a léggömbökre gondoltam véletlenül meg
+effélékre.
+
+-- És minek az neked? -- kérdezted te.
+
+Micimackó körülnézett, hogy nem hallgatóznak-e, mancsát az orrához
+emelte, és ezt a szót suttogta:
+
+-- Méz.
+
+-- Hogy kerül össze a méz meg a léggömb? -- kérdezted te.
+
+-- Köszönöm, jól -- felelte Micimackó udvariasan, de határozottan.
+
+Na már most véletlenül úgy esett, hogy te estélyen voltál egy nappal
+elõbb barátodnál, Malackánál, és ott véletlenül léggömböket
+osztogattak. Te is kaptál egy szép zöld léggömböt, és Nyuszi
+valamelyik rokona ott felejtett egy nagy kék léggömböt is, és te
+magaddal hoztad a zöldet is meg a kéket is. Tehát megkérdezted
+Micimackót, melyiket óhajtja.
+
+Micimackó jól megfogta a fejét, ami nála mindig a megfontolás jele.
+
+-- A dolog így áll -- mondta végre. -- Mézkutató légi útjaim során
+rájöttem, hogy mi a legfontosabb. A legfontosabb, hogy a méhecskék ne
+lássák az embert. Mármost, ha a léggömb zöld, azt hiszik, hogy a
+fához tartozol. És nem vesznek észre. De ha kék a léggömb, azt
+hiszik, hogy az éghez tartozol, akkor se vesznek észre. Itt tehát az
+a kérdés, melyik hasonlít jobban.
+
+-- De nem gondolod, hogy `téged` észrevesznek a léggömb alatt?
+
+-- Talán igen, talán nem -- mondta Micimackó rejtélyesen. -- Ezeknél
+a méheknél sohase lehessen tudni. -- Pillanatig habozott, aztán
+határozott. -- Tudod mit, majd igyekszem úgy hatni, mint egy kis
+fekete felhõ. Ez megtéveszti õket.
+
+-- Akkor mégis a kék léggömböt ajánlom -- mondtad te, és így is lett.
+
+Meg is indultatok a kék léggömbbel, de a biztonság kedvéért puskát is
+vittél magaddal, Micimackó pedig bemászott egy pocsolyába, jól
+meghengergõzött benne, míg olyan fekete nem lett, mint a csibor.
+
+Ezután felfújtátok a léggömböt, Micimackó megkapaszkodott, te
+eleresztetted a zsineget, és Micimackó kecsesen libbent az ég felé,
+míg el nem érte a fatetõ színvonalát, jó nyolcméternyi távolságban.
+
+-- Remek! -- kiabáltad te.
+
+-- Mit szólsz?! -- kiabált vissza Micimackó -- Minek gondolnál
+alulról nézve?
+
+-- Egy olyan Mackó-félének, ami léggömbre kapaszkodik -- mondtad te.
+
+-- Az lehetetlen -- mondta Micimackó kissé aggodalmasan. -- Hát nem
+olyan vagyok, mint Fekete Felhõ a kék égboltozaton?
+
+-- Nem mondhatnám.
+
+-- No jó, alulról és felülrõl, az más. Aztán meg említettem már, hogy
+ezeknél a méheknél sohase lehessen tudni...
+
+Sajnos szélcsendes volt az idõ. Micimackó nem tudott közelebb jutni a
+fához. Már látta a mézet, érezte illatát, de nem tudott hozzáférni.
+
+Kis idõ múlva leszólt.
+
+-- Kedves Róbert Gida! -- jelezte hangos suttogással.
+
+-- Tessék!
+
+-- Attól tartok, a méhek `gyanítanak` valamit.
+
+-- Mibõl gondolod?
+
+-- Valami azt súgja nekem, hogy `gyanakszanak`.
+
+-- Csak nem gondolják rólad, hogy a mézük után szimatolsz?
+
+-- Az is lehetséges. `Nem lehessen tudni ezeknél a méheknél!`
+
+Kis szünet. Aztán Micimackó megint rákezdi:
+
+-- Kedves Róbert Gida!
+
+-- Parancsolj!
+
+-- Van nálatok otthon valami esernyõféle?
+
+-- Azt hiszem, van.
+
+-- Kedves volnál, ha kihoznád, és sétálgatni kezdenél alattam, majd
+idõnként aggódva néznél fel rám, és azt mormognád hangosan magad elé:
+"Ejnye, ejnye, úgy látszik, esõt kapunk." Ezzel félre lehetne vezetni
+a méheket, mert nagyon ravaszak ám.
+
+Te csak mosolyogtál magadban, és azt gondoltad: "Csacsi öreg medvém."
+
+De ezt csak úgy gondoltad, mert alapjában szeretted Micimackót.
+Így hát hazaugrottál az esernyõért.
+
+-- No, itt vagy végre! -- kiáltott Micimackó némi fojtott
+nyugtalansággal a hangjában, ahogy a fa alá értél. -- Már kezdtem
+aggódni. Tudniillik felfedeztem közben, hogy a méhek most már
+határozottan gyanítanak valamit.
+
+-- Nyissam ki az ernyõt? -- kérdezted.
+
+-- Várjunk. Ravasznak kell lennünk. A legfontosabb, hogy a
+méhkirálynõt tévesszük meg. Látod onnan alulról a méhkirálynõt?
+
+-- Nem.
+
+-- Kár. Mármost amíg te lent sétálgatsz az ernyõvel, és mondogatod,
+hogy: "Ejnye, ejnye esõt kapunk.", addig én itt fönt megpróbálok
+valami felhõdalt költeni, már amilyet egy kis Fekete Felhõ énekelne
+az én helyemben... Vigyázz, kész, mehet!
+
+Így hát, amíg te fel és alá sétáltál, erõsen kételkedve az egész
+hadicsel sikerében, Micimackó a következõ dalt énekelte:
+
+Megmondták a költõk régen,
+legjobb kis felhõnek lenni az égen,
+szemem ezért ragyog,
+mert én egy kis felhõ vagyok.
+
+Ragyog az ég rám fényesen,
+sétálok rajta kényesen,
+hej, kényesen és rangosan,
+és énekelem hangosan:
+Megmondták a költõk régen... (stb.)
+
+De a méhek éppolyan gyanakodóan zümmögtek tovább. Néhányuk otthagyta
+a fészkét, láthatóan a felhõ körül kezdtek rajzani, s a dal második
+szakasza közepe felé az egyik méh egyenesen ráült a felhõ orrára,
+aztán gyorsan elröppent.
+
+-- Vo-Vo-Vóbert! -- kiabált a felhõ kissé náthás hangon.
+
+-- Mi baj?
+
+-- Gondolkoztam a dolgon, és rájöttem, mirõl van szó. `Ezek nem igazi
+méhek`.
+
+-- Nem?
+
+-- Nem igazi méhek, tehát nyilván nem is készítenek igazi mézet.
+Ez világos, ugye?
+
+-- Ha úgy gondolod!...
+
+-- Ez a megmásíthatatlan véleményem. Így hát legjobb, ha leszállok.
+
+-- De hogyan? -- kérdezted te.
+
+Micimackó nem felelt. Mit is felelhetett volna? Ha elereszti a
+madzagot, akkor: "Bumm!" Erre még csak gondolni sem volt jó.
+Hosszasan tûnõdött, és végre így szólt:
+
+-- Kedves Róbert Gida, bele kell puskáznod a léggömbbe. Nálad a
+fegyver?
+
+-- Hogyne -- mondtad te -, de akkor kilyukasztom a léggömböt.
+
+-- Viszont -- jegyezte meg Micimackó -- ha eleresztem, oda lukadunk
+ki, hogy én lukadok ki.
+
+Így szólván megértettétek egymást, te nagy gonddal célba vetted a
+léggömböt, és tüzeltél.
+
+-- Bú! -- mondta Mackó.
+
+-- Csak nem hibáztam el? -- kérdezted.
+
+-- `Engem` nem -- jegyezte meg Mackó --, csak a `léggömböt`.
+
+-- Sajnálom -- csóváltad a fejed, még egyszer célba vetted a
+léggömböt, és ezúttal el is találtad. Fütyülve áradt ki a levegõ, és
+Micimackó lassan leereszkedett. De a karjai úgy megdermedtek a
+madzagba való kapaszkodástól, hogy még egy hét után is felfelé
+tartotta õket, és ha légy repült az orrára, kénytelen volt elfújni.
+
+-- Vége? -- kérdezte Róbert Gida.
+
+-- Ennek. De van más mesém.
+
+-- Mackóról meg rólam?
+
+-- És Malackáról és Nyusziról; hát nem emlékszel?
+
+-- Emlékszem, de mindig elfelejtem, mikor rágondolok.
+
+-- Hát amikor Mackó és Malacka el akarták fogni az Elefántot...
+
+-- De nem fogták el, igaz?
+
+-- Nem.
+
+-- Mackónak nincs is elég esze hozzá. Én fogtam el, ugye?
+
+-- Ez majd kiderül a mesébõl. 
+
+Róbert Gida bólintott.
+
+-- Most már emlékszem -- mondta -, csak Mackó nem emlékszik, neki
+meséld el. Mert ez egy igazi mese, és nem csak olyan emlékezés.
+
+-- Én is úgy gondolom.
+
+Róbert Gida megkönnyebbülten sóhajtott. Felkapta a medvét, és az
+ajtóhoz sétált, maga mögött hurcolva. Az ajtóban megfordult és
+visszaszólt:
+
+-- Most fürödni fogok; nem jössz be?
+
+-- Jöhetek -- mondtam én.
+
+-- De nem sebesítettem meg amikor rálõttem, ugye?
+
+-- Szó sincs róla.
+
+Róbert Gida önérzetesen biccent, s a következõ pillanatban már hallom
+-- kipp-kopp, kipp-kopp -- Mackó feje búbját a lépcsõfokokon.
+
+---------------------------------------------------------------------------
+
+Második fejezet,
+
+amelyben Micimackó látogatóba megy és beleszorul
+
+---------------------------------------------------------------------------
+
+Medveczky Medve, baráti körben a Micimackó néven is közismert, egy
+napon az erdõt kerülte éppen, gõgösen dúdolva az orra alatt:
+"Tralala, tralala, pritty, pretty, prütty."
+
+Reggel fogyókúrát tartott a tükör elõtt, a "Tralala-nótát énekelte
+talpára egyenesedve, hogy aszongya: tralala így, tralala úgy, aztán
+lehajolt nyögve néhányszor, hogy a mancsával elérje a lábujját.
+Reggeli óta párszor elmondogatta a Tralalát, míg kívülrõl nem ment.
+
+Így dúdolgatott, csak úgy magának, közben kiment sétálni a kunyhó
+elé, azon tûnõdve, vajon mivel foglalkoznak ilyenkor mások, és
+általában milyen lehet az, másvalakinek lenni, mint õ.
+
+	Tra-la-la, tra-la-la,
+	tra-la-la, tra-la-la,
+	pritty, pretty, prütty.
+	Tra-la-la, tra-la-la,
+	tra-la-la, tra-la-la,
+	pritty, pretty, prütty.
+
+Egyszerre csak egy homokbuckához ért, és ebben a homokbuckában nagy
+lyuk tátongott.
+
+-- Aha! -- mondta Micimackó. (`Pritty, pretty, prütty`.) Ha hézagos
+mûveltségem nem hagy cserben, akkor ez a bucka Nyuszit jelenti, a
+Nyuszi pedig Jó Társaságot és valami harapnivalót jelent. Tehát:
+
+Lehajolt, bedugta a fejét, és kiáltott:
+
+-- Itthon vannak, kérem szépen?
+
+Horkanó zaj támadt belülrõl aztán csönd lett.
+
+-- Azt kérdeztem, kérem szépen, hogy itthon vannak-e -- ismételte
+Micimackó hangosan.
+
+-- Nincsenek! -- válaszolt egy hang, és még hozzátette: -- Ne tessék
+úgy ordítani! Nem vagyok süket!
+
+Micimackó tûnõdött.
+
+-- Senki sincs odabent? -- kérdezte.
+
+-- Senki.
+
+Micimackó kihúzta a fejét a nyílásból; kicsit gondolkodott.
+
+"Ez nem stimmel. Valaki csak bent van, ha egyszer azt mondta, hogy
+senki. Senki nem mondhatja azt, hogy senki, anélkül, hogy valaki
+lenne. Aki senkit mond, annak valakinek lennie kell."
+
+Így hát újra bedugta a fejét, és folytatta a társalgást:
+
+-- Hé, Nyuszi! Te vagy az?
+
+-- Nem -- mondta Nyuszi, megváltoztatott hangon.
+
+-- Ez nem a Nyuszi hangja?
+
+-- Nem hiszem -- mondta a Nyuszi. -- Legalábbis nem annak volt
+szánva.
+
+-- Vagy úgy -- jegyezte meg Mackó.
+
+Kihúzta a fejét, gondolkodott, megint visszadugta.
+
+-- Volna-e olyan szíves tehát megmondani, hol van Nyuszi?
+
+-- Micimackó barátját látogatta meg...
+
+-- De hisz az Én vagyok! -- mondta Mackó nagyon csodálkozva.
+
+-- Ki az az Én?
+
+-- Micimackó.
+
+-- Bizonyos ön ebben? -- kérdezte Nyuszi, maga is elbámulva.
+
+-- Egész bizonyos -- mondta Micimackó.
+
+-- Akkor hát bújjon be!
+
+Micimackó néhány erõteljes tekergéssel benyomult a helyiségbe.
+
+-- Megállapítom -- mondta a Nyuszi, végignézve barátján --, hogy úgy
+van, ahogy mondja. Ez csakugyan Te vagy. Szervusz! Örülök a
+szerencsének.
+
+-- Hát mit gondoltál?
+
+-- Tudod, sohase lehet biztosan tudni. Ismered az Erdõt. Az ember nem
+bocsáthat be `mindenkit` a lakásába... Nem árt egy kis `elõvigyázat`.
+Parancsolsz valami harapnivalót?
+
+Micimackó ilyenkor, reggel tizenegy óra felé, mindig parancsolt
+valami harapnivalót, így hát jólesett látnia, hogy Nyuszi tányért és
+bögrét szed elõ, s amikor megkérdezte: -- Mézet vagy tejet? --
+gyorsan és izgatottan megjegyezte, hogy mindkettõt, aztán hozzátette,
+nehogy túl mohónak gondolják: -- Kenyér nem kell. -- Most egy darabig
+szót se szólt... Végül elégedetten dúdolva felállt, barátságosan
+parolázott Nyuszival, és kijelentette, hogy mennie kell.
+
+-- Ilyen hamar? -- kérdezte Nyuszi udvariasan.
+
+-- Még maradhatnék éppen, ha Te... -- habozott Micimackó a
+zsírosbödön felé pislogva.
+
+-- Ami azt illeti -- mondta a Nyuszi --, magam is indulóban voltam.
+
+-- Akkor hát megyek. Isten áldjon meg.
+
+-- Isten veled! Remélem, jóllaktál.
+
+-- Mér, van még valami? -- csúszott ki Micimackóból.
+
+Nyuszi elrakta a terítéket, és kissé hûvösen ennyit mondott:
+
+-- Nincs.
+
+-- Nem úgy gondoltam -- mondta gyorsan Mackó. -- Hát akkor szervusz.
+Most már sietnem kell.
+
+És már lódult is neki az ajtónyílásnak, mellsõ lábait kidugta, a
+hátsókkal nekifeszült, s egy percre az orra ki is került a szabadba.
+
+Aztán a fülei... aztán a két mancsa... aztán a vállai... aztán...
+
+-- Segítség! -- ordított Micimackó udvariasan. -- Azt hiszem, jobb,
+ha visszafordulok.
+
+-- Annál is inkább -- mondta Nyuszi -, mert magam is szeretnék
+kijutni.
+
+-- De nem megy ám! -- mondta Micimackó. -- Teringette!...
+Illetve azt akartam mondani: Segítség!
+
+Nyuszi hirtelen meggondolta magát, s mivel lakásának volt még egy
+másik kijárata, gyorsan kiosont rajta, megkerülte a buckát, odaugrált
+Mackóhoz.
+
+-- Bennragadtál? -- kérdezte.
+
+-- Azt éppen nem -- vetette oda Micimackó fölényesen. -- Csak pihenek
+itt egy kicsit... Tûnõdöm és dudolászok.
+
+-- No, add ide a mancsod! 
+
+Micimackó kinyújtotta mancsát és Nyuszi rángatta, és rángatta, és
+rángatta.
+
+-- `Bú!` -- mondta Micimackó. -- Ez fáj.
+
+-- A dolog úgy áll -- állapította meg Nyuszi --, hogy be vagy
+szorulva.
+
+-- Ez mind attól van -- jegyezte meg Micimackó kissé idegesen --,
+hogy ezeknek a modern lakásoknak nincs elég széles kijáratuk. A
+bejáratok jók, de a kijáratok nem elég szélesek.
+
+-- Ez attól van -- mondta Nyuszi kereken --, hogy telezabáltad magad.
+Akartam is mondani, csak nem szeretem figyelmeztetni a vendéget, hogy
+egyikünk túlságosan sokat eszik. És az az egyikünk nem én voltam. De
+ezen most kár vitatkozni, elfutok Róbert Gidáért.
+
+Róbert Gida az erdõ másik sarkában lakott, s amikor Nyuszival
+megérkeztek a tett színhelyére, csak annyit mondott magában:
+
+"Csacsi öreg medvém!" -- De annyi szeretettel, hogy mindenki
+reménykedni kezdett.
+
+-- Azon tûnõdöm -- fogadta õt Mackó, erõsen szuszogva --, hogy Nyuszi
+barátunk soha nem használhatja többé ezt az ajtót. Õszintén szólva ez
+nagyon `rosszul esne` nekem.
+
+-- `Nekem` is -- tette hozzá Nyuszi.
+
+-- De igenis -- jegyezte meg Róbert Gida. -- használhatja.
+
+-- Annál jobb -- mondta Nyuszi.
+
+-- Ha nem tudunk kiráncigálni, vissza fogunk tolni.
+
+Nyuszi gondolkodva simogatta pofaszakállát, aztán kifejtette, hogy
+amennyiben Micimackót sikerülne is visszatolni, õ a maga részérõl,
+természetesen, mindig szívesen látja barátját házában, de hát
+mégis... úgy van az a világban, hogy egyik ember a fák tetején lakik,
+a másik pedig a föld alatt, ez a dolgok szabályos rendje, tehát a
+maga részérõl...
+
+-- Úgy érted, hogy `sose` kerülök ki többé? -- mondta Micimackó
+sértõdötten.
+
+-- Úgy értem -- mondta Nyuszi, és Róbert Gida is helyeslõen
+biccentett.
+
+-- Akkor csak egyet tehetünk. Meg kell várnunk, amíg újra
+lesoványodsz.
+
+-- Meddig tart az? -- kérdezte Micimackó szorongva.
+
+-- Gondolom, egy hét elég hozzá.
+
+-- Csak nem akarjátok, hogy `egy hetet` töltsek ebben a helyzetben?
+
+-- Mit tegyünk? Nem megy másképp.
+
+-- Majd felolvasunk neked -- mondta Nyuszi gyöngéden. -- Remélem nem
+áll be közben havazás. És miután ilyenformán hosszasabban idõzöl
+vendégszeretõ házamban, remélem, nincs kifogásod ellene, hogy hátsó
+lábaidat törülközõtartónak használjam, közben úgyse használod õket
+semmire, nekem meg nincs hová akasztani a törülközõimet.
+
+-- Egy egész hét! -- mondta Micimackó bánatosan. -- És mi lesz a
+koszttal?
+
+-- Attól tartok, errõl szó se lehet -- mondta Róbert Gida --, hiszen
+éppen arról van szó, hogy lefogyj... De majd felolvasunk neked!
+
+Szegény Mackó sóhajtani kezdett, de nemigen tudott, mert be volt
+szorulva, és egy könny gördült ki a szemébõl, de csak ennyit mondott:
+
+-- Igen ám, de van-e olyan könyved, amelyik meg tud vigasztalni egy
+"Beékelt Mackót az õ Nagy Megszorultságában"?
+
+Így hát egy héten át Róbert Gida effajta könyveket olvasott fel
+szegény Micimackó észak felé nézõ mellsõ felének, miközben Nyuszi
+nemcsak törülközõt, de mindenféle más kimosott holmit rakodott a dél
+felé nézõ hátsó lábaira.
+
+Micimackó szegény már olyan karcsúnak érezte magát, mint egy
+núbiai táncosnõ. És a hét végén egy este Róbert Gida így szólt:
+`"Gyerünk!"`
+
+És megragadta Micimackó mellsõ mancsait, és Nyuszi megragadta a
+hátsókat, és Nyuszi minden rokona, barátja és üzletfele segített, és
+mind együtt rángatták és húzták és tolták.
+
+És hosszú ideig Mackó csak ennyit tudott mondani:
+
+-- Bu!
+
+És egyszerre csak ezt mondta:
+
+-- Jaj!
+
+Aztán még ennyit mondott: -- Hopp! -- Mint mikor a dugó kijön a
+palackból.
+
+És Róbert Gida és Nyuszi és Nyuszi barátai, rokonai és üzletfelei
+hátrabuktak... És Micimackó hegyükbe esett, szabadon.
+
+Gyors és határozott köszönetet biccentett, aztán nyugodtan folytatta
+sétáját az erdõn keresztül, elégedetten dudorászva:
+
+	"Tralala, tralala, pritty,
+	pretty, prütty."
+
+De Róbert Gida szeretettel nézett utána, és csak annyit mondott:
+
+-- Csacsi öreg medvém!
+
+---------------------------------------------------------------------------
+
+Harmadik fejezet,
+
+amelyben Micimackó és Malacka vadászni mennek, és kis híja, hogy menyétet nem fognak
+
+---------------------------------------------------------------------------
+
+Malacka nagy kunyhóban lakott egy nyírfa közelében, ez a nyírfa az
+erdõ közepében állott, és Malacka a kunyhó közepében lakott. A háza
+közelében, rúd tetején, egy darab törött lécen ez volt olvasható:
+"TILOSAZ Á." Amikor Róbert Gida megkérdezte Malackát, hogy ez mit
+jelent, Malacka szemrebbenés nélkül kijelentette, hogy ez az õ
+nagyapjának a neve, és évek óta egyben az õ családi nevük.
+
+Róbert Gida vállat vont, és olyasfélét próbált megjegyezni, hogy egy
+embert `nem hívhatnak` Tilosaz Á-nak, de Malacka kijelentette, hogy
+igenis hívhatnak, mert például az õ nagyapját így hívták, ez volt a
+neve: `Tilosaz Á`. Az õ nagyapjának igenis két neve volt arra az
+esetre, ha az egyiket elvesztené. `Tilosaz`, ez volt az egyik neve,
+amit egy nagybátyjától örökölt, és Á, vagyis `Átjárás`, ez volt a
+másik neve, amit egy átjárótól örökölt. De lehet Ákos, vagy Ábrahám
+is.
+
+-- Megjegyzem nekem is két nevem van -- vetette oda Gida könnyedén.
+-- Róbert Gedeon.
+
+-- Na ugye, látod, ez is azt bizonyítja -- bólintott Malacka.
+
+Egy szép téli napon, amikor Malacka éppen a havat söpörte el a házuk
+elõl, ahogy véletlenül lenéz az ágak közül, ott látja Micimackót.
+Micimackó körbe-körbe járt, és nyilvánvalóan valami másra gondolt.
+Mikor Malacka rászólt, csak intett neki, és folytatta a körözést.
+
+-- Halló -- mondta Malacka --, mit csinálsz?
+
+-- Vadászom -- mondta Micimackó.
+
+-- Mire vadászol?
+
+-- Lábnyomokra -- mondta Micimackó rejtélyesen.
+
+-- Miféle lábnyomokra? -- mondta Malacka, és lemászott hozzá.
+
+-- Én is ezt kérdezem magamtól.
+
+-- No és mit gondolsz, mit fogsz felelni a kérdésedre?
+
+-- Kitérõ választ fogok adni egyelõre -- mondta Micimackó. --
+No most idenézz! -- Egyenesen lemutatott a földre, lába elé. -- 
+Mit látsz itt?
+
+-- Lábnyomokat -- mondta Malacka --, sõt azt hiszem, karmok nyomát.
+-- Füttyentett. -- Tyû, Mackó! Lehetségesnek tartod, hogy ez egy...
+egy... egy menyét?
+
+-- Lehetséges -- mondta Mackó. -- Néha menyét, néha nem
+menyét. Az ember sohase tudhassa ezeknél a lábnyomoknál.
+
+E szavak után folytatta a nyomozást, és Malacka egy-két percnyi
+tûnõdés után utánalódult.
+
+Micimackó hirtelen megállt; a nyomok fölé hajolt és megrezzent.
+
+-- No mi az? -- kérdezte Malacka.
+
+-- Csodálatos dolog -- mondta Mackó. -- De most már két élõlény
+nyomait látom. A másik - akárki legyen az illetõ - csatlakozott az
+elsõhöz - akárki legyen az illetõ -, és most mind a ketten együtt
+folytatják útjukat. Malacka, tedd a kezed a szívedre, és mondd meg
+õszintén, kitartasz-e mellettem abban az esetben is, ha kiderül, hogy
+Ellenséges Fenevadakról van szó.
+
+Malacka nagyon kedvesen lebegtette a fülét, és azt mondta, hogy
+péntekig nincs különösebb elfoglaltsága, és hogy szívesen áll Mackó
+rendelkezésére, ha kiderül, hogy az illetõ `csakugyan` menyét.
+
+-- Úgy érted, ha kiderül, hogy `két menyét`. Lehet, hogy a menyét
+magával hozta a `menyét` is -- jelentette ki ünnepélyesen Micimackó,
+de Malacka ragaszkodott hozzá, hogy semmi hiba, õneki péntekig nincs
+fontos dolga.
+
+Így hát együtt mentek tovább.
+
+Cserjebozót volt a közelben, és a két menyét lábnyoma mintha a bozót
+körül húzódott volna, így hát Mackó és Malacka körben követték a
+nyomokat. Közben Malacka Átjárás nevû nagybátyjáról mesélt Mackónak,
+hogy szegényke élete utolsó éveiben mennyit szenvedett az asztmától
+és egyéb érdekes dolgokról, amin Mackó nagyon csodálkozott,
+különösen, mikor megtudta, hogy mindenkinek két nagyapja van. Utólag
+gondolt rá, hogy az egyiket elkéri Malackától, de mindenesetre elõbb
+megkérdezi Róbert Gidát. Közben a nyomok nem szûntek meg...
+
+Nem szûntek meg...
+
+Mackó hirtelen megállt, és izgatottan mutatott a földre.
+
+-- Idenézz!
+
+-- `Hová?` -- kiáltott Malacka, és nagyot ugrott ijedtében. De rögtön
+észrevette, hogy gyávaság volt így megijedni, tehát még egyet-kettõt
+ugrott, jelezve, hogy õ ezt csak tornagyakorlat gyanánt teszi.
+
+-- A nyomok -- mondta Mackó titokzatosan --, a nyomok...
+`Egy harmadik élõlény csatlakozott hozzájuk.`
+
+-- Mackó -- kiáltott Malacka. -- Lehetséges, hogy egy harmadik
+menyét?
+
+-- Nem -- mondta Mackó. -- Ezek másféle nyomok. Vagy két menyét és
+egy harmadik, de az is lehet, hogy egy menyét és két ürge, vagy két
+ürge és egy menyét, de az is lehet, hogy három menyét és semmi
+ürge... Folytassuk a cserkészést.
+
+Így hát folytatták, valamivel nyugtalanabbul, mert most már valószínû
+volt, hogy Ellenséges Fenevadakról van szó. És Malacka titokban
+nagyon szerette volna, ha Tilosaz Átjárás nevû nagyatyja most itt
+lenne, Mackó pedig arra gondolt, milyen szép is volna, ha Róbert Gida
+most váratlanul és véletlenül elõbukkanna, de igazán csak azért
+vágyott erre, mert nagyon szerette Róbert Gidát.
+
+Azért Micimackó hirtelen megtorpant, és megnyalta az orra hegyét,
+mert nagyon melegnek érezte, melegebbnek, mint valaha életében. `Most
+már négy lábnyom húzódott elõttük a földön.`
+
+-- Idenézz, Malacka, `még egy menyét!`
+
+S úgy látszott, csakugyan igaza van. A nyomok megvoltak,
+keresztezték egymást, de határozottan négy pár lábnyom volt.
+
+-- Úgy gondolom... -- mondta Malacka, aki szintén megnyalta az orra
+hegyét, de ez nem könnyített a lelkén -- úgy gondolom... vagyis...
+Ejnye csak, most jut eszembe! Most jut eszembe, tegnap elfelejtettem
+valamit, amit holnap már nem végezhetek el! Sajnos, úgy látszik,
+kénytelen leszek hazamenni és elintézni.
+
+-- Majd elintézed délután, és én segítek -- mondta Micimackó.
+
+-- Nem olyan munkáról van szó, amit délután el lehet intézni
+-- vágott közbe Malacka gyorsan -- Tudod, délután a hivatalok is
+zárva vannak... Ez egy különleges reggeli munka, amit kizárólag
+reggel lehet csinálni, úgy körülbelül nyolc és izé között... Hány óra
+lehet most?
+
+-- Tizenkettõ -- mondta Mackó, és a napra nézett.
+
+-- No igen... Ahogy mondtam... Tizenkettõ... és izé... Tizenkettõ és
+fél tizenhárom között... Vagyis... Tehát, édes öregem, megbocsátasz
+ugye?... `Mi az?` Hová bámulsz?
+
+Mackó az égre bámult, és amikor újra hallotta a füttyentést, arra
+kapta a fejét, és egy nagy tölgyfa ágai között megpillantotta
+barátját.
+
+-- Róbert Gida! -- kiáltott fel örömmel.
+
+-- No hisz akkor rendben van -- könnyebbült meg Malacka --, akkor
+biztonságban vagy. Rohanok. -- És már futott is haza, nagyon
+megnyugodva, hogy túl van a veszélyen.
+
+Róbert Gida lemászott a fáról.
+
+-- Csacsi öreg medvém -- mondta --, hát mit csináltál? Elõbb kétszer
+egymás után megkerülted a cserjét, aztán Malacka utánad szaladt,
+aztán megint kétszer megkerültétek, s éppen a negyedik körbe fogtatok
+bele...
+
+-- Várj csak -- mondta Micimackó, és mancsai közé fogta a fejét.
+
+Leült, gondolkodott, nagyon erõsen gondolkodott. Aztán beillesztette
+a talpát az egyik lábnyomba, kétszer megdörgölte az orrát, és
+felállt.
+
+-- Úgy van -- mondta Micimackó. -- Most már világos -- tette még
+hozzá. -- Nyilvánvaló, hogy félre voltam vezetve. Meg fogom
+vizsgáltatni az agyvelõmet. Úgy látszik, ráment az influenza.
+
+-- Te a legédesebb és legjobb Mackó vagy a világon -- mondta Róbert
+Gida vigasztalóan.
+
+-- Ugye? -- mondta Mackó reménykedve. És aztán hirtelen felragyogott.
+-- Agyvelõ ide, agyvelõ oda -- mondta --, már kész van az ebéd.
+
+Ebben megegyezve hazamentek.
+
+---------------------------------------------------------------------------
+
+Negyedik fejezet,
+
+amelyben Füles elveszti a farkát, és Mackó megtalálja
+
+---------------------------------------------------------------------------
+
+Öreg Szürke Csacsi, Füles néven közismert, az erdõnek egy árnyékos
+sarkában állt, lógatva a fejét, és mindenfélére gondolt. Néha
+szomorúan azt gondolta: "Miért?" -- és néha azt gondolta:
+"Minekutána"; -- és néha azt gondolta: "Amennyiben." Vagy:
+"Minekutána tehát." És néha nem is tudta, hogy mire gondol. Így hát,
+mikor Micimackó arra sétált, Füles õszintén megörült, hogy egy kicsit
+abbahagyhatja a gondolkodást, és azt mondhatja: "Hát hogy vagyunk,
+hogy vagyunk?" -- a maga borongós modorában.
+
+-- És te hogy vagy? Nálad mi újság? -- kérdezte Micimackó.
+
+Füles fölemelte a fejét, átfordult vele a jobb oldalra, és ott megint
+lelógatta.
+
+-- Nem mondhatnám, hogy nagyon "hogyan" vagyok. Egy idõ óta éppen
+csak hogy vagyok, de nem vagyok hogyan.
+
+-- Nono -- mondta Mackó. -- Nem kell azért elszontyolodni. Majd
+meglássuk. Mi baj?
+
+Füles hallgatva álldogált, és bánatosan lógatta a fejét. Micimackó
+egyszer-kétszer körüljárta.
+
+-- Mi történt a farkoddal? -- mondta meglepetve.
+
+-- Mi történt volna? -- mondta Füles.
+
+-- Nem látom sehol.
+
+-- Tényleg?
+
+-- Tényleg. Ebben nem lehet tévedni. Mert vagy van, vagy nincs.
+És itt nincs.
+
+-- Hát akkor mi van helyette?
+
+-- Semmi.
+
+-- Mindjárt megnézem -- mondta Füles, és lassan és óvatosan
+megfordult, hogy lássa azt a helyet, ahol a farka volt az imént,
+aztán ráeszmélve, hogy nem látja, visszafordult, lelógatta a fejét,
+átdugta a két mellsõ lába közt, aztán hosszú, szomorú sóhajjal csak
+ennyit mondott:
+
+-- Attól tartok, neked van igazad.
+
+-- Ritkán tévedek -- mondta Mackó.
+
+-- Akkor sok mindent megértek -- mondta Füles mélázva. -- Ez sok
+mindent megmagyaráz. Nem csoda.
+
+-- Valahol elhagytad -- mondta Micimackó.
+
+-- Vagy valaki elvitte -- mondta Füles. -- Hasonlít az illetõhöz --
+tette hozzá hosszú szünet után.
+
+Mackó úgy érezte, hogy valamit mondani kellene, de nem tudta, hogyan
+segítsen barátján. Mindenesetre elhatározta, hogy segíteni fog.
+
+-- Füles -- jelentette ki ünnepélyesen --, én, Micimackó, fel fogom
+kutatni a farkodat.
+
+-- Köszönöm, Mackó -- felelte Füles. -- Igaz barát vagy -- mondta. --
+Nem úgy, mint Némelyek -- tette hozzá.
+
+Így hát Micimackó elindult, hogy megkeresse Füles farkát.
+
+Szép tavaszi reggel volt, amikor elindult. Lágy és átlátszó kis
+felhõk játszadoztak boldogan a kék firmamentumon, ráugráltak a napra,
+mintha el akarnák takarni, aztán megint lemásztak róla, hogy a
+következõ jöhessen sorra. A nap azért igyekezett sütni; és a sövény,
+amely elhordta már tavalyi, szurkos fenyõruháját, most öregnek és
+fakónak tûnt a tölgyek vakító divatos, tavaszi öltözéke mellett.
+Sövényen és cserjén keresztül ballagott Mackó. A rekettye- és
+hangabokrokon át, buckákon túl és megint vissza, és így végre,
+fáradtan és éhesen, elérkezett a Százholdas Pagonyba. Mert a
+Százholdas Pagonyban lakott Bagoly.
+
+"És ha valaki tud valamit valamirõl -- mondta magának Mackó --,
+akkor az csak Bagoly lehet, vagy ne hívjanak Micimackónak."
+
+Bagoly a Mogyorósban lakott, öreg házában; ez a ház mindenkiénél
+nagyobb volt és szebb is, legalábbis Mackónak úgy tetszett, mert volt
+rajta kopogtató is meg csengõ is. A kopogtató alatt a következõ
+felírás volt olvasható:
+
+KRM KPGTTNI H ZT KRJ HGY KNYSSK
+
+A csengõ alatt másik felírás ékeskedett:
+
+H NM KRJ HGY KNYSSK KRTK CSNGTNI
+
+Ezek a feliratok Róbert Gidától származtak, ugyanis csak õ tudott
+helyesen írni az egész erdõben; maga Bagoly, aki egyébként nagy bölcs
+hírében állott, a tulajdon nevét "Bagoj"-nak írta.
+
+Mackó elolvasta mind a két utasítást, nagy figyelemmel, elõször
+jobbról balra, aztán balról jobbra, hogy semmi se kerülje el
+figyelmét. Majd kopogott, meghúzta a csengõzsinórt, aztán a
+csengõzsinóron kopogott, és meghúzta a kopogót.
+
+Azonkívül, a biztonság kedvéért, még kiabált is jó hangosan:
+
+-- Hé, Bagoly! Eressz be! Itt Micimackó!
+
+És az ajtó kinyílt, és Bagoly kikukkantott.
+
+-- No mi az, Mackó? -- kérdezte bölcs mérséklettel. -- Hogy ityeg a
+fityeg?
+
+-- Nagyon lehangolt vagyok -- mondta Mackó --, mert Füles barátom
+elvesztette a farkát. És nagyon odavan szegény. Nem volnál olyan
+szíves megmondani a módját, hogy találjuk meg?
+
+Szívesen -- mondta Bagoly. -- A szokásos eljárás ilyen esetekben a
+következõ...
+
+-- Nem ismerek semmiféle Szokásos Eljárás címû állatot. És ételt se.
+Ételben ismerem a Tojásos Galuskát. Én csak egy szegény medvebocs
+vagyok, különben is az agyvelõm meg van hûlve, és az ilyen hosszú
+szavakat nem szeretem.
+
+-- Arról van szó, hogy mi a teendõ.
+
+-- Amennyiben arról van szó, akkor nem bánom -- jegyezte meg Mackó
+engedékenyen.
+
+-- Elõször is díjat kell kitûzni. Ennek `pszichikus` hatása van.
+
+-- Várjunk csak -- mondta Mackó, felemelve egyik mancsát. -- Hogy
+milyen hatása van? Nem hallottam jól a szót, éppen tüsszentettél,
+mikor mondtad.
+
+-- Én nem tüsszentettem.
+
+-- De igen, tüsszentettél.
+
+-- Bocsáss meg, kérlek, de én nem tüsszentettem. Legalábbis nem tudok
+róla, és az ember rendesen észre szokta venni, ha tüsszent. Különben
+is nem errõl van szó. Arról van szó, hogy `pszichikus` hatása van.
+
+-- Látod, megint tüsszentettél -- mondta Mackó szomorúan.
+
+-- Jutalomról van szó -- mondta Bagoly hangosan. -- Hirdetést fogunk
+közzétenni, hogy tekintélyes jutalomban részesül, aki nyomra vezet
+Füles elveszett farkát illetõen.
+
+-- Értem, értem -- bólogatott Mackó. -- Ami a tekintélyes jutalmat
+illeti -- folytatta álmodozva --, általában szokott nálam lenni, de
+ma otthon felejtettem -- mondta, és bánatosan vizsgálta az almáriumot.
+-- Be kell vallanom, még csak vajat vagy egy kis mézet se hoztam
+magammal.
+
+Akkor hát -- mondta Bagoly -- megírjuk a hirdetést, és kifüggesztjük
+az egész Erdõben.
+
+-- Egy kis mézet se -- dörmögte maga elé Mackó, azután mélyet
+sóhajtott. És megemberelve magát, igyekezett figyelni arra, amit
+Bagoly magyaráz.
+
+De Bagoly nagyon hosszan magyarázott, egyre hosszabb és hosszabb
+szavakat mondott, és a végén mindig visszatért arra, amibõl kiindult,
+és kifejtette, hogy az egyetlen személy, aki ezt a hirdetést
+megírhatná, Róbert Gida személyében található.
+
+-- Õ volt az, aki az én felirataimat is megszerkesztette, az ajtó
+mellé. Láttad õket?
+
+Az egész elõadás közben Mackó felváltva igent és nemet válaszolt,
+behunyt szemmel, néha duplán: "Igen, igen" --, néha értelmesen: "Nem,
+nem, szó sincs róla" --, anélkül hogy sejtelme lett volna, mire
+válaszol. Most épp a nemnél tartott.
+
+-- Nem láttad? -- mondta Bagoly egy kicsit csodálkozva. --
+Gyere az ajtó elé, majd megmutatom.
+
+Kifordultak a kunyhó elé, és Mackó megint csak megbámulta a
+kopogtatót, a feliratot és a csengõt, és minél tovább bámulta, annál
+inkább megerõsödött benne valami furcsa emlék, minthogyha mindezt õ
+már látta volna valahol, valahol máshol, valamikor máskor.
+
+-- Csinos csengõzsinór, nem? -- kérdezte Bagoly.
+
+Mackó bólintott. -- Valamire emlékeztet -- mondta aztán --, de nem
+tudom mire. Honnan szerezted?
+
+-- Az Erdõn keresztül jöttem, és így, ahogy látod, ez a zsinór, végén
+a bojttal, ott lógott ki egy bokorból. Elõször azt hittem, lakik
+valaki a bokorban, megrángattam a zsinórt, de senki sem felelt.
+Türelmetlen voltam, erõsebben kezdtem rángatni, egyszer csak a
+kezemben maradt, s mert senki se szólt, hogy az övé, hazahoztam,
+és...
+
+-- Bagoly -- mondta Mackó ünnepélyesen --, rettenetes dolog történt.
+Ez a zsinór nem a tied. Ez másé.
+
+-- Hát kié?
+
+-- Fülesé, az én öreg Füles barátomé. Az õ magántulajdona.
+
+-- Az övé?
+
+-- Amihez méghozzá nagyon ragaszkodott. És még most is ragaszkodik.
+
+Ezekkel a szavakkal leakasztotta a csengõzsinórt, és visszavitte
+Fülesnek, és Róbert Gida visszaszegezte Füles farkát a helyére, és
+Füles olyan boldog volt, hogy egész nap büszkén csóválta és lengette,
+és Micimackó is úgy meg volt elégedve, hogy azonnal hazament, egy kis
+megérdemelt szíverõsítõ irányában. Fél óra múlva, ahogy megtörölte a
+száját, büszkén énekelni kezdett:
+
+	Ki találta meg Füles farkát,
+	talán Ferkó, Mickó, Lackó?
+	Egyik se!
+	Én találtam meg, Micimackó!
+
+---------------------------------------------------------------------------
+
+Ötödik fejezet,
+
+amelyben Malacka egy Elefánttal találkozik
+
+---------------------------------------------------------------------------
+
+Egy napon, mikor Róbert Gida és Micimackó és Malacka egyszerre
+beszéltek összevissza mind a hárman, Róbert Gida lenyelte a falatot,
+amivel tele volt a szája, és egész közömbösen megjegyezte:
+
+-- Ma láttam egy Elefántot, Malacka.
+
+-- Mit csinált éppen? -- kérdezte Malacka.
+
+-- Csak úgy kószált -- mondta Róbert Gida. -- Azt hiszem, nem látott
+meg.
+
+-- Én is láttam egyszer -- mondta Malacka --, legalábbis azt hiszem,
+õ volt az. De lehet, hogy nem õ volt.
+
+-- Én is -- jegyezte meg Micimackó, és azon tûnõdött, mi lehet az,
+hogy Elefánt.
+
+-- Általában ritkán látható -- mondta Róbert Gida könnyed modorban.
+
+-- Mostanában -- tette hozzá Malacka.
+
+-- Ebben az évszakban -- fejezte be Mackó.
+
+Aztán másról beszéltek, míg csak el nem érkezett az ideje, mikor
+Malacka és Mackó haza szoktak menni. Elõbb együtt talpalták végig a
+Százholdas Pagony szélén kanyargó ösvényt, s nem sokat beszélgettek;
+de mikor a patakhoz értek, s átsegítették egymást a köveken, s a
+sövény szélén egymás mellé kerültek, barátságos eszmecsere indult meg
+errõl, amarról, s ennek során Malacka így szólt:
+
+-- Te bizonyára meg fogsz engem érteni, Mackó. -- És Mackó felelte:
+
+-- Magam is azt vélem, Malacka. -- És Malacka folytatta:
+
+-- De másrészt, Mackó, ne felejtsük el... -- Mire Mackó:
+
+-- Igazad van, Malacka, én is csak egy pillanatra felejtettem el.
+
+S ahogy így elérték a Hét Fenyõfákat, Mackó körülnézett, hogy vajon
+nem hallgatózik-e valaki, s aztán ünnepélyesen megszólalt:
+
+-- Malacka, elhatároztam valamit.
+
+-- Mit, Mackó?
+
+-- Elhatároztam, hogy fogok egy Elefántot.
+
+Mackó többször, önérzettel megbiccentette a fejét, míg ezt mondta, s
+arra várt közben, hogy Malacka megkérdi: "De hogyan?" -- vagy
+kételyeinek ad kifejezést, vagy egyáltalán, szól valamit. De Malacka
+nagyon restellte, miért nem `neki` jutott elõször eszébe ez az ötlet.
+
+-- Én megteszem -- mondta Mackó egy idõ múlva, miután hiába várt. --
+Mégpedig Csapdával. S mert nagyon furfangos Csapdára gondolok,
+segítségemre kell lenned, Malacka.
+
+-- Mackó -- mondta Malacka, most már megint egészen boldogan. --
+Én segíteni fogok! De hogy fogunk hozzá?
+
+-- Az ám, hogyan? -- mondta Mackó, és most leültek gondolkodni.
+
+Mackó elsõ ötlete az volt, hogy mély gödröt ásnak, és az Elefánt,
+mikor arra jár, beleesik a gödörbe, és...
+
+-- De miért? -- kérdezte Malacka.
+
+-- Mit miért?
+
+-- Miért esne bele?
+
+Mackó az orrát dörgölte, és azt állította, hogy az Elefánt majd
+arrafelé sétál, dúdol magában, közben az eget nézi, hogy vajon hoz-e
+esõt a felhõ, így hát nem látja meg a mély vermet, csak mikor már a
+szélére lépett, és akkor már késõ.
+
+Malacka megjegyezte, hogy a Csapda nem rossz; de mi történik, ha
+tényleg esõt hoz a felhõ?
+
+Mackó megint az orrát dörgölte, és elismerte, hogy erre bizony nem
+gondolt. De aztán felragyogott és kijelentette, hogy amennyiben éppen
+esne akkor, az esetben az Elefánt azért nézné az eget, hogy mikor fog
+kiderülni, és ezért nem látná meg a vermet, csak amikor... és akkor
+már késõ volna.
+
+Mikor ezt így elmagyarázta, Malacka kénytelen volt elismerni, hogy ez
+bizony jó Cselfogás.
+
+Ettõl Mackó nagyon büszke lett, s már a zsebében érezte az Elefántot,
+és már csak egy kérdés volt hátra: hogy `hol` ássák meg ezt a Nagyon
+Mély Vermet.
+
+Malacka azon a nézeten volt, hogy bizony legjobb lesz arrafelé
+megásni, ahol az Elefánt tartózkodni szokott, legfeljebb néhány
+lépésnyi távolságban.
+
+-- De akkor meglát bennünket, miközben ásunk -- vetette oda Mackó.
+
+-- Ha az eget nézi?!
+
+-- Mégis gyanakodni talál -- mondta Mackó. Hosszasan eltûnõdött,
+aztán búsan kijelentette egy sóhajjal, hogy: -- Mégse olyan egyszerû
+a dolog, mint amilyennek gondoltuk. Igazában nem is tudnám
+megmondani, fogtak-e már `egyáltalán` Elefántot.
+
+-- Nem merném állítani.
+
+Sóhajtottak, felálltak, kiszedtek bundájukból néhány rekettyetüskét,
+megint leültek, s közben Mackó folyton azt hajtogatta: -- Legalább
+`gondolni` tudnék valamire! -- Mert azt homályosan sejtette, hogy egy
+Nagyon, Nagyon Okos és Ravasz Agyvelõnek bliktri az egész, egy ilyen
+kérdés.
+
+-- Tegyük fel -- mondta Malackának --, hogy `engem` akarsz megfogni.
+Hogy fognál hozzá?
+
+-- Nagyon egyszerûen. Csapdát csinálnék, egy csupor mézet tennék
+bele, te megszagolnád a mézet, bemásznál a Csapdába...
+
+-- Be én! -- mondta Mackó mohón és izgatottan. -- De nagyon óvatosan,
+ügyesen, hogy ne érjek hozzá semmihez, s mikor elérném a csuprot,
+elõször lenyalnám a szélét, aztán azt hinném, nincs több, aztán
+elmennék és gondolkodnék, és eszembe jutna, hogy biztosan van még
+ott, és visszamennék, és megtalálnám a csuprot, és kezdeném
+kiszopogatni belõle, és...
+
+-- De nem errõl van most szó. Arról van szó, hogy bent lennél a
+Csapdában, és én megfognálak. Tehát elsõsorban azt kell megtudni: 
+mit szeret az Elefánt úgy, ahogy te a mézet szereted? Biztosan a
+kukoricát szereti úgy. Tehát össze kell szedni egy tányérra valót...
+Hé, Mackó, elaludtál?
+
+Mackó, aki boldog álmodozásba merült, rögtön felriadt, és sietve
+megjegyezte, hogy a méz minden csaléteknél különb. Malacka nem
+osztotta a nézetét, és ezen vitatkoztak egy darabig. Szerencsére
+Malackának közben eszébe jutott, hogy ha a kukoricában állapodnak
+meg, akkor neki kell adni a kukoricát, míg ha a méz mellett döntenek,
+Mackó lesz kénytelen feláldozni magát, így hát hirtelen megadta
+magát, és azt mondta: -- Jó, nem bánom, legyen méz -- ugyanabban a
+pillanatban, amikor Mackónak is eszébe jutott a fenti okoskodás, és
+éppen ki akarta bökni: "Jó, hát legyen kukorica."
+
+De most már késõ volt.
+
+-- Méz -- mondta Malacka határozottan, aztán gyorsan hozzátette:
+-- Én majd megásom a vermet, és közben te elhozod a mézet.
+
+-- Jó -- sóhajtott Mackó.
+
+Mihelyt hazaért, kinyitotta a szekrényt, felállt egy székre, levette
+a legnagyobb mézescsuprot a legfelsõbb polcról. Legalábbis az volt
+írva a csuporra, MÉZ, de a biztonság kedvéért azért levette a papírt
+is róla, és belenézett, és ami benne volt, az `olyan` volt, mint a
+méz. -- De nem lehessen tudni, az ember nem lehet eléggé óvatos, a
+nagybátyám is mondta egyszer, hogy vannak sajtok, amiknek olyan a
+színük, mint a mézé -- mondta, és mindenesetre bedugta a nyelvét, és
+megkóstolta. "Igen -- bólintott tárgyilagosan --, kétségtelen, ez
+méz. Méz ez, legalább a tetején. Valószínû, hogy színültig méz --
+kivéve azt a nem várt esetet, hogy valaki kiszedte alulról a mézet,
+sajtot nyomott bele, hogy megtréfáljon. Talán jól tenném -- pusztán
+óvatosság kedvéért --, ha errõl meggyõzõdnék... mert arra is gondolni
+kell, hogy... hogy izé... az Elefánt nem szereti a sajtot... mint
+ahogy én se szeretem... Úgy ám! -- sóhajtott végre. -- Hát mégse!
+Szerencsére méz volt biz' ez, színültig méz!"
+
+Miután errõl `alaposan` (a csupor fenekéig) meggyõzõdött, elvitte a
+csuprot Malackának, aki belenézett, az orrát is bedugta, nem látott
+semmit, s némiképp gyanakodva nézett Mackóra, és megkérdezte:
+
+-- Ez az? -- És Mackó bólogatott, hogy bizony az.
+
+-- Csak tudod, nagyon mély csupor ez, és nincs egészen tele.
+
+És letaszította a csuprot a verem fenekére, ahol Malacka túrt és
+ásott. Malacka elhelyezte a csuprot a verem fenekén, és kimászott a
+verembõl, és mind a ketten hazamentek.
+
+-- Jó éjszakát, Mackó! -- mondta Malacka, mikor elérték Malacka
+házát. -- Holnap reggel hét órakor találkozunk a Hét Fenyõfáknál, és
+megnézzük, hány Elefántot sikerült megfogni a Csapdában.
+
+-- Hat órakor, Malacka. De van-e kötõféked?
+
+-- Minek az?
+
+-- Hát megkötni és hazahúzni az Elefántot.
+
+-- Ugyan!... Nem kell annak kötõfék... Csak füttyenteni kell neki, és
+jön magától!
+
+-- Tudom, de vannak köztük csökönyösek. Nem mind egyforma. Na, jó
+éjt!
+
+-- Jó éjt!
+
+És Malacka bement a házába, melynek ajtaján a TILOSAZ Á felirat
+ékeskedett, miközben Mackó is lefeküdt.
+
+Néhány órával késõbb, már-már pitymallott éppen, Mackó arra riadt
+fel, hogy süllyed vele a világ.
+
+Már elõre is érezte ezt. Tudta, mit jelent.
+
+Azt jelentette, hogy `éhes`. Így hát a szekrényhez ment, felállt egy
+székre, felnyúlt a legnagyobb polcra, és -- és nem talált semmit.
+
+"Különös -- gondolta. -- Úgy emlékeztem, itt a felsõ polcon volt egy
+csupor méz. Egy csupor, színültig tele mézzel, és még rá is volt
+írva, hogy MÉZ, hogy tudjam, hogy méz van benne. Ez különös nagyon."
+-- És tûnõdve járkálni kezdett, azon törve a fejét, hová lehetett a
+méz, és közben dudorászott.
+
+Ezt dudorászta:
+
+	Bármerre nézek,
+	furcsa, de nyoma sincs a méznek,
+	mit tegnap Mackó koma nyelt,
+	a méznek hûlt nyoma kelt.
+
+	Hol a mézecske?
+	Elvitte a kecske?
+	Furcsállom az egészet,
+	ki ette meg a mézet?
+
+Háromszor vagy négyszer énekelte el a fenti dalt, amikor egyszeriben
+minden eszébe jutott. Hiszen odaadta a mézet Malackának, elrejtette a
+verem alján, amiben Elefántot akarnak fogni reggelre!
+
+-- Borzasztó! -- mondta Mackó. -- Mi a csodának kell annyi méz egy
+köszvényes Elefántnak? -- És bosszankodva visszamászott az ágyába.
+
+De nem tudott aludni. Minél inkább akart, annál éberebb lett. A
+szokott módszert követve megpróbált bárányokat számlálni, ahogy
+átugranak a kerítésen, de ez se használt -- akkor bárányok helyett
+Elefántra gondolt, de az Elefántok nem ugrottak át a kerítésen,
+megfordultak, beugráltak az ablakon, s mindegyik elvitt egy csupor
+mézet, és megette. Nagyon rosszul érezte már magát szegény Mackó,
+türtõztette magát egy darabig, de mikor az ötszáznyolcvanhetedik
+Elefánt is megnyalogatta az agyarát, és azt mondta: "Nagyon jó kis
+méz volt ez, nem is tudom hamarjában, mikor ettem ilyen mézet"
+-- akkor nem bírta tovább. Kiugrott az ágyból, kiment a házból, és
+sietve eltalpalt a Hét Fenyõfákhoz.
+
+Még sötét volt, csak a Százholdas Pagony fölött derengett már valami.
+A félhomályban olyan magányosan és kísértetiesen álltak a fák, s a
+verem is olyan sötét és mély volt, s a fenekén a mézescsupor is
+sejtelmesen vigyorgott, mint valami kísértet, csak éppen hogy fel
+tudta fedezni. De a méz illatát mégis megérezte, s minden bosszúsága
+ellenére csurogni kezdett a nyála. Bemászott a verembe, s bedugta az
+orrát a csuporba.
+
+-- Hallatlan! -- mormogta rögtön, nagyon bosszankodva. -- Az Elefánt
+már megette! -- Aztán kicsit gondolkodott. -- Nem -- látta be végre
+--, nem õ ette meg. Én ettem meg. Elfelejtettem.
+
+És szomorúan nyalogatta a csupor fenekét, reménykedve, hogy talán
+mégis maradt valami.
+
+Közben Malacka is felébredt. Egy kicsit biztatta magát, aztán
+kiugrott az ágyból. És az volt az elsõ szava:
+
+-- Elefánt!
+
+Aztán tûnõdni kezdett.
+
+Most jutott elõször eszébe - vajon hogy fest egy ilyen Elefánt?
+
+Vad? Szenvedélyes? Jámbor?
+
+Engedelmeskedik-e csakugyan, ha füttyentenek neki?
+
+És egyáltalán - biztos, hogy `szereti a malacot?`
+
+És hogy szereti - élve vagy sütve, citrommal a szájában?
+
+És ha élve - az is kérdés, `melyik` malacot szereti.
+
+És ha nem szereti - hajlandó-e kivételt tenni olyan malac kedvéért,
+akinek a nagyapját úgy hívták: `TILOSAZ ÁTJÁRÁS`.
+
+De nem tudott választ kapni e kínzó kérdésekre, és bizonytalan
+érzésekkel indult el, hogy élete elsõ Elefántjával szembekerüljön.
+
+Közben azzal próbálta megnyugtatni magát, hogy hiszen Mackó vele
+lesz, s akkor mindjárt barátságosabb az egész. De mi lesz, ha az
+Elefánt annyira szenvedélyes és tüzes, hogy a Mackót se szereti? Nem
+lenne jobb mégis fejfájásra hivatkozni és nem menni el a Hét
+Fenyõfákhoz? Viszont, feltéve, hogy szép idõ van, s szerencsés
+esetben nem sikerült megfogni egyetlen Elefántot se a csapdában --
+így töltse az idõt, semmivel?
+
+Egyszerre csak nagyon Jó Ötlete támadt. Odamegy gyorsan a Hét
+Fenyõfákhoz, óvatosan bekukkant a verembe oldalról, van-e benne
+Elefánt. És ha van, akkor hazamegy, lefekszik, és fejfájása lesz, ha
+nincs, ott marad, és nem lesz fejfájása.
+
+Így hát nekilódult. Egyik percben azt gondolta, talál Elefántot,
+másik percben, hogy mégse talál. És miközben közel ért a veremhez,
+akkor már biztos volt benne, hogy talál, mert valami elefántosan
+mozgott és mocorgott a verem fenekén.
+
+-- Rémes! -- borzongott össze Malacka, s már el akart futni. De aztán
+összeszedte magát, annyira gyötörte a kíváncsiság, hogy életében õ is
+lásson egyszer egy eleven Elefántot. Így tehát lelapulva a verem
+széléig csúszott, és letekintett.
+
+Szegény Micimackó közben órákig próbálta lehúzni a fejérõl a csuprot,
+amibe beleszorult a feje. Hiába rázta, húzta, rángatta, egyre
+keményebben ült a nyakán a csupor, és csak a csupor belsejébõl
+lehetett tompán hallani kétségbeesett segélykiáltásait. És verte a
+csuprot a verem falához, de ez nem használt, és kimászni se tudott a
+verembõl, mert hiszen nem látott semmit, csak a csupor belsejét, és
+még azt se nagyon. Így hát belefáradt az egészbe, feltartotta
+csuporral borított fejét az ég felé, és hangosan és keservesen bõgni
+kezdte a Kétségbeesés és Megbánás keserû énekét... éppen akkor,
+amikor Malacka megérkezett.
+
+-- Segítség, segítség! -- visított Malacka, meghallva ezt a szörnyû
+hangot, ami a csupor alól mélyen és fenyegetõen bömbölt elõ.
+
+-- Elefánt! Egy rettenetes Elefánt! -- És futni kezdett, és közben
+folyton sivított: -- Elefánt! Elefánt! Segítség! -- S nem is hagyta
+abba a visítást, míg Róbert Gida kunyhójához nem ért.
+
+-- Mi az, Malacka, az istenért? -- ugrott ki az ágyból Róbert Gida.
+
+-- Ele... Bele... Tele... Elefánt... -- lihegte Malacka.
+
+-- Merre?...
+
+-- Arra... -- lihegte Malacka, de csak integetni tudott.
+
+-- Hogy néz ki?
+
+-- Olyan... olyan, mint... Rémes! Akkora feje van, hogy...
+irtózatos!... Nem lehet semmihez hasonlítani... Mint valami
+rettenetes nagy semmi... mint egy eleven fazék... vagy lábos...
+vagy csupor...
+
+-- No jó -- mondta Róbert Gida, és felrántotta a cipõjét. --
+Elmegyek és megnézem. Gyere velem, mutasd meg az utat.
+
+Malacka már egy csöppet se félt, tekintettel Róbert Gidára, és így
+sietve elindultak.
+
+-- Én már hallom, nem hallod? -- mondta Malacka aggódva, mikor
+közelbe értek.
+
+-- `Valamit` hallok -- mondta Róbert Gida.
+
+Mackó volt az, aki egy kiálló gyökérhez csapkodta a csuprot a verem
+fenekén.
+
+-- Itt van! -- mondta Malacka. -- Nézd, milyen félelmetes!
+
+És odasimult Róbert Gidához félelmében.
+
+És akkor Róbert Gida nevetni kezdett... és nevetett és kacagott, és
+könnye is csurgott, egyszerre csak nagyot reccsent valami a
+veremben... a vastag gyökéren elpattant a csupor, és Mackó feje
+elõkerült a cserepek közül.
+
+És Malacka megértette, milyen Hóbortos Malacka volt õ, és nem szólt
+senkinek, egyenesen hazament és lefeküdt, és kijelentette, hogy nem
+fogad senkit, mert a feje fáj. És Róbert Gida és Mackó kettesben
+mentek Róbert Gida kunyhójába reggelizni.
+
+-- Ó, te csacsi Mackó -- mondta Róbert Gida --, ha tudnád...
+
+-- Tudom -- mondta Micimackó. És úgy érezte, csakugyan tudja.
+
+---------------------------------------------------------------------------
+
+Hatodik fejezet,
+
+amelyben Fülesnek születésnapja van, és két ajándékot is kap
+
+---------------------------------------------------------------------------
+
+Füles, Öreg Szürke Csacsi a folyóparton állt, és nézte magát a
+víztükörben.
+
+-- Nagyképûség -- mondta. -- Ez a helyes kifejezés. Nagyképûség, ez
+az én bajom.
+
+Megfordult, és lassan leballagott vagy húsz lépést, betottyant a
+vízbe, átsétált a folyón, s a túlsó parton lassan visszaballagott.
+Akkor megint megnézte magát a vízben.
+
+-- Mindjárt gondoltam -- jegyezte meg. -- Ez a profilom se jobb.
+De ki törõdik vele? Senki. Nagyképûség. Mondom.
+
+Valami reccsent mögötte, és a sûrûbõl elõjött Micimackó.
+
+-- Jó reggelt, Füles! -- mondta Micimackó.
+
+-- Jó reggelt, Mackó! -- mondta mélán Füles. -- Ha errõl egyáltalán
+lehet szó a mai idõkben. A magam részérõl erõsen kétlem. De semmi.
+Szót sem érdemel. Bocsánat.
+
+-- No mi baj már megint?
+
+-- Semmi, Mackó, semmi. Csak úgy mondom. Sokféle népek vannak. Egyik
+nem akar, a másik nem tud. Ennyi az egész.
+
+-- Mit nem tud? -- kérdezte Mackó, és megdörgölte az orrát.
+
+-- Mulatni. Vidulni. Énekelni és táncolni. Itt van a kutya eltemetve.
+
+-- Vagy úgy -- mondta Mackó. Gondolkodott, hosszasan. Aztán
+megkérdezte: -- Melyik kutya?
+
+-- Az a kutya, azzal a kutya jókedvvel -- magyarázta borongva Füles.
+-- Nem panaszképpen mondom. Csak úgy. Nem tesz semmit.
+
+Mackó leült egy lapos kõre, és eltûnõdött. Olyan volt ez az egész
+dolog a számára, mint egy képrejtvény. Sose volt nagy rejtvényfejtõ.
+Lévén õ egy Csekélyértelmû Medvebocs. Inkább énekelni szeretett.
+
+Így hát most is rákezdte:
+
+	Nyáron nyaralok, télen telelek,
+	a Trotechnikus, az mindig Elek,
+	kérdezz valamit, s én megfelelek,
+	nyáron nyaralok, télen telelek.
+
+Ez volt az elsõ szakasz. Mikor befejezte, várt egy kicsit, de mert
+Fülesnek nem volt ellenvetése, azt biztatásnak vette, s belefogott a
+második szakaszba:
+
+	Nyáron nyaralok, télen telelek,
+	ki mézet ad, azzal nem perelek,
+	kérdezz valamit, s én megfelelek,
+	nyáron nyaralok, télen telelek.
+
+Füles még most se szólt semmit, így hát a harmadik szakaszt is
+elénekelte:
+
+	Nyáron nyaralok, télen telelek,
+	villanyt a fára ingyen szerelek,
+	kérdezz valamit, s én megfelelek,
+	nyáron nyaralok, télen telelek.
+
+-- Nagyon helyes -- szólt Füles. -- Te csak énekelj! Tralala. Örülj
+az életnek!
+
+-- Örülök is.
+
+-- Van, aki tud.
+
+-- Mi baj?
+
+-- Mi lenne?
+
+-- Olyan bánatos vagy.
+
+-- Bánatos? Miért lennék én bánatos? Születésnapom van. Az év
+legboldogabb napja.
+
+-- Születésnapod van? -- mondta Mackó örömteljes meglepetéssel.
+
+-- Nagyon természetes. Nem látod? Nézd csak a sok születésnapi
+ajándékot, amit kaptam. -- És gúnyosan kinyújtotta a lábát. -- Látod?
+Mennyi torta meg töltött csokoládé.
+
+Mackó jobbra nézett, aztán balra.
+
+-- Ajándék? Torta? Csokoládé? Hol?
+
+-- Hát nem látod?
+
+-- Nem én.
+
+-- Én se -- mondta Füles. -- Ez csak olyan tréfa volt. Vicc. Haha!
+
+Mackó megvakarta a fejét, nem tetszett neki a dolog.
+
+-- De igazán születésnapod van? -- kérdezte aztán gyanakodva.
+
+-- Bizony.
+
+-- Hát akkor - gratulálok. Még sok-sok születésnapot!
+
+-- Neked is, Micimackó.
+
+-- De nekem nincs születésnapom.
+
+-- Nincs is. Csak nekem van.
+
+-- Akkor hát miért gratulálsz nekem?
+
+-- Miért ne? Remélem, nem akarod magad rosszul érezni az én
+születésnapomon?!
+
+-- Ó, akkor értem...
+
+-- Elég baj -- mondta Füles most már végképpen letörve --, hogy én
+ilyen piszokul érzem magam a tulajdon születésnapomon. Se ajándék, se
+csokoládé, se torta gyertyával, még csak egy nyavalyás üdvözlõ
+táviratot se kaptam... Legalább más ne érezze rosszul magát, ez
+minden, amit várok.
+
+Ez sok volt Micimackó gyenge szívének.
+
+-- Várj meg itt! -- szólt gyorsan, sarkon fordult, s iszkolt haza,
+ahogy csak szusszal bírta; úgy érezte, akárhonnan, akárhogy, meg kell
+ajándékoznia valamivel szegény Fülest.
+
+Lakása elõtt ott találta Malackát. Fel-felugrált az ajtó elõtt, hogy
+elérje a csengõt, de nem érte el.
+
+-- Hé, Malacka! -- kiáltott rá.
+
+-- Szervusz, Micimackó!
+
+-- Mit ugrálsz itt, mint a bakkecske?
+
+-- El akarom érni a csengõt -- mondta Malacka. -- Éppen most
+érkeztem ide a látogatásodra.
+
+-- Majd én csengetek helyetted -- mondta Micimackó elõzékenyen. El is
+érte a csengõt, és csengetett. -- Épp most beszéltem Fülessel --
+beszélt közben --, szegény Füles nagyon rossz lelkiállapotban
+leledzik. Születésnapja van, senki a füle botját se mozgatja, észre
+se vették, és nagyon a szívére vette ezt a közönyt... Ejnye, senki se
+felel a csöngetésre?
+
+-- De Mackó -- mondta Malacka --, már hogy felelnének? Hisz ez a te
+lakásod.
+
+-- Persze, persze... No, akkor kerüljünk beljebb.
+
+Bementek. Mackó elsõ dolga volt odamenni az almáriumhoz, megnézni,
+maradt-e még egy kis méz a csuporban. Még volt egy kevés.
+
+-- Ezt odaadom Fülesnek -- magyarázta -- ajándékba. Te mit adsz neki?
+
+-- Nem lehetne úgy, hogy én is `ezt` adom? Mondjuk, a kettõnk
+ajándéka.
+
+-- Nem. Ez `nem` egy jó megoldás.
+
+-- Jó, hát én viszek neki egy léggömböt. Van még egy a múlt heti
+mulatságból. Mindjárt haza is futok érte.
+
+-- Látod, Malacka, ez `nagyon` jó ötlet. Ennek biztosan nagyon fog
+örülni szegény Füles, menten jókedve támad. Egy szép léggömb igazán
+nem ronthatja el az ember kedvét.
+
+Malacka eltotyogott. Micimackó is elindult ellenkezõ irányban a
+mézescsuporral.
+
+Meleg nap volt, s az út hosszúnak tûnt. Felét se járta be, mikor
+valami cudar érzés kerítette hatalmába. A füle tövén kaparászott,
+valami az orrát csiklandozta, még a füle is viszketett tõle. Mintha
+valaki noszogatta volna belülrõl: "Na, Mackó, mi lesz?"
+
+"Ejnye, ejnye -- csóválta a fejét. -- Nem tudtam, hogy ilyen hosszú
+ez az út..." -- Így hát letelepedett, és levette a csupor fedelét.
+"Még jó, hogy ezt magammal hoztam -- gondolta. -- Sok mackót ismerek,
+akiben nem lett volna ennyi elõrelátás, hogy efféle elemózsiát vigyen
+magával az útra." -- S már nyalogatta is a mézet, bedugva fejét a
+csuporba.
+
+-- Lássuk csak -- mondta elégedetten, mikor az utolsó csöppet is
+felnyalta --, hova is indultam? Ahá, Füleshez. -- Fürgén felugrott.
+
+Aztán egyszerre csak eszébe jutott a dolog. Hiszen utolsó cseppig
+megette Füles születésnapi ajándékát!
+
+"Bosszantó! -- csóválta a fejét. -- Most mit tegyek? Valamit mégis
+kell kapnia tõlem!"
+
+Darabig semmi se jutott az eszébe. Aztán gondolkodni kezdett. "Végre
+is ez a csupor nagyon szemrevaló kis csupor, még akkor is, ha nincs
+benne méz. Majd tisztára mosom, ráírok valami kedveset, mondjuk:
+>>Sok ilyen boldog születésnapot még!<< Füles sok mindenre használhat
+egy ilyen szemrevaló kis csuprot."
+
+S mivel éppen a Százholdas Pagony elõtt haladt el, betérült egy
+percre Bagolyhoz.
+
+-- Jó reggelt, Bagoly!
+
+-- Jó reggelt, Mackó!
+
+-- Gratulálok neked Füles születésnapjához -- mondta Micimackó.
+
+-- Születésnapja van?
+
+-- Mit kap tõled, Bagoly?
+
+-- És te mit adtál neki, Mackó?
+
+-- Egy nagyon szemrevaló kis csuprot, amiben mindenfélét lehet
+tartani... izé... varrótût meg olyan... izé... gombokat, esetleg --
+mondta Mackó bizonytalanul.
+
+-- Ez az? -- kérdezte Bagoly, és kivette Micimackó mancsából.
+
+-- Igen, és meg akarlak kérdezni...
+
+-- Ebben mézet tartottak -- mondta Bagoly.
+
+-- Akármit lehet benne tartani -- mondta Mackó gyorsan. -- Roppant
+praktikus és hasznos kis csupor ez, az ám! -- tette hozzá dicsekedve,
+de nem õszintén. -- És azt akarom kérdezni...
+
+-- Esetleg írhatsz rá valami üdvözletet.
+
+-- Éppen ez az, magam is így gondoltam. Nem volnál olyan kedves
+felírni rá: "Sok ilyen boldog születésnapot kívánok: Micimackó"?
+
+-- Nagyon kedves kis csupor -- mondta Bagoly. -- Nem lehetne úgy
+csinálni, hogy én is ezt adom neki? Mint a kettõnk ajándékát.
+
+-- Nem -- mondta Mackó --, ez nem megoldás. Várj, megmosom egy
+kicsit, aztán majd ráírod.
+
+S már ment is a mosdóhoz, kimosta a csuprot, meg is törülgette.
+Bagoly közben a ceruzáját nyálazta.
+
+-- Mondd csak, Mackó, tudsz te olvasni? -- kérdezte könnyedén, de
+kissé szorongva. -- Csak azért kérdem, mert az ajtómon két felirat
+van, ezeket Róbert Gida írta. El tudod olvasni?
+
+-- Hogyne! Róbert Gida megmondta nekem, mit írt, és azóta nagyon jól
+el tudom olvasni.
+
+Erre aztán Bagoly írni kezdett. Ezt írta:
+
+	MG SK LYN BLDG SZLTSNPT KVNK.
+
+Mackó álmélkodva és tisztelettel nézte.
+
+-- Csak egy rövid és tömör gratulációt írtam -- vetette oda Bagoly
+könnyedén.
+
+-- Elég hosszú -- bólintott Mackó elismerõen.
+
+-- Tulajdonképpen... igen, hm... elég hosszút is írtam... Éppen elég
+ceruzát fogyaszt el egy ilyen hosszabb gratuláció.
+
+-- Hogyne, hogyne -- mondta Mackó udvariasan.
+
+Míg ezek történtek, Malacka megjárta a lakását, el is hozta a
+léggömböt, amit Fülesnek szánt. Magához szorította, nehogy a szél
+elfújja, és sebesen futott, hogy elõbb érjen oda, mint Micimackó.
+Szerette volna úgy feltüntetni a dolgot, mintha neki jutott volna
+elõször eszébe Füles születésnapja. S ahogy lihegve futott, lelki
+szemeivel elõre gyönyörködött benne, hogy fog örülni Füles, még
+vigyorgott is hozzá a lelki szájával. Hát ahogy fut, megbotlik egy
+buckában, és orra esik...
+
+Bang!!! ... ??? *** !!!!
+
+Malacka feküdt a földön, és azon tûnõdött, mi történt. Elsõ
+pillanatban úgy rémlett, az egész világ felrobbant körülötte - aztán
+úgy határozott, hogy talán nem is az egész világ, csak az Erdõ, vagy
+talán még az se, csak õ maga, és most már nincs is a Földön, a Holdon
+van valahol, és soha nem látja többé Róbert Gidát és Micimackót és
+Fülest... Aztán azt gondolta: "Jó, de feltéve, hogy a Holdon vagyok,
+akkor se muszáj órákig így feküdni, arccal a porban..." Így hát
+óvatosan feltápászkodott és körülnézett.
+
+Ott találta magát az Erdõben.
+
+"Hát ez furcsa -- gondolta. -- De mi lehetett hát az a robbanás?
+Én csak nem szóltam akkorát, mikor elpuffantam?... És hol a léggömb?
+És mi ez a vacak, nyúlós rongydarab a kezemben?... A léggömb!"
+
+-- Jajjaj! -- nyögött Malacka. -- Ojjajajj... Hát most mit tehetek? 
+Haza nem megyek most már, több léggömböm úgysincsen... és Füles talán
+nem is szereti a léggömböket `annyira`...
+
+Így hát búsan tovább-ballagott, és leért a folyópartra.
+
+-- Jó reggelt, Füles! -- szólította meg az ünnepeltet.
+
+-- Jó reggelt, Malacka! -- mondta Füles. -- Ha lehet ilyesmirõl szó.
+Amiben kételkedek. De nem baj. Csak úgy mondom. Szót sem érdemel.
+
+-- Engedd meg, hogy születésnapod alkalmából üdvözöljelek --
+mondta Malacka, és közelebb jött.
+
+Füles felkapta lógó fejét, és ráborult Malackára. 
+
+-- Mondd még egyszer! -- szólt rá izgatottan.
+
+-- Engedd meg, hogy szüle...
+
+-- Várj egy pillanatra! -- Három lábán egyensúlyozva megpróbálta a
+negyediket óvatosan a füléhez emelni. -- Nem megy! -- mondta aztán a
+harmadszori sikertelen kísérlet után, mert háromszor is az oldalára
+esett. -- Talán így könnyebben megy... és így jobban hallom... Na
+most, megvan... tényleg, fekve könnyebb... Most légy szíves,
+ismételd, amit mondtál! -- És patájával igazította elõre a fülét.
+
+-- Engedd meg, hogy születésnapod alkalmából üdvözöljelek --
+ismételte Malacka.
+
+-- És... és ezt `nekem` mondod?
+
+-- Neked hát, Füles!
+
+-- És... és... az én születésnapomra célzol?
+
+-- Arra.
+
+-- Úgy érted... izé... hogy nekem `igazi` születésnapom van?
+
+-- Úgy bizony, Füles, és én ajándékot is hoztam neked.
+
+Füles leeresztette jobb fülérõl jobb patáját, megfordult, és nagy
+nehézséggel felemelte a bal patáját.
+
+-- A másik fülemmel is szeretném hallani -- mondta. -- Volnál
+szíves...
+
+-- Ajándék! -- mondta Malacka jó hangosan.
+
+-- Nekem?
+
+-- Neked.
+
+-- És... és... ez is a születésnapom miatt van?
+
+-- Persze hogy amiatt!
+
+-- Azért, mert... izé... nekem `igazi` születésnapom van?!
+
+-- Igen, Füles és hoztam neked egy léggömböt.
+
+-- Léggömböt?!... Azt mondtad: léggömböt? Azt a nagy buborékot
+gondolod, ami olyan színes, és fel szokták fújni?!... Mulatság és
+öröm és vidulás... és ének és tánc, hipp-hopp, hejehuja... azt akarod
+mondani?
+
+-- Azt, de attól tartok, illetve... illetve igazán sajnálom, Füles...
+de ahogy futottam hozzád a léggömbbel, orromra puffantam, és...
+
+-- Ó, ó, minõ szerencsétlenség! Biztosan nagyon gyorsan futottál,
+Malacka... Remélem, nem ütötted meg magad...
+
+-- Én nem... de... Füles, kérlek... a léggömb... az bizony
+szétpukkant.
+
+Nagyon hosszú csend lett.
+
+-- Az én léggömböm? -- mondta végre Füles.
+
+Malacka csak bólintott szomorúan.
+
+-- Az én születésnapi léggömböm?
+
+-- Igen, Füles -- mondta Malacka kicsit szipogva. -- Itt van a
+kezemben, láthatod. Engedd meg, hogy izé... szü... születésnapod
+al... alkalmából... a legme... melegebben...
+
+És átnyújtotta Fülesnek a nedves rongydarabot.
+
+-- Ez az? -- mondta Füles meghökkenve.
+
+Malacka bólintott.
+
+-- Az én ajándékom?
+
+-- Igen.
+
+-- Köszönöm, Malacka -- mondta Füles. -- Igazán `nagyon`, nagyon
+köszönöm. És izé... mondjad csak, meg tudnád mondani, `milyen színû`
+volt?... Úgy értem... amikor még... léggömb volt...
+
+-- Piros.
+
+-- Mindjárt gondoltam... Piros -- mormogta maga elé. -- Kedvenc
+színem... És... és mekkora volt?
+
+-- Akkora, mint jómagam.
+
+-- Mindjárt gondoltam... Akkora, mint Malacka -- mondta maga elé
+átszellemülten. -- Kedvenc nagyságom. Úgy, úgy.
+
+Malacka gyalázatosan érezte magát, és nem tudta, mit mondjon most.
+Kinyitotta a száját, megint becsukta.
+
+Ekkor harsányan átkiabált valaki a folyó túlsó partjáról. Micimackó
+volt az.
+
+-- Sok szerencsét születésnapodra! -- kiáltotta Micimackó,
+elfelejtve, hogy azt már mondta egyszer.
+
+-- Köszönöm, Mackó -- rebegte Füles. -- `Nagyon`, nagyon köszönöm.
+
+-- Egy kis ajándékot hoztam neked! -- kiabált Micimackó izgatottan.
+
+-- Már megkaptam -- mondta Füles.
+
+Mackó átgázolt a folyón, egyenesen Füles felé tartott. Malacka leült
+oldalt, kezébe temette fejét, és szipogott.
+
+-- Nagyon praktikus csupor -- mondta Mackó. -- Tessék, itt van. És az
+van ráírva: "Sok hasonló boldog születésnapot kívánok, tisztelettel
+Micimackó." Ez mind rá van írva. És mindenfélét lehet tartani benne.
+Tessék!
+
+Füles, meglátván a csuprot, egész izgatott lett.
+
+-- Nagyszerû! -- mondta. -- A léggömböm éppen belefér.
+
+-- Az nem, Füles -- mondta Mackó. -- A léggömbök sokkal nagyobbak,
+mint a csuprok. A léggömb arra való, hogy zsinegen tartsák...
+
+-- De az enyém nem olyan -- mondta Füles büszkén. -- Ide nézz,
+Malacka! -- És ahogy Malacka búsan felnézett, Füles óvatosan
+felemelte a nedves rongyot két fogával, óvatosan beleeresztette a
+csuporba: megint kivette, visszatette. Ezt többször ismételte.
+
+-- Így igen -- mondta Micimackó. -- Így belefér.
+
+-- Ugye? -- dicsekedett Füles ragyogó arccal. -- Úgy sétál ki meg be,
+ahogy akarom.
+
+-- Igazán örülök -- mondta Mackó boldogan. -- Mindjárt gondoltam,
+legjobb lesz, ha egy ilyen praktikus csuprot ajándékozok neked, amibe
+mindenfélét bele lehet tenni.
+
+Malacka is fellélegzett.
+
+-- Látod, tõlem is kaptál valamit, amit ilyen szépen bele lehet tenni
+a Praktikus Csuporba.
+
+De Füles már nem is hallotta õket. Kivette meg betette a rongyot a
+csuporba, és ragyogott a boldogságtól.
+
+		o o o o
+		 o o o
+
+-- No és `tõlem` nem kapott semmit? -- kérdezte Róbert Gida
+irigykedve.
+
+-- Dehogyisnem! -- mondtam én. -- Te adtál neki egy... hát nem
+emlékszel... egy kis... egy olyan kis...
+
+-- Egy olyan kis festékdobozt, festegetni.
+
+-- Na látod! Pontosan emlékszel!
+
+-- De miért nem adtam neki oda mindjárt reggel?
+
+-- Mert egész nap el voltál foglalva az estély miatt, amit a
+tiszteletére rendeztél. Ott volt csokoládé és fagylalt és torta három
+gyertyával és Füles neve a tortán, piros cukorból kikanyarítva és...
+
+-- Igen, most már emlékszem -- mondta Róbert Gida.
+
+---------------------------------------------------------------------------
+
+Hetedik fejezet,
+
+amelyben Kanga és Zsebibaba megjelennek az Erdõben, késõbb Malacka megfürdik
+
+---------------------------------------------------------------------------
+
+Nem nagyon tudta senki, honnan jöttek, egyszer csak itt voltak az
+Erdõben. Kanga és Zsebibaba. Mikor Micimackó megkérdezte Róbert
+Gidát: -- Hát ezeket mi szél hozta? -- Róbert Gida azt felelte: --
+Nagyon rendes cél; te már tudod, mire célzok, Micimackó. --
+
+És Micimackó, aki egyáltalán nem tudta, azt felelte:
+
+-- Vagy úgy! -- Aztán kétszer bólintott, értelmesen hozzátette: -- No
+persze: a rendes cél! -- Aztán gyorsan elfutott Malackához, megtudni,
+hogy õ mit fog szólni hozzá. Malacka házában ott találta Nyuszit. Így
+hát módjukban volt megbeszélni a nagy eseményt.
+
+-- Ami nem tetszik nekem a dologban -- mondta Nyuszi --, kérlek
+szépen, tudod, úgy értem, hogy itt vagyunk mi: Micimackó, Malacka meg
+én... és akkor egyszerre...
+
+-- És Füles -- mondta Micimackó
+
+-- Persze, Füles... És akkor egyszerre csak...
+
+-- És Bagoly -- mondta Füles.
+
+-- És Bagoly... És akkor egyszerre...
+
+-- És Füles! -- vakkantott Micimackó diadallal. -- El is felejtettem
+Fülest.
+
+-- Ugye, látod? -- mondta Nyuszi gondolkodva, aztán óvatosan:
+-- Mind, mind, akik itt vagyunk, és akkor egyszerre csak arra
+ébredünk egy reggel, hogy mi történik? Az történik, hogy itt tekereg
+közöttünk EGY NAGY, ERÕS ÁLLAT. Egy nagy, erõs állat, akinek a hírét
+se hallottuk eddig. Valaki, aki -- bocsánat! -- de kissé különös
+fogalmakat hordoz a családi életrõl... Ugyanis az egész családját
+zsebre rakja, és a zsebében hordja, és azonkívül a fogalmat is
+hordozza. Most gondold el, ha én is zsebre vágnám a családomat, hány
+zsebre volna szükségem!
+
+-- Tizenhatra -- mondta Malacka.
+
+-- Mondjuk csak, tizenhét -- mondta Nyuszi jelentõsen. -- És vedd
+hozzá a zsebkendõmet, az tizennyolc. Tizennyolc zseb egy ruhában!
+
+Ezután nagy és gondolatterhes csend következett. Különösen Malacka
+ráncolta nagyon a homlokát, s végre kibökte:
+
+-- Nekem csak tizenöt jön ki!
+
+-- Micsoda? -- kérdezte Nyuszi. -- Tizenöt micsoda?
+
+-- Tizenöt családod van?
+
+-- Hát én mit mondtam?
+
+Micimackó az orrát dörgölte. Bizonytalanul megjegyezte, hogy Nyuszi a
+gyermekeinek számáról beszélt.
+
+-- Én? -- kérdezte Nyuszi csodálkozva és szintén bizonytalanul.
+
+-- Igenis, azt mondtad...
+
+-- Hagyjuk ezt, Mackó -- vágott közbe Malacka türelmetlenül.
+-- Arról van szó, milyen magatartásra kényszerít bennünket Kanga
+váratlan megjelenése.
+
+-- Arról bizony -- mondta Mackó.
+
+-- Szerintem -- mondta Nyuszi -- a legcélravezetõbb az volna, ha
+ellopnánk tõle Zsebibabát, és amikor Kanga azt kérdezné, hol van
+Zsebibaba, mi egyszerûen azt felelnénk: "Ühüm." Vagy: "Ehe."
+Esetleg...
+
+-- Ehe -- mondta Micimackó, gyakorolva a szót. -- Ehe, ehe. Tudod
+mit? Esetleg akkor is mondhatnánk, hogy ehe, ha nem loptuk el
+Zsebibabát.
+
+-- Micimackó -- mondta Nyuszi szívélyesen --, te tökéletesen hülye
+vagy.
+
+-- Tudom -- mondta Micimackó gyorsan és szerényen, de még hozzátette:
+-- Kicsit meg vagyok hûlve.
+
+-- Azt mondjuk, "ehe", amirõl Kanga tudni fogja, hogy mi ismerjük
+Zsebibaba tartózkodási helyét. "Ehe" azt jelenti: megmondjuk neked,
+hol van Zsebibaba, ha megígéred, hogy elhagyjátok az erdõt, és soha
+nem tértek vissza.
+
+-- Kérlek, ne kotyogjatok közbe, amíg gondolkodom.
+
+Mackó a sarokba ment, és gyakorolta az "ehe" szót. Néha már úgy
+tetszett neki, hogy a szó valóban azt jelenti, amit Nyuszi mondott,
+de néha úgy érezte, egyáltalában nem jelenti azt.
+
+"Gyakorlat dolga az egész -- gondolta. -- Majd Kanga is gyakorolni
+fogja, hogy megértse."
+
+-- Egy dologról van szó -- jegyezte meg Malacka, orrát mozgatva. --
+Beszéltem Róbert Gidával, õ azt mondta, hogy Kangát általában a
+Szenvedélyes és Tüzes Állatok közé sorolják. Én nem félek a
+Szenvedélyes Állatoktól általában - de köztudomású, hogy õ egyike a
+legszenvedélyesebbeknek, és feltehetõ, hogy ha kicsikéjétõl
+megfosztják, olyan szenvedélyessé válhat, amilyen két Szenvedélyes
+Állat együttvéve. Amely esetben az "ehe" kifejezés talán nem a
+legmegfelelõbb.
+
+-- Malacka -- mondta Nyuszi, és ceruzát vett elõ, meg is nyalta a
+végét --, nem vagy nagy lángész.
+
+-- Nem könnyû dolog a halálmegvetõ bátorság -- mondta Malacka
+szipákolva --, amikor az ember egy EGÉSZEN KICSIKE ÁLLAT.
+
+Nyuszi, aki közben szorgalmasan jegyzett a noteszébe, felnézett, és
+így szólt:
+
+-- Éppen azért, mert kicsi állatok vagyunk, fogjuk magunkat hasznossá
+tenni ebben a kalandban.
+
+Malacka olyan izgatott lett a gondolatra, hogy õ hasznossá teszi
+magát, hogy egész elfelejtett félni, és amikor Nyuszi fejtegetni
+kezdte, hogy Kanga csak a téli hónapokban szokott szenvedélyes lenni,
+egyébként pedig nagyon nyájas és szelíd, alig tudott veszteg maradni,
+annyira igyekezett már hasznossá tenni magát.
+
+-- És velem mi lesz? -- kérdezte Micimackó szomorúan. --
+Nekem senki se veszi hasznomat?
+
+-- Ne törõdj vele, Micimackó -- vigasztalta Malacka --, majd
+legközelebb.
+
+-- Micimackó nélkül -- mondta Nyuszi ünnepélyesen és ceruzáját
+hegyezve -- az egész kaland lehetetlenné válik.
+
+-- Úgy? -- mondta Malacka, iparkodva, hogy elkedvetlenedését
+ne vegyék észre.
+
+De Mackó a sarokba ment, és ott többször büszkén ismételte:
+"Nélkülem lehetetlen! Ilyen Mackó vagyok én!"
+
+-- Ide figyeljetek! -- mondta Nyuszi, befejezve az írást, és Mackó és
+Malacka még a száját is kitátotta, úgy figyelt. És Nyuszi felolvasta,
+amint következik:
+
+ZSEBIBABA ELFOGATÁSÁNAK ÁLTALÁNOS TERVRAJZA
+
+1. `Általános megjegyzések`. Kanga gyorsabban fut mindnyájunknál, még
+nálam is. 
+
+2. `További általános megjegyzések`. Kanga nem veszi le a szemét
+Zsebibabáról, kivéve, amikor a zsebében tartja, és rágombolja a
+hajtóját.
+
+3. `Ennélfogva`. Ha el akarjuk rabolni Zsebibabát, nagy svungot kell
+venni, mivel Kanga gyorsabban fut nálunk, még nálam is. (Lásd 1.
+pontot.)
+
+4. `Egy ötlet`. Ha Zsebibaba kiugrott Kanga zsebébõl, Malacka
+beugorhat, és Kanga nem veszi észre a cserét. Mivel Malacka SZINTÉN
+NAGYON KICSINY ÁLLAT.
+
+5. `Akkora, mint Zsebibaba`. 
+
+6. De ehhez szükséges, hogy Kanga másfelé nézzen, s így ne vegye
+észre, amint Malacka beugrik a zsebébe.
+
+7. Lásd második pontot. 
+
+8. `További ötlet`, illetve nyolclet, mert nyolcadik pont. De ha
+Micimackó izgatottan és nagy lendülettel beszél hozzá, akkor esetleg
+arrafelé néz, és nem vesz észre semmit.
+
+9. Mire én elszaladok Zsebibabával.
+
+10. `Gyorsan`. 
+
+11. `És Kanga csak késõbb eszmélne rá a cserére`.
+
+Mindezt Nyuszi nagyon büszkén olvasta fel, s miután befejezte,
+percekig csend volt. Akkor Malacka, aki közben többször kinyitotta és
+becsukta a száját, hirtelen kibökte:
+
+-- És azután?
+
+-- Hogyhogy azután?
+
+-- És ha Kanga felfedezte a cserét?
+
+-- Akkor mind azt mondjuk: "Ehe".
+
+-- Mind a hárman?
+
+-- Igen, mind a hárman. Mi az, ami nem tetszik, Malacka?
+
+-- Semmi -- mondta Malacka. -- Feltéve, ha sikerül egyszerre mondani.
+Nem azért -- tette hozzá gyorsan --, és magam külön is mondanám, hogy
+"ehe". De az távolról sem volna olyan hatásos. Mellékesen kérdem
+csak, egész biztosak vagytok benne, amit a téli hónapokról mondtatok?
+
+-- Miféle téli hónapokról?
+
+-- Hát izé... hogy õ csak a téli hónapokban olyan szenvedélyes...
+
+-- Hogyne, egész biztos. Nos, Mackó? Tudod, mit kell tenned?
+
+-- Nem -- mondta Micimackó. -- Még nem. Hát mit?
+
+-- Csak azt, hogy beszélned kell Kangához, nagyon élénken és
+érdekesen, hogy ne vegyen észre semmit.
+
+-- És mirõl beszéljek?
+
+-- Amirõl akarsz.
+
+-- Nem lehetne ez valami versecske vagy efféle?
+
+-- De igen -- mondta Nyuszi. -- Remek. Már indulhatunk is.
+
+És már indultak is felkeresni Kangát.
+
+Kanga és Zsebibaba kellemes délutánt töltöttek az erdõ egy homokos
+tisztásán. Zsebibaba apró ugrásokat gyakorolt a homokban, néha
+belepottyant az ürgegödrökbe, gyorsan kimászott belõlük, és Kanga
+körülötte sürgölõdött és biztatta: -- No még egy ugrást, drágám,
+aztán szépen hazamegyünk.
+
+Ebben a pillanatban érkezett oda Micimackó.
+
+-- Jó estét, Kanga!
+
+-- Jó estét, Mackó!
+
+-- Ide nézz, hogy ugrálok -- selypegett Zsebibaba, és azzal
+belepottyant egy gödörbe.
+
+-- Szervusz, Zsebibaba!
+
+-- Éppen indultunk haza -- magyarázta Kanga. -- Jó estét, Nyuszi!
+Jó estét, Malacka!
+
+Malacka és Nyuszi, akik a másik oldalról közeledtek, udvariasan
+viszonozták a köszönést, és Zsebibaba õket is megkérte, bámulják meg
+a tudományát. Megálltak, és udvariasan figyeltek.
+
+És Kanga is figyelt...
+
+-- Igaz csak, Kanga -- mondta Micimackó, miután Nyuszi már harmadszor
+hunyorított feléje --, már régen meg akartalak kérdezni, mi a
+véleményed a költészetrõl.
+
+-- Nem túlságosan érdekel- mondta Kanga.
+
+-- Ó! -- mondta Micimackó.
+
+-- Zsebibaba, drága, ugorj még egyet, aztán menjünk már haza.
+
+Rövid szünet volt, miközben Zsebibaba belepottyant a gödörbe.
+
+-- Kezdd el már! -- súgta Nyuszi Micimackónak, szája elé tartva a
+lábát.
+
+-- Ha már a költészetrõl van szó -- folytatta Micimackó torkát
+köszörülve --, egy elég csinos költeményt költöttem idejövet.
+Így megy... várjunk csak...
+
+-- Nem fontos -- vigasztalta Kanga. -- Majd máskor. Na, Zsebibaba,
+drágám, most aztán...
+
+-- Tetszeni fog neked -- mondta Nyuszi.
+
+-- Imádni fogod -- mondta Malacka.
+
+-- De nagyon kell figyelned -- mondta Nyuszi.
+
+-- Minden szó fontos -- mondta Malacka.
+
+-- Értem -- mondta Kanga, de folyton Zsebibabára figyelt.
+
+-- Na halljuk, Micimackó, hogy megy! -- biztatta Nyuszi. 
+
+Micimackó köhögött és rákezdte:
+
+EGY CSEKÉLYÉRTELMÛ MEDVEBOCS VERSELMÉNYE
+
+	Hétfõn, mikor a hõség rekkenõ,
+	eszembe ötlik egy Bökkenõ:
+	hogy kicsoda a micsoda,
+	s hogy mikor és hová az akkor és oda.
+
+	Kedden, ha hull a hó, és fúj a szél,
+	egy hang odafent sürgetve beszél:
+	míg meg nem mondod, addig havazok,
+	hogy azok-e ezek, vagy ezek-e azok.
+
+	Szerdán kék bolton a nap hunyorog,
+	tûnõdni ráérek, nincs semmi dolog.
+	Ki kell találnom jövõ hét keddig,
+	hogy mennyi és meddig az ennyi és eddig.
+
+	Csütörtök reggel megint itt a hideg,
+	zúzmaraingben a bozót didereg.
+	Ilyenkor érzed, mi mélyen igaz,
+	hogy az meg ez meg ez meg az.
+
+	Pénteken...
+
+-- Na és aztán? -- kérdezte Kanga, egyáltalán nem várva meg, hogy mi
+történt pénteken. -- No még egy ugrás, Zsebibaba, drágám, aztán
+igazán mennünk kell már -- tette hozzá.
+
+Nyuszi gyorsan oldalba bökte Micimackót.
+
+-- Ha már költészetrõl beszélünk -- mondta Micimackó gyorsan --,
+megfigyelted már ezt a nagy fát itt jobbra?
+
+-- Merre? -- mondta Kanga szórakozottan. -- Zsebibaba, kérlek...
+
+-- Erre jobbra -- mondta Micimackó Kanga háta mögé mutatva.
+
+-- Nem -- mondta Kanga. -- Ez az utolsó ugrás, na ugorj, Zsebibaba,
+és máris indulunk.
+
+-- Meg kell nézned ezt a fát -- mondta Nyuszi.
+
+-- Várj csak, Zsebibaba, majd fölemellek. -- És gyöngéden felemelte
+Zsebibabát.
+
+-- Valami madarat látok a tetején -- mondta Micimackó. -- Vagy mégis
+potyka lenne?
+
+-- Az lehetetlen, hogy innen látni lehessen -- mondta Nyuszi.
+
+-- Hacsak nem potyka.
+
+-- Szerintem madár -- mondta Malacka.
+
+-- Szerintem is -- mondta Nyuszi.
+
+-- Rigó vagy vörösbegy -- mondta Micimackó.
+
+-- Ez a nagy kérdés -- mondta Nyuszi. -- Hogy rigó vagy vörösbegy.
+
+És ekkor Kanga végre hátrafordult.
+
+És abban a pillanatban, ahogy el volt fordulva, Nyuszi hangosan azt
+mondta:
+
+-- Ugorj be, Zsebibaba! -- De Zsebibaba helyett Malacka ugrott be a
+Kanga zsebébe.
+
+És Nyuszi már iszkolt is gyorsan, mellsõ lábai közt Zsebibabával.
+
+-- Hova szaladsz, Nyuszi? -- kérdezte Kanga, ahogy visszafordult. 
+-- Jól ülsz, Zsebibaba, kedves?
+
+Malacka egész vékony Zsebibaba-hangon nyafogott elõ Kanga zsebébõl.
+
+-- Nyuszinak sürgõs dolga van -- mondta Micimackó. --
+Biztosan eszébe jutott...
+
+-- És Malacka?
+
+-- Malackának is eszébe jutott valami.
+
+-- Hát nekem mennem kell -- mondta Kanga. -- Jó éjszakát, Micimackó. --
+És három nagy ugrással már el is tûnt szem elõl.
+
+Micimackó utánabámult.
+
+"Bár én is tudnék ekkorát ugrani! -- gondolta irigyen. -- Az egyik
+tud, a másik meg nem. Ez már így van."
+
+Voltak pillanatok, amikor Malacka azt kívánta, bár ne tudna Kanga.
+Hosszú sétái közben, amint hazafelé ballagott az erdõben, arra is
+gondolt, bár kismadár lehetne; de most, ahogy ott zötyögött Kanga
+zsebében, egészen másképp látta a dolgokat:
+
+HA EZ A REPÜLÉS,		EGY ÉLETRE
+		A MAGAM RÉSZÉRÕL	LEMONDOK RÓLA.
+
+Amikor felfelé repültek, azt is hozzátette: "Hû". S amikor lefelé
+szálltak: "Bumm!"
+
+"Hûû-bumm, hûû-bumm!"
+
+Ezt a két szót váltogatta, amíg meg nem érkeztek Kanga kunyhójába.
+
+Természetesen, alighogy Kanga kigombolta a zsebét, észrevette, mi
+történt. Egy pillanatra maga is azt hitte, hogy meg van ijedve, de
+aztán rájött, hogy mégsincsen.
+
+Mert hiszen bizonyos volt benne, hogy Róbert Gida soha nem fogja
+eltûrni, hogy Zsebibabának akár a haja szála is meggörbüljön. Aztán
+azt mondta magában: "Ha õk ugratni akarnak, majd én visszaugratom
+õket. Meglátjuk, melyikünk ugrik jobban."
+
+-- Zsebibaba, drága -- mondta ártatlan képpel Malackának --, ideje
+lefeküdni.
+
+-- Ehe -- mondta Malacka, már amennyire beszélni tudott szörnyû
+utazásának utóhatása alatt. De nem valami jól sikerült "ehe" volt ez,
+és Kanga nem látszott felfogni, mirõl van szó.
+
+-- De elõbb megfürdünk -- mondta Kanga kedvesen.
+
+-- Ehe -- ismételte Malacka, és aggodalmasan pislogott körül.
+Elszörnyedve eszmélt rá, hogy Nyuszi és Mackó eltûntek. Nyuszi
+ugyanis a saját kunyhójában játszott Zsebibabával, miközben egyre
+jobban megszerette, és Micimackó, aki fejébe vette, hogy Kangává
+képezi ki magát, nagyokat ugrált a homokban.
+
+-- Nem vagyok egészen bizonyos benne -- mondta Kanga elgondolkodva
+--, hogy vajon alukálás elõtt nem tenne-e jót egy frissítõ kis hideg
+fürdõcske. Ugye, jót tenne, Zsebibaba, kedves?
+
+Malacka, aki sose volt nagyon tüzes a fürdés irányában,
+méltatlankodva összeborzongott, és amilyen határozottan csak tudott,
+tiltakozni kezdett:
+
+-- Kérem szépen, Kanga, beszéljünk egymással õszintén.
+
+-- Ó, te csacsi kis Zsebibaba -- mondta Kanga, és máris ment a
+dézsához.
+
+-- Én nem vagyok Zsebibaba -- mondta Malacka hangosan. -- Én Malacka
+vagyok.
+
+-- Jó, jó, kedves -- mondta Kanga csitítva. -- Persze hogy Malacka
+vagy. Még a hangját is utánzod. Te egy kis Malacka vagy -- folytatta,
+és közben az almáriumból egy nagy sárga szappant vett elõ.
+-- Pancsikálni fogunk -- biztatta Malackát.
+
+-- Hát nem látja? -- üvöltött Malacka. -- Hová tette a szemét? Nézzen
+rám!
+
+-- Nézlek, nézlek, Zsebibaba, kedves -- mondta Kanga, de aztán
+szigorúbban rászólt: -- Zsebibaba, már tegnap mondtam neked, hogy
+szokj le errõl a fintorgásról. Ha sokat utánzod Malackát, majd úgy
+marad az arcod, és azután képzeld el, milyen csúnya leszel. Most
+pedig uzsgyi a jó kis vizecskébe, ne mondjam kétszer!
+
+-- Huh, huh -- prüszkölt Malacka. -- Eressz el! Én Malacka vagyok!
+
+-- Csukd be a szád, Zsebibaba, mert bemegy a szappan! -- intette
+Kanga. -- No mit mondtam, ugye látod?
+
+-- Szá-szá-szándékosan tömted tele! -- fuldokolt Malacka, és
+köpködött. De a következõ percben már a szájában volt a szúrós kendõ.
+
+-- Jó, jó, kedves, ne karattyolj! -- mondta Kanga, és a következõ
+percben a földre került Malacka, ahol Kanga erélyesen tovább
+dörzsölte.
+
+-- Most pedig -- mondta Kanga -- bekapjuk a jó kis orvosságot, aztán
+mars alukázni!
+
+-- Mi-mi-micsoda orvosságot? -- rémüldözött Malacka.
+
+-- Amitõl nagy, és erõs leszel, drágám. Csak nem akarsz olyan kicsike
+és nyiszlett maradni, mint egy Malacka, ugye? Nahát akkor!...
+
+Ebben a pillanatban kopogtak az ajtón.
+
+-- Szabad! -- mondta Kanga, és Róbert Gida belépett.
+
+-- Róbert Gida! Róbert Gida! -- kiáltott Malacka. -- Mondd meg
+Kangának, ki vagyok én. Kanga nem akarja elhinni, hogy Malacka
+vagyok! Azt mondja, hogy Zsebibaba vagyok! Hát az vagyok én?
+
+Róbert Gida figyelmesen végignézte, aztán fejét csóválta.
+
+-- Nem lehetsz Zsebibaba, mert hiszen éppen most láttam Zsebibabát
+Nyuszi házában.
+
+-- No de ilyet! -- mondta Kanga, tettetve magát. -- Hogy én ekkorát
+tévedhettem!
+
+-- Ugye mondtam -- méltatlankodott Malacka. -- Mondtam, hogy Malacka
+vagyok!
+
+Róbert Gida csak a fejét csóválta.
+
+-- Azt nem -- mondta. -- Én Malackát jól ismerem; annak egész más a
+színe!
+
+Malacka már éppen magyarázni kezdte, hogy ez csak azért van, mert
+megfürdették, de aztán arra gondolt, hogy ezt mégse fogja mondani, és
+amikor kinyitotta a száját, hogy valami mást mondjon, Kanga gyorsan
+beletöltött egy kanál orvosságot, aztán hátba vágta, és biztosította
+róla, hogy az orvosságnak nagyon kellemes íze van, csak meg kell
+szokni.
+
+-- Tudtam, hogy nem Malacka -- mondta Kanga. -- De vajon kicsoda
+lehet akkor?
+
+-- Lehet, hogy Micimackónak valamelyik rokona -- gondolkodott Róbert
+Gida. -- Talán az unokaöccse vagy a nagybátyja?
+
+Kanga ezt lehetségesnek tartotta, és megjegyezte, hogy ilyenformán
+valami nevet kellene adni neki.
+
+-- Úgy gondolnám, Póruljárt Péter volna a legmegfelelõbb név.
+
+-- Nem bánom -- mondta Róbert Gida.
+
+S éppen amikor ebben megegyeztek, Póruljárt Péter kiugrott Kanga
+karmai közül: nagy örömére észrevette, hogy Róbert Gida nyitva
+felejtette az ajtót. Soha életében nem iszkolt még Póruljárt
+Péter-Malacka olyan sebesen, mint ahogy most. De amikor már közel
+járt a kunyhójához, meggondolta magát, az út hátralevõ részén
+néhányszor meghempergett a pocsolyában, hogy visszaadja az õ régi,
+kényelmes és kellemes színét...
+
+Így hát Kanga és Zsebibaba az erdõben maradtak. És Zsebibaba minden
+kedden meglátogatta Nyuszit, akivel nagyon összebarátkoztak, és
+ugyanakkor Kanga meglátogatta Micimackót, ugrálni tanította, és
+ugyanakkor Malacka Róbert Gidával töltötte a délutánt. És mind az
+öten egy idõre megint boldogok és elégedettek voltak.
+
+---------------------------------------------------------------------------
+
+Nyolcadik fejezet,
+
+amelyben Róbert Gida expedíció élén felfedezi az Északi-sarkot
+
+---------------------------------------------------------------------------
+
+Egy szép napon Micimackó feltalpalt az erdõ szélére, meggyõzõdni
+róla, hogy Róbert Gida barátját érdeklik-e még egyáltalán a Mackók.
+Reggelizés közben (reggelije egyszerû lépes mézbõl állott, amelyre
+lekvár volt kenve, utóbbi elég vastagon) új verset költött. A vers
+így kezdõdött:
+
+
+Daloljatok a kedvemér',
+csak ennyi, mit egy medve kér.
+
+
+Mire ennyire jutott, megvakarta a kobakját, s azt gondolta, hogy ez
+kezdetnek nem rossz - de mi legyen a folytatása? Énekelni próbálta,
+de nem stimmelt. Arra gondolt, hogy talán gyorsan elénekli az elsõ
+sorokat, arról eszébe jut a harmadik és a többi. Ez sikerült is a
+következõ módon:
+
+
+Daloljatok a kedvemér',
+csak ennyi, mit egy medve kér.
+Mit érdekel engem, hidegem lesz vagy melegem,
+csak a mézbõl, a mézbõl legyen sokam és elegem.
+Nem érdekel a naptár képe,
+sokkal inkább a kaptár népe.
+Jeget hoz vagy esõt vagy dért és harmatot,
+minden adagból nekem juttassatok egy harmadot.
+S daloljatok a kedvemér',
+csak ennyi, mit egy medve kér.
+
+
+Annyira meg volt elégedve ezzel a versikével, hogy végigdúdolta vele
+az utat. Már-már aggódni kezdett, hogy az utolsó sorok hatása alatt
+képes volna visszafordulni azért a "harmadért", azért ezt a részt
+csak hümmögve mondta a kísértés ellen.
+
+Róbert Gida a háza elõtt ült, nagyban erõlködve, hogy vízhatlan
+halinacsizmáját felhúzza. Meglátva a halinacsizmát, Micimackó
+mindjárt tudta, hogy nagyobb szabású Kaland készül, éppen ezért
+mancsa belsõ lapjával letörölte a mézet orra hegyérõl, és kihúzta
+magát, hogy készen álljon, bármi történjék.
+
+-- Jó reggelt, Róbert Gida! -- kiáltotta harsányan és harciasan.
+
+-- Szervusz, Micimackó! Nem megy fel a csizma.
+
+-- Kellemetlen -- mondta Micimackó.
+
+-- Nem támasztanád a hátad a hátamnak? Ugyanis folyton hanyatt bukom
+a nagy erõlködéstõl.
+
+Micimackó leült, nekifeszítette lábát egy buckának, hátát Róbert
+Gidának, és Róbert Gida néhány erõteljes rántással végre sikeresen
+felhúzta a csizmát.
+
+-- Ebben maradunk -- jegyezte meg Micimackó. -- Most mi lesz?
+
+-- Most az lesz, hogy felfedezõ utat szervezünk -- mondta Róbert
+Gida, miközben felállt, leporolta magát, s köszönetet biccentett.
+
+-- Tejfelezõt? -- kapta el a szót Micimackó mohón. -- Amennyire
+emlékszem, még soha nem vettem részt tejfelezésben.
+
+-- "Felfedezõt" mondtam, ostoba kis medvém. F-et mondtam, nem T-t.
+
+-- Aha! -- bólintott Mackó. -- Értem. -- De nem mondott igent.
+
+-- Felfedezzük az Északi-sarkot.
+
+-- Nagyszerû! -- vigyorgott Mackó. -- Régi tervem! Izé - mi az, hogy
+Északi-sark?
+
+-- Északi-sark? Na hallod, azt se tudod? Hát az a dolog, amit fel
+szoktak fedezni -- tette hozzá Róbert Gida gyorsan és könnyedén, maga
+se lévén egészen biztos a dolgában.
+
+-- Értem! -- mondta Micimackó. -- És a medvék erre alkalmasak?
+
+-- Hogyne! És Nyuszi és Kanga és mindannyian. Nahát, ezt kell érteni
+felfedezés alatt. Okosabban is tennéd, ha fellármáznád a társaságot,
+míg én rendbe szedem a puskámat. Élelmezést is viszünk magunkkal.
+
+-- Micsodát?
+
+-- Amit enni lehet.
+
+-- Természetesen -- mondta Mackó, mert ezt értette. -- Csak azért
+kérdeztem, mert véletlenül úgy értettem, "élelmezést" mondtál. Már
+futok is! -- És eltalpalt.
+
+Nyuszi volt az elsõ, akivel találkozott.
+
+-- Hé, Nyuszi! -- kiáltotta. -- Te vagy az?
+
+-- Tegyük fel, hogy nem -- mondta Nyuszi. -- Ez nagyon érdekes lenne.
+
+-- Üzenetem van számodra.
+
+-- Majd átadom magamnak.
+
+-- Elmegyünk mindannyian egy nagy tejfelezõ útra Róbert Gidával.
+
+-- És ha már elmegyünk, mi lesz? Mi az a tejfelezés?
+
+-- Valami csizmadolog, úgy sejtem.
+
+-- Aha.
+
+-- Igen. És valami sarkot fogunk felfedezni. Nem tudom, mifélét, és
+minek akarjuk felfedezni...
+
+-- Milyen ostoba vagy! Hát ha csizmadolog, akkor nyilván a csizma
+sarkáról van szó, azt fedezzük fel.
+
+-- Az lehet, látod. És viszünk magunkkal élel... izét, de ne ijedj
+meg, az ennivaló. Szaladok Malackáért, te meg kerítsd elõ közben
+Kangát.
+
+Faképnél hagyta Nyuszit, és Malackához talpalt. 
+
+Malacka a padlón ült, boldogan fújdogálta egy pitypang pihéit, és
+közben mondogatta a szokásos verset, hogy most vagy a nyáron vagy
+jövõre vagy sohase lesz meg az a dolog, amire gondolt. Éppen ott
+tartott, hogy sohase, és most azon törte a fejét, mire is gondolt,
+reménykedve, hogy az valami rossz dolog volt. Ekkor toppant be Mackó.
+
+-- Malacka -- kiáltotta izgatottan már a küszöbrõl --, elmegyünk
+mindannyian tejfelezni, és elemózsiát is viszünk! Keresünk valamit.
+
+-- Mit? -- mondta Malacka aggodalmasan.
+
+-- Valamit.
+
+-- De nem valami Szenvedélyeset?
+
+-- Ilyesmit nem emlegetett Róbert Gida. Azt mondta, nincs benne T,
+hanem F van benne.
+
+-- Az baj -- mondta Malacka elkomolyodva. -- Az "fogat" jelent, nagy,
+éles fogakat. De ha Róbert Gida vezet bennünket, nem félek.
+
+Fél óra alatt együtt voltak mindannyian az Erdõ szélén, és a
+Tejfelezés elindult. Elöl ment Róbert Gida Nyuszival, aztán Malacka
+és Micimackó - sorban utánuk Kanga, Zsebibabával a zsebében, majd
+Bagoly, utóbb Füles. A menetet Nyuszi rokonsága és üzletfelei
+rekesztették be.
+
+-- Én nem szóltam nekik -- vonogatta a vállát Nyuszi. -- Maguktól
+jöttek. Mindig ezt csinálják velem. Egyébként hadd meneteljenek a
+végén, Füles után.
+
+-- Ami engem illet -- mondta Füles --, ezt nem tartom elintézhetõnek.
+Én nem akartam részt venni ebben a tejfe... izében, nekem Micimackó
+mondta, én csak azért vagyok itt, hogy engedelmeskedjek. Mindenesetre
+itt vagyok, és ha már a végére kerültem ennek a tejfe... vagyis,
+amirõl szó van... akkor maradjak csak a végén. Csak annyit óhajtok
+ehhez hozzátenni, hogy engem kissé feszélyeznek Nyuszi rokonsága és
+üzletfelei, mert ha ezek egy folyton itt zümmögnek és zúgnak a fülem
+körül - akkor ez nem tejfe... akkor ez egy Zenebona. Csak ezt
+óhajtottam megjegyezni. Nincs mit. Bocsánat.
+
+-- Tudom, mit akar Füles -- mondta Bagoly. -- Az én véleményem...
+
+-- Senkinek a véleményére nem vagyok kíváncsi -- mondta Füles. -- Én
+nem kérdeztem senkit, én állítottam valamit. Mehetünk az Északi-sarkra,
+vagy játszhatunk leguggolást egy hangyaboly kellõs közepén. Nekem
+mindegy.
+
+A sereg élén valaki elkiabálta magát.
+
+-- Indulás! -- vezényelt Róbert Gida.
+
+-- Indulás! -- kiáltotta Mackó és Malacka.
+
+-- Indulás! -- huhogta Bagoly.
+
+-- Indulás! -- mondta Nyuszi. -- Én is indulok. -- És felsorakozott a
+menet élére, Róbert Gida mellé.
+
+-- Ahogy tetszik -- jegyezte meg Füles. -- Ha indulás, legyen
+indulás. Csak engem ne gyalázzon senki, ha esni talál.
+
+Így tehát útnak eredtek felfedezni az Északi-sarkot. Ahogy így
+mendegélnek, az egész társaság élénken csacsogott errõl-arról, kivéve
+Micimackót, aki persze megint csak verset fabrikált.
+
+-- Hallgasd meg az elsõ strófáját -- mondta Malackának, mikor
+elkészült.
+
+-- Micsodának az elsõ micsodáját?
+
+-- A versemnek.
+
+-- Miféle versnek?
+
+-- Ennek.
+
+-- Melyiknek?
+
+-- Ha idefülelsz, meghallod.
+
+-- És ha nem?
+
+Mackó erre már nem tudott felelni, inkább rákezdte, hogy aszongya:
+
+	Indulnak a hõs sarkfelfedezõk,
+	Bagoly és Nyuszi, Malacka meg én.
+	Messze maradnak el a régi mezõk.
+	Bagoly és Nyuszi, Malacka meg én.
+	Micimackónak ez lesz a hõsi nagy útja,
+	s velünk tart Nyuszi egész pereputtya.
+	Kár, hogy mi a Sark, azt senki se tudja,
+	Bagoly, se Nyuszi, se Malacka, se én.
+
+-- Csönd! -- szólt hátra Róbert Gida. -- Veszélyes Helyzetben
+vagyunk.
+
+-- Csönd! -- szólt hátra Mackó Malackának.
+
+-- Csönd! -- mondta Malacka Kangának.
+
+-- Csönd! -- mondta Kanga Bagolynak, és még Zsebibaba is, Kanga
+zsebében, ismételte néhányszor, halkan és udvariasan, hogy ne hallja
+senki: "Csönd! Csönd! Csönd!"
+
+-- Csönd! -- huhogta Bagoly Fülesnek.
+
+-- `Csönd!` -- ordított Füles rettenetes hangon Nyuszi pereputtyára,
+s ezek összevissza ismételgették: "Csönd!" -- míg az utolsó is el nem
+makogta. S most végre az utolsó pereputty tudni vélte, mit jelent és
+mire való a Tejfelezés: nyilván azt jelenti, hogy mindenkinek azt
+kell mondani: "Csönd!" - és gyorsan bedugni a fejét valami bucka alá,
+ott maradni és lapulni napokig, míg a veszély elmúlt - aztán sebesen
+hazaszaladni. Egyébként Futrinka Feri volt a neve ennek az utolsó
+Nyuszi-rokonnak.
+
+Elérték a patakot, ez a patak magas sziklapartok közt dörgött
+és bukdácsolt, és Róbert Gida rögtön átlátta, milyen Veszélyes.
+
+-- Ez a megfelelõ hely -- magyarázta. -- Itt a Kelepce.
+
+-- Miféle Kelepcérõl beszél? -- suttogta Malacka Mackónak.
+
+-- No de Malacka -- csóválta fejét Bagoly fölényesen és dorgálóan --,
+te nem tudod, mi az, hogy Kelepce?
+
+-- Kedves Bagoly -- mondta Malacka nagyon komolyan és határozottan
+--, amit Mackónak súgtam, az merõben magántermészetû megjegyzés volt,
+és semmi szükség rá, hogy akárki...
+
+-- A Kelepce tulajdonképpen azonos a Meglepetéssel.
+
+-- Tudom én azt -- kottyant bele Mackó. -- A Kelepce sokszor
+meglepõen jelentkezik.
+
+-- Ha például valaki váratlanul rád ugrik, az Kelepce -- mondta
+Bagoly.
+
+-- Na látod, Mackó -- mondta Malacka --, mondtam neked, ugye!
+Kelepce az ugyanaz, mint mikor valaki rád ugrik.
+
+Mackó erre esküdözni kezdett, hogy õ ezt magától is nagyon jól tudta,
+mert egyszer egy nagy Kelepce ráugrott, amikor leesett a fáról, és
+összevissza szurkálta.
+
+-- De senki se beszél itt effélérõl -- huhogta Bagoly kissé nyersen.
+
+-- Én igen -- mondta Mackó.
+
+Most óvatosan haladtak a patakon felfelé, egyik szikláról a másikra
+kapaszkodva, míg el nem értek egy fennsíkra, ahol a töltés kétfelé
+nyílt. A földnyelv két oldalán, a víz fölött füves tér volt, erre
+letelepedtek pihenni.
+
+-- Úgy gondolom -- jegyezte meg Róbert Gida tûnõdve --, a
+leghelyesebb, ha most mindjárt elfogyasztjuk élelmezésünket, legalább
+nem kell tovább cipelni.
+
+-- Hogy mit? -- fülelt fel Micimackó.
+
+-- Az ennivalót -- értette meg rögtön Malacka.
+
+-- Ez jó ötlet -- bólintott Micimackó, és rögtön nekifogtak.
+
+-- Mindenkinek jutott? -- kérdezte Róbert Gida teli szájjal.
+
+-- Csak nekem nem -- mondta Füles. -- Mint rendesen. -- És borongva
+nézett körül, ahogy szokta. -- Viszont remélem, legalább nem ültetek
+rá a tövisre.
+
+-- Attól tartok, én igen -- ugrott fel Mackó, és visszanézett. -- 
+Hát persze! Benne ültem! Sejthettem volna!
+
+-- Köszönöm, Micimackó. Ha befejezted az ebédet - ugye, megengeded... --
+Odament, és legelni kezdte a tövist.
+
+-- Tudod -- magyarázta, közben rágcsálva --, csak azért kérdeztem,
+mert nem tesz jót a tövisnek, ha ráül valaki. Kinyomja belõle a
+valódi zamatot. A jövõre nézve jegyezd meg ezt magadnak. Egy kis
+megfontolás, egy kis felebaráti elõrelátás az egész - sok minden
+múlik ezen. Szót sem érdemel.
+
+Ebéd után Róbert Gida odasúgott Nyuszinak, és Nyuszi azt felelte,
+hogyne, hogyne, hogyne, természetesen, és egy kicsit félrevonultak a
+folyópartra.
+
+-- Nem akarom, hogy a többiek hallják -- mondta Róbert Gida.
+
+-- Természetesen -- mondta Nyuszi jelentõs pillantással.
+
+-- Nézd csak, Nyuszi... azt akarom kérdezni tõled, nem tudod
+véletlenül, hogy fest közelrõl egy olyan izé... Északi-sark... és
+egyáltalán... mi fán terem az ilyesmi.
+
+Nyuszi a pofaszakállát cibálta.
+
+-- Északi-sark? Vagyis... úgy érted, hogy azt kérdezed tõlem...
+
+-- Tudtam, de elfelejtettem -- vallotta be Róbert Gida nyíltan és
+elfogulatlanul.
+
+-- Én is tudtam, bizony isten -- mondta Nyuszi --, furcsa véletlen,
+én is elfelejtettem. Úgy látszik, ugyanattól felejtettem el, mint te:
+attól, hogy tudtam.
+
+-- Gyanítom, hogy be van szúrva a földbe.
+
+-- Az valószínû. Ha egyszer olyan sark, ami egyáltalán be van szúrva,
+akkor csakis a földbe lehet beszúrva, mert az a legkönnyebb. Hová
+szúrták volna különben?
+
+-- Én is így gondolom.
+
+-- Az ám: de hol szúrták le?
+
+-- Azt majd kikutatjuk. Hiszen éppen arról van szó: fel kell fedezni,
+hová szúrták.
+
+Visszamentek a többiekhez. Malacka a hátán feküdt, a boldogok álmát
+aludta. Zsebibaba arcát és mancsát mosta a patakban, Kanga büszkén
+dicsekedett a többieknek, hogy ez az elsõ eset, és hogy íme, már
+magától mosakszik. Bagoly egy Érdekes Történetet mesélt Kangának;
+ilyen hosszú szavak voltak benne, mint Enciklopédia meg Rododendron,
+amikre Kanga még csak nem is figyelt.
+
+-- Nem vagyok én barátja ennek a sok mosakodásnak -- dörmögött Füles.
+-- Ez mind afféle modern firlefanc, ezzel a fül mögötti elmélettel...
+Nem gondolod, Micimackó?
+
+-- Én? -- mondta Micimackó bizonytalanul. -- Én azt gondolom...
+
+Soha nem derült ki, mit gondolt, mert Zsebibaba felvisított, aztán
+loccsanást lehetett hallani és Kanga hangos jajveszékelését.
+
+-- Ez a vége a nagy mosakodásnak -- jegyezte meg Füles.
+
+-- Zsebibaba a vízbe bukott! -- kiabált Nyuszi, s Róbert Gidával
+egyetemben rohantak a segítségére.
+
+-- Nézzétek, hogy úszom! -- visított Zsebibaba, miközben a vízesés
+elragadta, s bukfencezve zuhant a patak alsó folyásába.
+
+-- Nem érzed rosszul magad, drágám? -- kérdezgette Kanga anyai
+aggodalommal.
+
+-- De igen! -- mondta Zsebibaba. -- És nézzétek, hogy ú... ú... -- 
+de már elragadta a következõ vízesés.
+
+Mindenki tevékenykedett a mentés érdekében. Malacka például, aki
+rögtön felébredt, fel és alá futkosott a parton, és szünet nélkül ezt
+kiabálta: -- Nahát - de ilyet! Nahát - de ilyet!
+
+Bagoly bõséges érvekkel magyarázta, hogy hasonló eseteiben a Váratlan
+és Idõszaki Elmerüléseknek mennyire fontos a Fejnek Víz Fölött
+Tartása.
+
+Kanga a földnyelven ugrált, s folyton kérdezgette:
+
+-- Hogy érzed magad, drágaságom? Nem fáj a fejecskéd vagy
+valamicskéd?
+
+Amire Zsebibaba, ahogy egymás után merült ki a feje a következõ
+zuhatag alján, mindig újra ezt felelte:
+
+-- Nézzétek, hogy úszom!
+
+Füles egyszerûen megfordult, farkát a vízbe lógatta, s háttal a
+baleset színhelyéhez fordulva, egyre dörmögött:
+
+-- Ez mind a mértéktelen mosakodás gyümölcse. De kapaszkodj a
+farkomba, Zsebibaba, és nem lesz semmi baj!
+
+Róbert Gida és Nyuszi pedig csak arra ügyeltek, hogy a mentés teljes
+rendben folyjon le.
+
+-- Ne félj, Zsebibaba, itt vagyok! -- biztatta az áldozatot Róbert
+Gida.
+
+-- Zárjátok el a sekélyest valamivel! -- kiabált Nyuszi.
+
+És Micimackó már cselekedett is: szerencsére õ két zuhataggal lejjebb
+várta Zsebibabát, mancsai közt egy hosszú léccel. Kanga odaugrált,
+elkapta a léc túlsó végét, s így tartották a sekélyes fölött. Mikor
+Zsebibaba odaért, még egyszer elbugyborékolta:
+
+-- Nézzétek, hogy úszom! -- Aztán megakadt a lécben, és kimászott.
+
+-- Láttátok, hogy úsztam? -- dicsekedett még sokáig, köpködve magából
+a vizet, miközben Kanga szidta és dörgölte. -- Mackó, láttad, hogy
+úsztam? Ezt nevezem úszásnak! Nyuszi, láttad, hogy mit csináltam?
+Úsztam! Hé, Malacka, Malacka, hol vagy? Láttad ezt az úszást, amit
+véghezvittem? Belepottyanok a vízbe - na mit gondolsz, mit csináltam
+erre? Hát úszni kezdtem! Úszni, bizony, ajhaj, mint a parancsolat!
+Róbert Gida, láttad, hogy úsz...
+
+De Róbert Gida nem figyelt. Micimackót nézte elgondolkodva.
+
+-- Micimackó -- mondta végre --, hol szedted ezt a lécet?
+
+Micimackó, maga is csodálkozva, végignézte a lécet, amit még mindig a
+kezei közt szorongatott.
+
+-- Találtam -- mondta. -- Nézd, mekkora sarka van. Gondoltam, még
+szükségünk lehet rá. Felszedtem.
+
+-- Micimackó -- mondta Róbert Gida ünnepélyesen --, expedíciónk
+elérte célját. Megtaláltad az Északi-sarkot.
+
+-- Ó! -- mondta Micimackó.
+
+Füles még mindig egy helyben állt, farkát a vízbe lógatva. Mind
+odamentek hozzá.
+
+-- Szóljatok Zsebibabának, hogy siessen -- jegyezte meg. -- Elázik a
+farkam. Nem akartam ezzel senkit terhelni, de meg kell említenem. Nem
+mintha panaszkodnék. De tényleg elázik.
+
+-- Itt vagyok! -- visított Zsebibaba.
+
+-- Úgy, hát itt vagy?
+
+-- Láttad, hogy úsztam? 
+
+Füles kihúzta farkát a vízbõl, és lóbálni kezdte, hogy megszáradjon.
+
+-- Számítottam rá -- mondta. -- Megdermedt a farkam. Elaludt, nem is
+érzem, hogy `van`. Nem azért mondom. Nem vádolok senkit. De
+megdermedt.
+
+-- Ó, szegény jó Füles! -- sajnálta Róbert Gida. -- Majd én
+megszárítom! -- És kivette zsebkendõjét, és ledörzsölte.
+
+-- Köszönöm, Róbert Gida. Te vagy az egyetlen az egész társaságban,
+aki, úgy látszik, ért valamit a szamárfarokhoz. A többiek... nem
+mondok semmit. Nem tehetnek róla, hogy nincs képzeletük. Az õ
+számukra ez a testrész nem jelent semmit... Azt hiszik, csak arra
+való, hogy lógjon!
+
+-- Ne törõdj vele, Füles! Most jobb?
+
+-- Sokkal. Már érzem, hogy van... Már hozzám tartozik, tudod... Te
+megértesz engem, ugye?
+
+-- Hé, Füles! -- mondta Mackó, közeledve a léccel.
+
+-- Köszönöm érdeklõdésedet, Micimackó. Azt hiszem, ha minden jól
+megy, egy-két nap múlva már használhatom..
+
+-- Mit?
+
+-- Hát nem a farkam egészségi állapota iránt érdeklõdtél?
+
+-- Nem is tudtam, hogy beteg volt.
+
+-- Megint tévedtem. Azt gondoltam, tudni szeretnéd, mi van vele,
+dermedt-e még, és hogy nem lehetnél-e valamiben a segítségemre.
+
+-- Nem, az nem én voltam. -- Kicsit gondolkodott, aztán tanácstalanul
+hozzátette: -- Talán valaki más.
+
+-- Jó, add át hálás köszönetemet az illetõnek, ha találkozol vele.
+
+Micimackó aggodalmasan nézett Róbert Gidára.
+
+-- Mackó fedezte az Északi-sarkot -- jelentette ki Róbert Gida. --
+Hát nem kedves tõle?
+
+Mackó szerényen lesütötte a szemét.
+
+-- Ez az? -- kérdezte Füles.
+
+-- Ez.
+
+-- És ezt kerestük?
+
+-- Ezt.
+
+-- Úgy! Na... fõ, hogy nem esett az esõ.
+
+Beszúrták a léc egyik sarkát a földbe, és Róbert Gida táblát
+erõsített rá, és a táblára ez volt írva:
+
+	ÉSZAKI-SARK
+	FELFEDEZVE MICIMACKÓ ÁLTAL
+	VAGYIS Õ TALÁLTA MEG
+
+És így indultak hazafelé. S az a gyanúm, bár adataim nincsenek, hogy
+Zsebibaba meleg fürdõt kapott, mielõtt lefektették. Micimackó pedig
+egyenesen hazament, s nem sajnált magától egy kis szíverõsítõt.
+
+---------------------------------------------------------------------------
+
+Kilencedik fejezet,
+
+amelyben Malackát kiönti az árvíz
+
+---------------------------------------------------------------------------
+
+Esett és zuhogott, és megint esett, és megint zuhogott. Malacka
+megesküdött, hogy soha életében - pedig megvolt már három- vagy
+négyéves is - nem látott ennyi esõt egyszerre és egyfolytában. Nap
+mint nap, reggel, délben, este esett az esõ. Mit tehet egyebet egy
+esõ, nem igaz? Esik.
+
+Keserves képpel nézett ki az ablakon. "Legalább Mackó vagy Róbert
+Gida házában ért volna utol az esõ, volna társaságom, nem kuksolnék
+egyedül itthon, keseregve, hogy mikor lesz ennek vége!" Elképzelte,
+milyen elmésen társalognának Mackóval: "Láttál már ennyi esõt egy
+rakáson, Mackó?" -- És Mackó azt mondaná: "`Rémes`, mi, Malacka?" --
+És õ azt mondaná: "Mi lehet Róbert Gidával?" -- És mire Mackó:
+"Szegény öreg Nyuszit is biztos kiöntötte már a víz." Ilyeneket
+mondogatnának - és mindjárt könnyebben viseli el az ember, ha az
+árvíz kiönti, ha közben a szívét is kiöntheti valakinek.
+
+Igazán elviselhetetlen volt. A keréknyomok zuhogó patakokká dagadtak,
+a patakok, amiket könnyedén gázolt át, folyókká, és a folyók, amiknek
+kövein olyan jól elszórakoztak, kiléptek ágyukból, s tengerré folytak
+szét, s Malacka már attól kezdett tartani, hogy neki is ki kell lépni
+ágyából.
+
+-- Ennek a fele se tréfa -- mondogatta félhangosan --, hogy egy ilyen
+KEDVES KIS ÁLLATOT, mint én, egészen körülfogjon az özönvíz. Róbert
+Gida és Mackó legalább megmássza a fát, ha baj van, és Kanga átugrik
+a patakon, és Nyuszi elássa magát, és Bagoly elrepül, és Füles...
+Füles addig ordít, míg segítségére jönnek, és megmentik; csak én
+senyvedek itt, és nem segíthetek magamon.
+
+Közben irgalmatlanul zuhogott az esõ, és a víz napról napra magasabb
+lett néhány hüvelykkel. Már csaknem elérte az ablakot. És még mindig
+nem történt semmi.
+
+"Itt van például Mackó -- dohogott magában. -- Mackónak alig van
+valami esze, mégse esik baja sohasem. Ostobaságokat csinál, s a végén
+minden jóra fordul. Vagy vegyük Bagolyt. Bagoly se az a valaki, akit
+direkt lángésznek lehetne mondani, de õ sokat tud, nagyon mûvelt. Õ
+tudná, mit kell tenni olyankor, mikor a víz elnyeli az embert. Vagy
+Nyuszi. Olvasottsága neki is csekély, de mindig feltalálja magát,
+olyan eredeti ötletei vannak. Hát Kanga? Nem túl okos, igazán nem
+lehet mondani, viszont annyira féltené Zsebibabát, hogy ijedtében
+biztosan eszébe jutna valami okos dolog, még csak gondolkodnia se
+kellene. Na és végre Füles. Füles olyan szerencsétlen és nyomorult
+minden tekintetben, hogy az õ sorsán keveset változtatna ez a kínos
+helyzet. Most már csak azt szeretném tudni, Róbert Gida vajon mit
+tenne az én helyemben."
+
+Elment az ablaktól, és száraz helyet keresve odvában, talált még egy
+ceruzát s egy darab papírt, ami nem ázott el, és egy üres palackot
+dugóval. A papír egyik oldalára ezt írta:
+
+			SEGÍTSÉG!
+			MALACKA (ÉN)
+
+és a másik oldalára:
+
+		ÉN VAGYOK MALACKA, SEGÍTSÉG!
+
+A papírt begyömöszölte a palackba, jól bedugaszolta, aztán amennyire
+csak tudott, kihajolt az ablakon, és - plötty! - jó messze
+elhajította a palackot. A palack pillanatra elmerült, de mindjárt
+felbukkant megint, és Malacka figyelte, hogy távolodik szép lassan,
+míg bele nem fájdult a szeme, s már nem tudta, az úszó palackot
+látja-e még, vagy valami letört faágat követ a tekintetével - aztán
+biztosan tudta már, hogy a palack eltûnt, s hogy most mindent
+megtett, amit megtehetett a menekülés érdekében.
+
+"Mostantól kezdve -- gondolta -- másvalaki törheti már a fejét, hogy
+mi a teendõ. Hinnem kell benne, hogy hamarosan történni fog valami,
+mert különben úszni volnék kénytelen, márpedig úszni nem tudok, tehát
+történnie kell valaminek. -- Mélyen sóhajtott és hozzátette: -- Bár
+itt volna Mackó - sokkal otthonosabban érezném magam."
+
+Mikor esni kezdett, Mackó még aludt. Esett és zuhogott, és zuhogott
+és esett, és õ aludt és szunyókált és szunyókált és aludt. Fárasztó
+napja volt elõzõ nap. Emlékszel rá, egyebek közt az Északi-sarkot is
+felfedezte - egy kicsit büszke is volt az esetre, titokban
+megkérdezte Róbert Gidát, nem tud-e még néhány ilyen sarkot valahol,
+amit egy Csekélyértelmû Medvebocs felfedezhetne.
+
+-- Volna még a Déli-sark -- mondta Róbert Gida --, aztán... izé...
+még a Keleti-sarok meg a Nyugati-sarok; bár az utóbbi kettõrõl az
+emberek, megfigyelésem szerint, nem szívesen beszélnek.
+
+Mackó nagyon megörült ennek, s már arról képzelõdött, hogy
+legközelebb a Keleti-sarkot fogja felfedezni. De Róbert Gidának más
+tervei voltak Kangával, s így Mackó maga indult el a Keleti-sarok
+felfedezésére. Hogy sikerült-e neki vagy se, azt bizony
+elfelejtettem: de úgy elfáradt, mire hazakerült, hogy vacsora közben,
+alig háromnegyed órai falatozás után ülve elaludt a székben, és csak
+aludt és aludt és aludt...
+
+Álmot is látott. Ott járt a Keleti-sarkon, és a Keleti-sarkon nagy
+hideg volt, tele hóval és jéggel. Talált egy méhkast, ahol
+meghúzhatta magát, de a lábainak már nem volt hely a kasban, azokat
+kénytelen volt kilógatni, és jöttek a Vad Menyétek, a Keleti-sarok
+bennszülöttei, és cibálni kezdték a bundáját, mert a bundájából
+akartak fészket rakni a kicsinyeiknek. De minél tovább tépdesték a
+bundáját, annál jobban fázott a lába, s egyszerre csak felébredt, azt
+mondta: "Brr..." S ekkor látta csak, hogy még mindig a karosszékben
+ül, és a lábai belelógnak a vízbe, és a szobájában térdig ér a víz.
+
+Az ajtóhoz kocogott és kinézett.
+
+-- Ennek a fele se tréfa -- mondta elhûlve --, menekülnöm kell...
+
+Elõkereste a legnagyobb mézescsuprot, hóna alá vette, és
+felkapaszkodott vele a fa legmagasabb ágára, aztán megint lemászott
+egy másik csuporért... s mikor így egyenként valamennyi csuprot
+sikerült megmentenie, odaült közibük a vastag faágra, és ott ült és
+lóbálta a lábát tíz mézescsupor biztató társaságában...
+
+Két nappal késõbb még mindig ott ült, lóbálta a lábát négy
+mézescsupor kellemes társaságában...
+
+Három nappal késõbb még mindig ott ült, és lóbálta a lábát egy
+mézescsupor aggasztó társaságában...
+
+És négy nappal késõbb még mindig ott ült...
+
+És az ötödik napon meglátta Malacka palackját, amint feléje bukdácsol
+az özönvíz hátán, s egyetlen kiáltás szakadt ki belõle:
+
+-- Méz! -- S erre halálmegvetõ bátorsággal a vízbe vetette magát,
+megragadta a palackot, és kievickélt vele, és felkapaszkodott megint
+az ágra.
+
+-- Teringette! -- mondta, ahogy kihúzta belõle a dugót. -- Ebben
+semmi sincs, csak egy darab rongyos papír. Vajon mit keres benne?
+
+Kikaparta belõle, és forgatni kezdte.
+
+"Üzenet -- mondta magában --, és egy >>M<< betû is van benne, ez azt
+jelenti: `Mackó`, tehát az üzenet nekem szól! Bizonyosan nagyon
+fontos üzenet, meg kell találnom Róbert Gidát vagy Bagolyt vagy
+Malackát, ezek mind nagyon okosak, és tudnak olvasni, és majd õk
+megmondják nekem, mi van az üzenetben. Csak az a baj, hogy nem tudok
+úszni."
+
+Ekkor ötlete támadt, s véleményem szerint ez az ötlet nagyon ügyes
+ötlet volt egy Csekélyértelmû Medvebocshoz képest. Így szólt:
+
+"Ha a palack is tud úszni, akkor a csupor is tud úszni, és ha a
+csupor tud úszni, akkor én ráülhetek az egyik csuporra, és én is
+tudok úszni. Az a fõ, hogy elég nagy legyen a csupor."
+
+Elõkereste a legnagyobb csuprot, és jól bedugaszolta.
+
+"Mivel azonban ez a csupor most csónak, a csuprot, illetve a csónakot
+ezennel elnevezem `Úszó Medvé`nek."
+
+E szavakkal behajította a csuprot a vízbe, és maga is utánavetette
+magát.
+
+Egy darabig Mackó és az `Úszó Medve` nem tudtak megegyezni azt a
+kérdést illetõen, hogy melyikük legyen felül, és melyikük alul, de
+néhány helyzetváltoztatási kísérlet után mégis úgy állapodtak meg,
+hogy alul legyen inkább az `Úszó Medve`, s így Mackó diadalmasan
+fölülkerült, s erélyesen pacskolni és evezni kezdett mind a négy
+lábával.
+
+Róbert Gida, mint említettem, az Erdõ szélén lakott. S bár folyton
+esett és zuhogott, és zuhogott és esett, a víz mégsem ért el az õ
+kunyhójáig. És egész mulatságos látvány volt az elöntött völgy,
+körös-körül csupa víz és víz, de hogy az esõ csak nem akart elállni,
+ezt is megunta, s többnyire házon belül tartózkodott, s ráért
+gondolkodni mindenfélérõl, ami eszébe jutott. Minden reggel
+kimerészkedett azért esernyõje védelme alatt, fácskát szúrt a földbe,
+megjelölni a víz magasságát, s a következõ reggel meg újra eltûnt a
+fácska; ekkor újabb fácskával jelölte meg a víz emelkedését, s azt
+vette észre, hogy minden reggel kevesebbet kell mennie, míg a víz
+széléig ér - a víz emelkedett és növekedett. Az ötödik napon már a
+küszöbe elé ért a víz, s körös-körül kerítette a kunyhóját, és
+életében elõször találta magát valóságos szigeten. Ettõl nagyon
+fellelkesült.
+
+Ezen a napon történt, hogy Bagoly repülve és keringve megjelent a
+háza fölött, és huhogva megkérdezte Róbert Gida barátját:
+
+-- Hogy vagy mindig, Róbert Gida?
+
+-- Mit szólsz, Bagoly -- kiáltotta Róbert Gida --, nem érdekes?
+Egyszerre csak szigetlakó lettem, mint Robinson.
+
+-- A meteorológiai viszonyok nem kedvezõek az utóbbi évszakban --
+mondta Bagoly.
+
+-- A micsodák?
+
+-- Ugyanis esik az esõ -- magyarázta Bagoly gyengébbek kedvéért.
+
+-- Igen -- mondta Róbert Gida. -- Esik.
+
+-- A tengerszín bizonyos elõzménytelen magasságot színvonalazott
+függõleges irányban.
+
+-- Kicsoda? -- kérdezte Róbert Gida.
+
+-- Úgy értem, sok a víz -- magyarázta Bagoly atyai elnézéssel.
+
+-- Igen -- mondta Gida --, éppen elég.
+
+-- Reméljük, a prognózis kedvezõbb kilátások kialakulására enged
+következtetni a közeljövõben, feltéve hogy...
+
+-- Nem láttad Mackót?
+
+-- Nem. A közeljövõben, feltéve hogy...
+
+-- Remélem, nem esett baja Mackónak. Sokat gondolok rá. Szeretném, ha
+együtt volnának Malackával. Ugye, nem esett bajuk, Bagoly?
+
+-- Reméljük. Azt akartam mondani, hogy amennyiben kedvezõbb
+feltételek beállta esetén...
+
+-- Bagolykám, kérlek, keresd meg õket. Tudod, Mackónak nem sok esze
+van, aggódom érte. És te tudod, mennyire szeretem Mackót, ugye tudod,
+Bagoly...
+
+-- No jó -- mondta Bagoly kicsit neheztelve. -- Megyek, no. Mindjárt
+hozok hírt. -- És elrepült.
+
+Fél óra se tellett bele, máris megjelent megint.
+
+-- Mackó már nincs ott.
+
+-- Nincs ott? Hol?
+
+-- Ugyanis egy faágon ült kilenc csupor méz társaságában, mikor
+utoljára láttam. De onnan eltûnt.
+
+-- Mackókám! Micimackó! -- kiáltott Róbert Gida panaszosan.
+-- Hová lettél?
+
+-- Itt vagyok! -- felelte egy dörmögõ hang a háta mögül.
+
+-- Mackó!
+
+Egymás nyakába estek, úgy ölelgették egymást.
+
+-- Hogy kerültél ide? -- kérdezte Róbert Gida, mikor megint szóhoz
+jutott.
+
+-- Csónakon -- magyarázta Mackó büszkén. -- Fontos üzenetet hoztam,
+palackba dugaszolva, s mivel... izé... egy kis víz került a szemembe,
+tehát nem tudtam pontosan elolvasni, ezért elhoztam neked. Bent volt
+a csónakban.
+
+E büszke szavakkal átnyújtotta Róbert Gidának az üzenetet.
+
+-- De már ezt Malacka küldte! -- kiáltott fel Róbert Gida, miután
+elolvasta.
+
+-- Nincs szó benne Mackóról? -- kérdezte kissé elszontyolodva Mackó,
+átkukkantva Róbert Gida válla fölött.
+
+Róbert Gida hangosan felolvasta az üzenetet.
+
+-- Azonnal meg kell õt mentenünk! Bagoly, nem tudnád õt felkapni a
+hátadra?
+
+-- Nem hinném -- mondta Bagoly bölcs megfontolás után. -- Kétséges,
+hogy a tekintetbe vehetõ hátizmok mekkorasága és hordképessége...
+
+-- Akkor repülj oda azonnal, és mondd meg neki, hogy jön a segítség.
+Közben Mackó meg én kigondolunk valamit, és azonnal végrehajtjuk...
+Ne beszélj annyit, Bagoly, ne beszélj, ne magyarázz - siess! Szedd a
+szárnyadat a nyakad közé!
+
+Bagoly, aki még szeretett volna mondani valamit, kicsit neheztelve
+elrepült.
+
+-- No most, Mackó -- mondta Róbert Gida --, merre van a csónakod?
+
+-- Meg kell mondanom -- vakarta fejét Mackó, miközben a sziget
+partjára siettek --, hogy ez nem egy olyan `igazi` csónak. Néha
+csónaknak is megteszi, de néha inkább... Minden attól függ...
+
+-- Mitõl?
+
+-- Hogy én vagyok fölül, vagy õ.
+
+-- Mindegy most. Mutasd, hol van?
+
+-- Itt! -- mutatott Mackó büszkén az `Úszó Medvé`re.
+
+Hát nem egészen az volt, amire Róbert Gida számított, s minél tovább
+nézte, annál inkább kellett bizonyos Derék, de Csekélyértelmû Mackók
+esze tokjára gondolnia, s minél tovább gondolt erre, Mackó annál
+mélyebbre lógatta az orrát, s annál szerényebb és alázatosabb
+igyekezett lenni, s a végén már úgy tett, mintha õ nem is lenne a
+világon.
+
+-- Kicsi ez kettõnknek -- mondta végre Róbert Gida szomorúan.
+
+-- Malackával együtt hárman leszünk.
+
+-- Attól még kisebb lesz, Mackó, Mackó, Micimackó, mit tegyünk?
+
+És ekkor...
+
+Ekkor Mackó, Micimackó, Medveczky Medve, N. B. (Nyuszi Barátja) és M.
+B. (Malacka Barátja) és É. S. F. (Északi-sark Felfedezõje) s mi több,
+F. F. F. (Füles Farkának Felfedezõje) és ugyanennek megvigasztalója -
+Mackó, Micimackó saját személyében: ez a Mackó váratlanul és elõzmény
+nélkül `egy olyan okosat mondott`, hogy Róbert Gidának egyszerûen
+leesett az álla, és elállt a szeme-szája, úgy meredt rá, mintha nem
+hinne a szemének, hogy Mackó áll elõtte, a Csekélyértelmû Mackó, akit
+olyan régen ismert és szeretett.
+
+-- Az esernyõdben fogunk utazni -- mondta Mackó.
+
+-- ?
+
+-- Az esernyõdben -- ismételte Mackó.
+
+-- ??
+
+-- Az esernyõdben -- ismételte harmadszor.
+
+-- !!!!!
+
+Róbert Gida agyán pillanat alatt villant át, hogy ez a megoldás!
+Kinyitotta az ernyõt, és ráfektette a vízre. Az ernyõ jól úszott,
+csak egy kicsit bukdácsolt. Elõször Mackó mászott be. Már éppen
+jelenteni akarta ujjongva, hogy remekül érzi magát, mikor kiderült,
+hogy nem is érzi magát olyan remekül, ugyanis... de néhány korty
+után, amire nem is volt szomjas, kikocogott a vízbõl. Akkor egyszerre
+ugrottak be mind a ketten, és az ernyõ már nem bukdácsolt és
+hintázott annyira.
+
+-- A csónakot a `"Mackó Eszé"`-rõl fogom elnevezni -- mondta Róbert
+Gida ünnepélyesen, és `Mackó Esze` büszkén vitorlázott el délkeleti
+széllel, kecsesen himbálódzva a víz tetején.
+
+Képzelheted Malacka örömét, mikor a gyönyörû jármûvet megpillantotta.
+Még évek múlva is szeretett merengve gondolkodni és büszkén beszélni
+róla, mikor a Rettenetes Özönvíz napjaiban olyan Rettenetes
+Veszélyben forgott. Menekülése elõtt órák óta kucorgott vacogva az
+ablakban, s már csak Bagoly tartotta benne a lelket, aki ott ült egy
+ágon a közelében, s egy nagyon-nagyon hosszú mesét mondott -
+vigasztalására. Ebben a mesében - ahogy homályosan emlékezett rá -
+valami nagynéni szerepelt, aki tévedésbõl fókatojást tojt, és a mese
+egyre nyúlt, és egyre hosszabb lett, és a tanulsága is nagyon hosszú
+és nyúlós volt a mesének, s Malacka egyre reménytelenebbül bámult ki
+az ablakból, elaludt, és álmában egészen kihajolt, s már csak a sarka
+tartotta az ablak peremén - szerencsére Bagoly nagynénje egy nagyot
+kiáltott éppen a mesében, s mivel ezt Bagoly utánozta, ettõl Malacka
+felébredt, visszahúzta magát, csak annyit mondott: "Nagyon érdekes,
+és aztán mi történt?" -- képzelhetitek tehát az örömét, mikor
+megpillantotta a hajót, a `Mackó Esze` címû ezredtonnás vitorlást
+Róbert Gidával mint kapitánnyal s Mackóval mint másodkapitánnyal a
+fedélzetén, amint himbálódzva és büszkén közeledik a megmentésére...
+
+S miután ezzel vége is ennek a történetnek, s különben is az utolsó
+mondat nagyon hosszú volt, magam is elfáradtam bele, úgy gondolom,
+itt abba is hagyhatjuk.
+
+---------------------------------------------------------------------------
+
+Tizedik fejezet,
+
+amelyben Róbert Gida estélyt ad Micimackó tiszteletére, egyben szerzõ és olvasó elbúcsúznak egymástól
+
+---------------------------------------------------------------------------
+
+Egy napon, mikor a Nap elsõ tavaszi látogatásainak egyikével
+tisztelgett az erdõben, ajándékul hozván egy kis májusi illatot, és
+mikor a patakok fecsegve és csörögve üdvözölték egymást az ünnepélyes
+alkalomból, s a tócsák álmodozva bámulták a fölöttük suhanó felhõket,
+s a langyos levegõben a kakukk is hangolni kezdte a hangját
+el-elhallgatva közben, hogy önmaga is megfigyelje, vajon jól
+hangzik-e már, és vadgalambok panaszkodtak egymásnak szelíden és
+lustán, mintegy enyhén zsörtölõdve, hogy bár az egész dologban a
+másik a hibás, de azért nem kell mellre szívni... egy ilyen napon
+Róbert Gida egész különleges cifrázással fütyörészett, és Bagoly
+huhogva és suhogva lebbent elõ a Százholdas Pagonyból, megérdeklõdni,
+mirõl van szó.
+
+-- Bagoly -- mondta Róbert Gida --, estélyt adok.
+
+-- Estélyt? Te? Adsz? -- huhogta Bagoly.
+
+-- Méghozzá különleges estélyt, annak a nagy tettnek a tiszteletére,
+amit Micimackó hajtott végre, mikor végrehajtotta, amit végrehajtott
+mint árvízi hajós, vagyis megmentette Malacka életét.
+
+-- Úgy? Ezért? Mackó? Malacka?
+
+-- És arra kérlek, értesítsd Mackót és az egész társaságot, mert
+holnapra tervezem.
+
+-- Holnapra? Egészet? Értesítsem? -- huhogott Bagoly, és sejtelme sem
+volt, mihez fogjon a nagy buzgalomtól.
+
+-- Hát akkor értesíted õket, ugye?
+
+Bagoly valami nagyon bölcset akart mondani, de nem jutott eszébe
+semmi, így hát elsuhogott összeterelni a bandát. Az elsõ, akivel
+találkozott, maga Micimackó volt.
+
+-- Mackó -- szólította meg --, Róbert Gida estélyt ad.
+
+-- Ez igaz? -- mondta Mackó, de mert úgy érezte, hogy Bagoly vár még
+tõle valamit, hozzátette: -- És lesz olyan kis sütemény, rózsaszín
+cukrozással a tetején, ezen az estélyen?
+
+Bagoly méltóságán alulinak vélte, hogy efféle apróságokról
+nyilatkozzék, így hát megismételte a meghívást, és elsuhogott
+Füleshez.
+
+-- Estély? Lehet, hogy a tiszteletemre? -- tûnõdött Micimackó. S
+máris nagyon szerette volna közölni mindenkivel, hogy ez csak külön
+Micimackó-estély lesz ám. Remélte, hogy Róbert Gida fel fogja
+világosítani errõl a vendégeket, lesz néhány szava az `Árvízi Medve`
+hõstetteirõl s általában a Medveészrõl - remélte, de nem volt biztos
+benne, s attól is tartott, hogy majd senki sem fogja tudni,
+tulajdonképpen miért van itt estély. Ez nagyon lehangolta, mint
+valami rossz álom, amelyben semmi se megy a maga rendjén. Ez a ködös
+álom mintegy önmagától kezdte zümmögni az alábbi verset, amit
+
+	A KÉTELKEDÕ MACKÓ DALÁNAK (NEVEZNÉK)
+
+Háromszor hurrá!
+Hip, hip és hurr!
+	(`Kicsoda?`)
+Õcsoda!
+	(`Mér' mit csinált?`)
+Azt hittem, tudjátok,
+hogy két ízben
+mentette meg barátait, akik benn voltak a vízben.
+Háromszoros hurrá!
+	(`Kicsodáért?`)
+Õcsodáért.
+Hisz maga nem is tud úszni, 
+csak másokat kihúzni.
+	(`Kicsodát?`)
+Ugyan már, buta fickó!
+Akirõl beszélek, ki lenne más? Mackó?
+	(`Mickó?`)
+Na megállj, Lackó!
+	(`Sajnálom, de kiment a fejembõl.`)
+Õ az. Mackó, a Nagyeszû, Medve Medveczky.
+Te - kit nevetsz ki?
+	(`Én nem nevetek, de mondd még egyszer!`)
+A Nagyeszû, igenis.
+	(`A milyen eszû?`)
+Nesze!
+Nem arról van szó, mekkora az esze,
+hanem arról, hogy ácsolt egy naszádot.
+	(`Miszádot?`)
+Fogd a szádat!
+Mondjuk, egy csuprot,
+mellyel a vízbõl mindenkit kiemel,
+s ezért most, kérem, harsány éljent érdemel.
+	(`S ezért most, kérem, harsány micsodát?`)
+Sokáig éljen miértünk a hõs, deli Medve
+erõben, észben, javakban növekedve.
+Hip, hip és hurrá!
+	(`Kiért?`)
+Õért!
+Éljen a Medve!
+	(`Midve?`)
+Medve!!
+Azért, amit tett, vivát, vivát, vivát!
+	(`De micsodát?!`)
+Éljen sokáig a csodamedve, aki hõs lett!
+	(`Jó, jó, csak mondja meg gyorsan valaki -`
+MI VOLT AZ A HÕSTETT?!)
+
+
+Míg ezek történtek Micimackó lelkében, Bagoly Fülessel beszélgetett.
+
+-- Füles -- mondta Bagoly --, Róbert Gida estélyt ad.
+
+-- Nagyon érdekes -- mondta Füles --, remélem, elküldik nekem a
+maradék falatokat, amik odaégtek vagy beszáradtak, és nem kellenek
+senkinek. Elküldik, figyelmes gondoskodás jele gyanánt. Csak úgy
+mondom, nem mintha számítanék rá. Szóra sem érdemes. Kérem, kérem,
+nincs mit, csak tessék, parancsoljon.
+
+-- Meghívásom van a számodra!
+
+-- Az milyen?
+
+-- Mint egy meghívás.
+
+-- Hallom. Na és hol van? Elvesztetted? Leejtetted? Eltört?
+Szétpukkadt? Tönkrement?
+
+-- A meghívás az nem ennivaló, az azt jelenti, hogy szívesen látnak
+az estélyen.
+
+Füles lassan csóválta a fejét.
+
+-- Nem nekem szól az. Biztos Malackának szól. Annak a kedves kis
+fickónak, akinek mindig remeg a füle. Malacka. Majd szólok neki.
+
+-- Nem, nem -- huhogott Bagoly türelmetlenül. -- Neked szól.
+
+-- Biztos?
+
+-- Egészen biztos. Róbert Gida mondta. Így mondta: "Hívd össze õket
+mind, szólj nekik!"
+
+-- Nem így mondta: "... Mind, kivéve Fülest"?
+
+-- Nem! -- huhogta Bagoly mogorván.
+
+-- Ó -- mondta Füles --, bár azt hiszem... sõt kétségkívül... tévedés
+van a dologban... de azért eljövök. Csak ne engem okoljatok, ha majd
+esõ lesz.
+
+De nem lett esõ. Róbert Gida hosszú asztalt állított össze, és
+mindannyian körülülték. Róbert Gida az asztal egyik végén foglalt
+helyet, Micimackó a másikon, és köztük egyik oldalon ült Bagoly és
+Füles és Malacka, és a másik oldalon Nyuszi és Kanga és Zsebibaba.
+És Nyuszi rokonsága és üzletfelei elszórva heverésztek a gyepen, és
+reménykedve várták, hogy majd valaki megszólítja õket, vagy hullajt
+valamit, vagy legalább megkérdezi, hány óra.
+
+Zsebibaba számára az elsõ estély volt, amin megjelent, s ettõl nagyon
+izgatott volt, fészkelõdött és hunyorgott. Mihelyt helyet foglaltak,
+rákezdte.
+
+-- Hé, Mackó! -- sipított.
+
+-- Mi az, Zsebibaba?
+
+Zsebibaba fészkelõdött és izgett-mozgott, aztán megint rákezdte:
+
+-- Hé, Malacka!
+
+Malacka megveregette a vállát, nem felelt.
+
+-- Hé, Füles!
+
+Füles borongós hangulatban bólingatott feléje.
+
+-- Majd meglátod, mingyárt esni fog! -- mondta.
+
+Zsebibaba körülnézett, a pracliját is kinyújtotta, hogy esik-e, de
+hogy nem esett, megint rákezdte:
+
+-- Hé, Bagoly! -- És Bagoly jóságosan csitította:
+
+-- Jó, jó, kicsikém, nyugodj meg! -- s folytatta elõadását Róbert
+Gida felé fordulva, valakirõl, akivel majdnem megtörtént valami, de
+mégsem történt meg, s akirõl Róbert Gida soha nem hallott
+- és Kanga Zsebibabát nevelte: -- Idd meg elõbb a tejecskédet,
+drágám, aztán beszélj. -- És Zsebibaba ivott egy kortyot, és kotyogni
+kezdett, hogy õ inni is tud meg beszélni is egyszerre - amibõl az
+lett, hogy prüszkölni és krákogni kezdett, a hátát kellett csapkodni
+és dörgölni.
+
+Mikor jóllaktak, Róbert Gida kanalával kopogott az asztalon, mire
+mindenki azonnal elhallgatott, Zsebibabát kivéve, aki nem tudta
+abbahagyni a csuklást, de igyekezett úgy viselkedni, mintha Nyuszi
+valamelyik rokona csuklana.
+
+-- Ezt az estélyt -- kezdte Róbert Gida -- valakinek a tiszteletére
+hívtuk össze; ez a valaki végrehajtott valamit, és mi mind tudjuk, ki
+volt az, és mit hajtott végre... Ezért ez az õ estélye... és én
+elhatároztam, hogy ebbõl az alkalomból megajándékozom õt... ezzel
+a... ezzel a...
+
+Zsebeiben keresgélt, és zavartan súgta:
+
+-- Na, hová tettem?
+
+Amíg így keresgélt, Füles köhögött, és a torkát köszörülte, aztán
+elfogult hangon beszélni kezdett.
+
+-- Barátaim -- mondta --, nagy... nagy öröm nekem... vagy inkább
+mondhatnám... nagy öröm volt a számomra... hogy megjelentetek az én
+estélyemen... Amit tettem, csak kötelességbõl tettem, nem számítok
+elismerésre, semmi sem volt az egész, szót sem érdemel. Ti mindnyájan
+- talán Kangát és Bagolyt és Nyuszit kivéve - ugyanezt tettétek volna
+az én helyemben. És Micimackót is kivéve. Megjegyzésem természetesen
+nem vonatkozik Malackára és Zsebibabára, mert hiszen õk még nagyon
+kicsinyek. Egyébként mindannyian ugyanazt tettétek volna. És egy
+pillanatra se gondoltam rá, s nem azért tettem, azért az aján...
+azért az elismerésért, amit Róbert Gida keresgél e pillanatban... (és
+kezében felemelt pohárral odasúgta Róbert Gidának: -- Talán az asztal
+alá esett), nem, nem azért tettem, amit tettem, csak azért, mert úgy
+érzem... hogy hasonló pillanatban mindenkinek meg kell tennie azt,
+ami erejétõl és szerény képességeitõl telik. Úgy érzem, mi
+mindnyájan, akik itt egybegyûltünk...
+
+-- Hupp! -- csuklott Zsebibaba.
+
+-- Zsebibaba! -- szólt rá Kanga szemrehányóan.
+
+-- Én voltam? -- mondta Zsebibaba csodálkozva.
+
+-- De mirõl beszél Füles? -- súgta Malacka Micimackónak.
+
+-- Nem tudom -- mondta Micimackó fájdalmasan.
+
+-- Én azt hittem, a te estélyed ez.
+
+-- Egy ideig én is azt hittem, de úgy látszik, tévedtem...
+
+-- Jobb szeretném, ha a tied volna, mint Fülesé -- súgta Malacka.
+
+-- Én is -- bökte ki õszintén Micimackó.
+
+-- Hupp! -- jegyezte meg Zsebibaba.
+
+-- TEHÁT ÚGY VÉLEM -- emelte hangját Füles szigorúan és határozottan
+--, azt akartam mondani, mikor különféle hangokkal megzavartak - úgy
+vélem...
+
+-- Megvan! -- kiáltott Róbert Gida izgatottan. -- Adjátok oda
+Micimackónak! Az övé!
+
+-- Micimackóé? -- mondta Füles.
+
+-- Övé bizony! Õ a legkülönb Mackó a világon!
+
+-- Gondolhattam volna -- mondta Füles. -- Egyébként nincs panaszom.
+Nekem is vannak barátaim. Tegnap is nagyon barátságosan megszólított
+valaki. És a múlt hét valamelyik napján Nyuszi véletlenül belém
+ütközött, és azt mondta: "Bocsánat!" Úgy bizony! Ez a Társadalmi
+Érintkezés. Mindig akad valami. Bocsánat. Nincs mit. Szót sem
+érdemel.
+
+De erre senki sem figyelt, mert mindenki Micimackót biztatta
+izgatottan: -- Nyisd már ki, Mackó!... Mi az, Mici?... Én sejtem!...
+Dehogyis sejted! -- és így tovább. És persze Micimackó igyekezett
+felbontani olyan gyorsan, ahogy csak tõle tellett, de a spárgát azért
+nem tépte szét, mert nem lehessen tudni, mikor veheti hasznát. Végre
+kibontotta.
+
+Mikor meglátta, mi van benne, csaknem elesett az örömteljes
+meglepetéstõl. Bizony, egy egész doboz különleges ceruza volt benne.
+Az egyiken ez állt: B., ami nyilván azt jelentette: "Barátomnak"; a
+másikon: H.B., ehelyett: "Hûséges Barátsággal"; a harmadikon: B.B.,
+nyilván "Becsületes Barátomnak". És zsebkés is volt ott a ceruzák
+hegyezésére és radírgumi, kiradírozni, ha rosszul írunk valamit, és
+gyönyörû sorvezetõ és a sorvezetõn mérõléc, megmérni, hány centiméter
+valami, és kék ceruzák és piros ceruzák és zöld ceruzák. És mindegyik
+ceruzának külön helye volt a dobozban, és a dobozt külön csattantóval
+be lehetett csattantani, úgy ám! És ez mind Micimackóé volt, úgy ám!
+
+-- Ó! -- mondta Mackó, mert mit mondhatott volna mást.
+
+-- Nahát, Mackó! -- mondta mindenki elámulva, kivéve Fülest.
+
+-- Köszönöm... -- rebegte megsemmisülve Mackó.
+
+És Füles csak úgy magában mondogatta: "Ceruzák. Mindenféle ceruzák és
+egyéb haszontalanságok. Túlbecsült holmi, véleményem szerint. Semmi
+értelme. Bocsánat. Nincs mit. Szóra sem érdemes."
+
+Késõbb, mikor már mindenki százszor elmondta, hogy "jó éjszakát" és
+"nagyon köszönöm", és Micimackó és Malacka együtt ballagtak hazafelé
+elgondolkodva az aranyfényektõl hunyorgó éjszakában, hosszú percekig
+egyiküknek sem volt szava.
+
+-- Reggel, ha majd felébredsz -- szakította meg Malacka a csöndet --,
+mi lesz az elsõ gondolatod, Micimackó?
+
+-- Reggeli! -- mondta meggondolatlanul Mackó. -- Nem erre gondoltál?
+
+-- Hát nem arra, ami ma történt?
+
+Micimackó szégyenkezve bólintott.
+
+-- Dehogynem. De az ugyanaz...
+
+			o o o o
+			 o o o
+
+-- És mi történt? -- kérdezte Róbert Gida.
+
+-- Mikor?
+
+-- Másnap reggel.
+
+-- Nem tudom.
+
+-- Gondolkozzál, és azután meséld el nekem és Micimackónak.
+
+-- Ha olyan nagyon szeretnéd...
+
+-- Micimackó szeretné...
+
+Sóhajtott, elkapta egyik hátsó lábánál Mackót, és kivonult a
+szobából, maga után hurcolva barátját. Az ajtóban megállt és
+visszafordult.
+
+-- Most fürödni fogok. Nem jössz be?
+
+-- Jöhetek -- mondtam én.
+
+-- Mondd csak, izé... de a Micimackó ceruzadoboza azért nem volt
+drágább, mint az enyém?
+
+-- Ugyanolyan drága volt.
+
+Bólintott és kiment... s a következõ pillanatban már hallottam -
+kipp-kopp, kipp-kopp -, ahogy Micimackó feje hozzáütõdik a
+lépcsõfokokhoz.
+
+
+
+			-oOo-
+
+Tartalomjegyzék
+Tárgymutató

@@ -1,0 +1,6 @@
+INPUT x&
+IF x& < 10 THEN
+    PRINT x&
+ELSE
+    PRINT 10
+ENDIF

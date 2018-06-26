@@ -1,0 +1,54 @@
+elem :: Eq a => a -> [a]{-véges-} -> Bool
+elem n = any (==n)
+
+filters :: Eq a => [a] -> [a] -> [a]
+filters [] xs = xs
+filters (x:xs) bs
+ |x `notElem` bs = filters xs bs
+ |otherwise = filters xs (filter (/=x) bs)
+ 
+Vagy:
+filters t l = filter (\x -> x `notElem` t) l
+
+zipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
+zipWith f [] _ = []
+zipWith f _ [] = [] 
+zipWith f (a:as) (b:bs) = f a b : zipWith f as bs
+
+Vagy: 
+zipWith f (a:as) (b:bs) = f a b : zipWith f as bs
+zipWith _ _ _ = []
+
+Megj.: zip = zipWith (,)
+
+differences :: Num a => [a] -> [a]
+differences (x:y:xs) = zipWith (-)(y:xs) (x:y:xs)
+differences _ = [] (differences [x] = [])
+
+Vagy:
+differences l@(x:xs) = zipWith (-) (tail l) l
+
+fibPairs :: [(Integer, Integer)]
+fibPairs = iterate (\(a,b) -> (b,a+b)) (0,1)
+
+group :: Eq a => [a]{-véges-} -> [[a]]
+group = groupBy (==)
+
+Nem megy:
+group [] = [[]]
+group (x:xs)= (x:ys) : group zs
+ where (ys,zs) = span (==x) xs
+ 
+compress :: Eq a => [a] -> [(Int,a)]
+compress = map (\x->(length x, head x)) . group 
+
+uncurry :: (a -> b -> c) -> ((a, b) -> c)
+uncurry f (a,b) = f a b
+
+Megj: curry :: ((a, b) -> c) -> a -> b -> c
+
+decompress :: Eq a => [(Int,a)] -> [a]
+decompress  = concat . map (uncurry  replicate)
+
+Vagy:
+decompress  = concatMap (uncurry  replicate)

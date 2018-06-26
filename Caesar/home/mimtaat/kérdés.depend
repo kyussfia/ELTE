@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1348752933 source:c:\users\mimtaat\desktop\mimtaat\kérdés\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1348768351 source:e:\proga\kérdés\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

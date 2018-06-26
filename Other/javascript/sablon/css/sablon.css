@@ -1,0 +1,23 @@
+body {
+	padding-top: 60px;
+}
+h1 {
+	font-size: 220%;
+}
+h2 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 170%;
+	border-bottom: 5px solid #eeeeee;
+}
+h4 {
+	font-size: 130%;
+}
+h5 {
+	font-size: 120%;
+}
+h6 {
+	font-size: 110%;
+}
+

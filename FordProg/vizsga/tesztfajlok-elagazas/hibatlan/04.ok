@@ -1,0 +1,3 @@
+INPUT x&
+INPUT y&
+PRINT NOT x& = y&

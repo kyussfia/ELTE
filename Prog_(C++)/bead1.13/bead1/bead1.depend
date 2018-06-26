@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1395151646 source:c:\users\mimtaat\desktop\bead1.1\bead1\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<locale>
+	<string>
+	<vector>
+	"read.h"
+
+1395152045 c:\users\mimtaat\desktop\bead1.1\bead1\read.h
+	<string>
+	"read.cpp"
+
+1395151944 c:\users\mimtaat\desktop\bead1.1\bead1\read.cpp
+	"read.h"
+	<iostream>
+	<stdlib.h>
+
+1395492748 source:c:\users\kyussfia\desktop\bead1.1\bead1\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<locale>
+	<string>
+	<vector>
+	"read.h"
+	"read_file.h"
+
+1395152045 c:\users\kyussfia\desktop\bead1.1\bead1\read.h
+	<string>
+	"read.cpp"
+
+1395492719 c:\users\kyussfia\desktop\bead1.1\bead1\read.cpp
+	"read.h"
+	<iostream>
+	<stdlib.h>
+
+1395492788 c:\users\kyussfia\desktop\bead1.1\bead1\read_file.h
+	<vector>
+	"read_file.cpp"
+
+1395492968 c:\users\kyussfia\desktop\bead1.1\bead1\read_file.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"read_file.h"
+
+1395492748 c:\users\kyussfia\desktop\bead1.1\bead1\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<locale>
+	<string>
+	<vector>
+	"read.h"
+	"read_file.h"
+

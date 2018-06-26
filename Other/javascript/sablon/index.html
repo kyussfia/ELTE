@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>X. gyakorlat - Webfejlesztés 2.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/sablon.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand" href="#">Webfejlesztés 2.</a>
+				</div>
+			</div>
+		</div>
+		
+	    <div class="container-fluid">
+			<div class="row-fluid">
+				
+				<div class="span3">
+					<div class="well sidebar-nav">
+						<ul class="nav nav-list">
+							<li><a href="#feladat1">1. feladat</a></li>
+							<li><a href="#feladat2">2. feladat</a></li>
+						</ul>
+					</div><!--/.well -->
+				</div><!--/span-->
+				
+				<div class="span9">
+					<div class="well">
+						<h1>X. gyakorlat <small>Webfejlesztés 2.</small></h1>
+					</div>
+					
+					<h2 id="feladatok">Feladatok</h2>
+					
+					<h3 id="feladat1">1. feladat</h3>
+					<p>Feladat szövege</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						<script type="text/javascript">
+						console.log('Hello Világ');
+						alert('Hello Világ');
+						document.writeln('<p>Hello World</p>');
+						
+						</script>
+						
+					</div>
+
+					<h3 id="feladat2">2. feladat</h3>
+					<p>Feladat szövege</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						<script>
+						var n = prompt('Mi a szám?'); // felugró ablakon keresztül bekérés..var valalmi=prompt('kérdés')
+						var font_size=10;
+						
+							for(var i=1;i<=n;++i)
+							{
+							font_size=font_size+i*2;
+							document.writeln('<p style="font-size: '+font_size+'px">Helllo Világ!</p>');
+							//hozzá konkaltenáljuk a sizehoz a változót!
+							
+							}
+						</script>
+						<table>
+						<script>
+						var m=prompt('Mi a szám?');
+						
+							for(var i=1;i<=m;++i)
+							{
+							document.writeln('<tr>')
+								for(var j=1;j<=m;++j)
+								{
+								document.writeln('<td>');
+								document.writeln(i * j);
+								document.writeln('</td>');
+								
+								}
+							document.writeln('</tr>');	
+							}
+						
+						
+						</script>
+						</table>
+						<script>
+						function fakt(n) {
+							var f=1;
+								for(var i=2;i<=n;i++)
+								{
+								f*=i; //ugyanaz mint f=f*i ; f+=2 ugyanaz mint  f=f+2.
+								}
+							return f;
+						}
+						var n=prompt('faktoriálishoz: n=');
+						if(!isNaN(n)) {   //isNan=not a number
+						
+							document.writeln('<p>'+n+'!='+fakt(n)+'</p>');
+						}
+						
+						else{
+						document.writeln('<p>A megadott érték nem szám:'+n+'</p>');
+						}
+						
+						</script>
+					</div>
+
+					
+
+				</div><!--/span-->
+				
+			</div><!--/row-->
+		</div>
+	</body>
+</html>

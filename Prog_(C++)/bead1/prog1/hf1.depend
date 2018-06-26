@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1232816892 source:c:\documents and settings\tibor\dokumentumok\programozás\beadandók\hf1\read.cpp
+	"read.h"
+	<iostream>
+
+1232816914 c:\documents and settings\tibor\dokumentumok\programozás\beadandók\hf1\read.h
+	<string>
+
+1232820492 source:c:\documents and settings\tibor\dokumentumok\programozás\beadandók\1\hf1\read.cpp
+	"read.h"
+	<iostream>
+
+1232820514 c:\documents and settings\tibor\dokumentumok\programozás\beadandók\1\hf1\read.h
+	<string>
+
+1258805248 source:c:\documents and settings\tibor\dokumentumok\oktatás\programozás\beadandók\1\hf1\read.cpp
+	"read.h"
+	<iostream>
+
+1268225465 c:\documents and settings\tibor\dokumentumok\oktatás\programozás\beadandók\1\hf1\read.h
+	<string>
+
+1268225376 source:c:\documents and settings\tibor\dokumentumok\oktatás\programozás\beadandók\1\hf1\naplo.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"read.h"
+
+1268225464 source:c:\users\greti\documents\oktatás\programozás\beadandók\1\hf1\read.cpp
+	"read.h"
+	<iostream>
+
+1268225464 c:\users\greti\documents\oktatás\programozás\beadandók\1\hf1\read.h
+	<string>
+
+1395137910 source:c:\users\mimtaat\desktop\mitaprog\hf1\read.cpp
+	"read.h"
+	<iostream>
+
+1395137910 c:\users\mimtaat\desktop\mitaprog\hf1\read.h
+	<string>
+
+1395138049 source:c:\users\mimtaat\desktop\mitaprog\hf1\naplo.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<vector>
+	"read.h"
+
+1395144441 source:c:\users\mimtaat\desktop\prog1\read.cpp
+	"read.h"
+	<iostream>
+	<stdlib.h>
+
+1395144311 c:\users\mimtaat\desktop\prog1\read.h
+	<string>
+
+1395145931 source:c:\users\mimtaat\desktop\prog1\naplo.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<locale>
+	<string>
+	<vector>
+	"read.h"
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1330347745 source:d:\codeblocks\armin\hom_fahren\main.cpp
+	<iostream>
+	<stdlib.h>
+
+1330386003 source:d:\codeblocks\armin\taatact_02\10_homerseklet\main.cpp
+	<iostream>
+	<stdlib.h>
+

@@ -1,0 +1,53 @@
+repeated :: Ord a => [a]{-véges-} -> [a]
+repeated = map head . filter (\l -> length l > 1) . group . sort where
+
+azaz:
+repeated = map head . filter ((>1) .  length) . group . sort where
+
+sublists :: [a] -> [[a]]
+sublists = concatMap (init . tails) . tail . inits
+
+
+subListWithLength :: Int -> [a] -> [[a]]
+subListWithLength n l = filter ((==n) . length) $ sublists l
+
+subListWithMaxLength :: Int -> [a] -> [[a]]
+
+until :: (a -> Bool) -> (a -> a) -> a -> a
+until b f = head . filter b . iterate f 
+azaz:
+until b f = head . dropWhile (not . b) . iterate f 
+
+foldr :: (a -> b -> b) -> b -> [a] -> b
+foldr k z [] = z
+foldr k z (y:ys) = y `k` (foldr k z ys)
+
+on :: (b -> b -> c) -> (a -> b) -> (a -> a -> c)
+(m `on` w) x y = w x `m` w y
+
+
+numbersInString :: String -> [String]
+numbersInString  = filter (isDigit . head) . groupBy (\x y -> isDigit x && isDigit y) 
+
+longestWord :: String -> String
+longestWord = maximumBy (compare `on` length) . words
+
+mostFrequentChar :: String -> Char
+mostFrequentChar = head . maximumBy (compare `on` length) . groupBy (==) . sort
+
+maxIndices :: Ord a => [a] -> [Int]
+maxIndices = map fst . sortBy (compare `on` snd) . zip [1..]
+
+maxIndex :: Ord a => [a] -> Int
+maxIndex = fst . maximumBy (compare `on` snd) . zip [1..]
+
+maxDivisorsUntil :: Integer -> Integer
+maxDivisorsUntil n = maximumBy (compare `on` (length . divisors)) [1..n]
+
+flip :: (a -> b -> c) -> (b -> a -> c)
+flip f a b = f b a
+
+
+
+sum :: Num a => [a]{-véges-} -> a
+sum l = foldr (+) 0 l

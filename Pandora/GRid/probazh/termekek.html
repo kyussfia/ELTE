@@ -1,0 +1,49 @@
+<html>
+	<form method="POST">
+	kategória: <select name="kategoria">
+		<option>Ruházat</option><!-- Mivel a termékek listája fix, elég kézzel megadni a kategóriákat, de nem lenne túl bonyolult egy asszociatív tömböt használva kiválogatni sem. -->
+		<option>Élelmiszer</option>
+	</select>
+	<input type='submit' value="Ok"/>
+	</form>
+	<table>
+		<?php foreach($termekek as $termek){ /*A táblázat sorai a termékek tömb soraiból lesznek*/ ?>
+		<tr>
+			<td><?php echo $termek['nev'];?></td>
+			<td><?php echo $termek['kategoria'];?></td>
+			<td><?php echo $termek['ar'];?></td>
+			<td>
+				<form method="post">
+					<input name="db" value="1"/>
+					<input type="hidden" name="nev" value="<?php echo $termek['nev']; /*A kosárba rakás űrlapnál egy rejtett mezőben tároljuk, hogy éppen mit rakunk a kosárba.*/ ?>"/>
+					<input type="submit" value="Kosárba"/>
+				</form>
+			</td>
+		</tr>
+		<?php } ?>
+	</table>
+	
+	Kosár:
+	<ul>
+		<?php foreach($_SESSION['kosar'] as $elem){ /*A kosár tartalmát a sessionban tároljuk*/ ?>
+		<li><?php echo $elem['db']; ?> db <?php echo $elem['nev']; ?></li>
+		<?php } ?>
+	</ul>
+	
+	
+	Rendelés leadása:
+	<form method="POST" id="f">
+		Vezetéknév: <input id="v" name="vezeteknev" /> <br/>
+		Keresztnév: <input id="k" name="keresztnev" /> <br/>
+		Telefonszám: <input name="telefonszam" /> <br/>
+		Email: <input name="email" /> <br/>
+		Szállítási cím: <input id="s" name="szallitasi" /> <br/>
+		<input name="megegyezik" id="megegyezik" type="checkbox" checked="checked"/>Szállítási=Számlázási <br/>
+		<div id="sz" style="display:none;">
+			Számlázási cím: <input name="szamlazasi" /> <br/>
+		</div>
+		<input type='submit'/>
+	</form>
+	
+	<script src="kod.js"></script>
+</html>

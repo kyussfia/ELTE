@@ -1,0 +1,6 @@
+int main()
+{
+  unsigned a;
+  cin >> a;
+  cout << (a > 10 ? (a < 20 ? 15 : 20) : a) + 1;
+}

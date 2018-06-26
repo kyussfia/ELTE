@@ -1,0 +1,47 @@
+interpreter: :set +s kiírja a futási időt is.
+
+Soroljuk fel 10-től visszafelé -10-ig a számokat!
+	[10,9.. -10]
+	
+Adjuk meg a 113. elemét annak a számtani sorozatnak, amelynek az első két eleme 11 és 32!
+	[11,32..] !! 112
+
+Hányféleképpen lehet sorba rendezni 10 különböző elemet?
+	product [10,9.. 1] = product [1..10]
+	
+Hányféleképpen választhatunk ki 70 különböző elemből 30 elemet?
+	div (product [1..70]) (product [1..30] * product [1..40])
+	
+Mi a több: az univerzumban az atomok száma, vagy 100 elem különböző sorba rendezéseinek a száma?
+	product [1..100] > 10 ^ 77
+
+A 5-ös vagy a 6-os lottón könnyebb a telitalálat? (5ször)
+	5ös: div (product [1..90]) (product [1..5] * product [1..85])
+	6os: div (product [1..45]) (product [1..6] * product [1..39])
+///////////////////////////////////////////////////////////////////////////////////////
+Állítsuk elő a 2 hatványait növekvő sorrendben 1-től 210-ig!
+	[2^n | n<-[0..10]]
+
+Soroljuk fel az első 10 négyzetszám kétszeresét!
+	[2*(a^2) | a<-[0..9]]
+
+Állítsunk elő olyan 10 hosszúságú listát, amely váltakozva tartalmazza a False és True értékeket!
+	[ n `mod` 2 == 0 | n<-[1..10] ]
+	[even n | n<-[1..10]]
+
+Melyik legkisebb 2 hatvány nagyobb, mint 1020?
+	head [ 2^n | n<-[1..], 2^n > 10^20 ]
+	head [2^n | n<-[0..], 2^n >10^20]
+	
+Megjegyzés: l !! 0 == head l.
+Melyik legkisebb n természetes számra igaz: 1024n > 2 * 1000n?
+	head [n |n<-[0..], 1024^n > 2* 1000^n ]
+	
+Soroljuk fel a 60 osztóit!
+	[m | m<-[1..60], 60 `mod` m == 0]
+	
+Hány osztója van a 60-nak?
+	length [m | m<-[1..60], 60 `mod` m == 0]
+	
+Prímszám-e az 123457?
+	length [n  | n<-[2.. (123457 `div` 2)],123457 `mod` n == 0 ] == 0

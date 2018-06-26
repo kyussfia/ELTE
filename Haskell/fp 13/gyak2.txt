@@ -1,0 +1,59 @@
+3 ^ 4 :: Double 
+4 typusa -> ::Int (akár integer is lehetne)
+
+fromIntegral :: (Integral a, Num b) => a -> b
+
+		A fromIntegral legalább a következő konverziókra alkalmas:
+		Értelmezési tartomány: Int vagy Integer
+		Értékkészlet: Int, Integer, Rational, Float, Double
+	
+	fromIntegral 3::Double ->double
+	fromIntegral 3::Int ->int
+	fromIntegral 3::Integral ->integral
+		pl: Int            -> Integer
+			Int            -> Double
+	
+realToFrac :: (Fractional b, Real a) => a -> b	
+		A realToFrac legalább a következő konverziókra alkalmas:
+		Értelmezési tartomány: Int, Integer, Rational, Float vagy Double
+		Értékkészlet: Rational, Float, Double
+		pl: Int            -> Double
+			Float          -> Rational  (toRational)
+			Rational       -> Integer
+	
+		Rational -> Integer:
+			floor (3::Rational)
+	
+Kerekítések:
+	truncate :: (Integral b, RealFrac a) => a -> b -- nulla fele kerekítés ----csonkolás
+	round :: (Integral b, RealFrac a) => a -> b -- legközelebbihez kerekítés ----
+	ceiling :: (Integral b, RealFrac a) => a -> b -- felfele kerekítés
+	floor :: (Integral b, RealFrac a) => a -> b -- lefele kerekítés
+	sqrt :: Floating a => a -> a -- gyökvonás
+	
+Enum:
+
+toEnum :: Enum a => Int -> a	számból betű
+fromEnum :: Enum a => a -> Int	betűból szám
+
+Mi az unikód kódja az ‘x’ karakternek?
+fromEnum 'x' = 120
+
+Melyik az 50 unikód kódú karakter?
+toEnum 50::Char
+
+(botom _|_ jel -> error)
+
+Írjunk be egy olyan kifejezést, amely pontosan akkor True ha a 23 nem osztja a 532253373-at!
+	23 `mod` 532253373 /= 0
+	
+Írjunk le egy olyan kifejezést, amelynek a végeredményéből világossá válik, hogy a (&&) erősebben köt a (||)-nál!
+	False  && (True || True) -> Fasle
+	(False  && True) || True -> True
+
+Írjuk ki a rejtett zárójeleket!
+	((6 < 4) || ((4 >= 5) && (12 /= (4 * 4))))
+Távolítsunk el minél több zárójelpárt!
+	2 < 1 || 2 * 100 > (100 - 2) `rem` 1000
+Zárójelezzük a következő kifejezést!
+	(2 < (div 18 4)) || ((mod 15 5) > (-3))

@@ -1,0 +1,79 @@
+splitAt :: Int -> [a] -> ([a], [a])
+splitAt _ [] = ([],[])
+splitAt n l
+ |n <= 0 = ([],l)
+splitAt n (x:xs) = (x:l1,l2) where
+   (l1,l2) = splitAt (n-1) xs 
+
+msort :: Ord a => [a] -> [a]
+msort [] = []
+msort [x] = [x]
+msort l = msort l1 `sortMerge` msort l2 where
+  (l1, l2) = split l
+
+LAMBDA kifejezés:
+(\x -> x^2)
+
+map :: (a -> b) -> [a] -> [b]
+map f [] = []
+map f (x:xs) = f x : map f xs
+
+Vagy:
+map f l = [f e | e <- l]
+
+filter :: (a -> Bool) -> [a] -> [a]
+filter f [] = []
+filter f (x:xs)
+ |f x = x: filter f xs
+ |otherwise = filter f xs
+
+Vagy:
+filter p l = [e | e <- l, p e]
+
+count :: (a -> Bool) -> [a] -> Int
+count f [] = 0
+count f (x:xs)
+ |f x = 1 + count f xs
+ |otherwise = count f xs
+ 
+Vagy.
+count p = length . filter p
+
+takeWhile :: (a -> Bool) -> [a] -> [a]
+takeWhile f [] = []
+takeWhile f (x:xs)
+ |f x = x: takeWhile f xs
+ |otherwise = []
+ 
+dropWhile :: (a -> Bool) -> [a] -> [a]
+dropWhile f [] = []
+dropWhile f (x:xs)
+ |f x = dropWhile f xs
+ |otherwise = x:xs
+ 
+span :: (a -> Bool) -> [a]{-véges-} -> ([a],[a])
+span _ []            =  ([], [])
+span p (x:xs)
+  | p x          =  (x:l1,l2)
+  | otherwise    =  ([],x:xs) where
+    (l1,l2) = span p xs
+ 
+iterate :: (a -> a) -> a -> [a] 
+iterate f e = e: iterate f (f e)
+
+infixr 0 $
+($) :: (a -> b) -> a -> b
+f $ x = f x
+
+all :: (a -> Bool) -> [a]{-véges-} -> Bool
+all f [] = True
+all f (x:xs)
+ | f x = all f xs
+ | otherwise = False
+ 
+any :: (a -> Bool) -> [a]{-véges-} -> Bool
+any f [] = False
+any f (x:xs) = f x || any f xs
+
+
+ 

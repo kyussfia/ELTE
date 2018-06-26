@@ -1,0 +1,9 @@
+INPUT a&
+LET i& = 2
+WHILE i&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND

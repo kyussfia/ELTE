@@ -1,0 +1,3 @@
+Kiss Bea	3	4	5	4
+Nagy Katalin	4	5	2	3
+Kovacs Ede	2	1	3	2

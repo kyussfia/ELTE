@@ -1,0 +1,49 @@
+qsort :: Ord a => [a] -> [a]
+qsort [] = []
+NEM feltétlen kell: (+1 lépés enélkül) qsort [a] = [a]
+qsort (x:xs) = qsort [n |n<-xs, n <= x] ++ [x] ++ qsort [z |z<-xs, z>x]
+
+tails :: [a] -> [[a]] 
+tails [] = [[]]
+tails (x:xs) =  (x:xs): tails xs
+
+--Esetszétválasztás
+upperLower :: Char -> Char
+upperLower c
+ |fromEnum c >= 65 && fromEnum c <= 90 = toEnum(fromEnum c + 32)
+ |fromEnum c >= 97 && fromEnum c <= 122 = toEnum(fromEnum c - 32)
+ |otherwise = c
+ 
+sqr :: Num a => a -> a
+sqr n = n*n
+
+(^) :: Num a => a -> Integer -> a
+(^) a b
+ |b == 0 = 1
+ |odd b = a*(a^(b-1))
+ |otherwise = sqr $ (^) a (b `div` 2)
+ 
+toBin :: Integer -> [Int]
+toBin n
+ |n == 0 = []
+ |even n = 0: toBin (n `div` 2)
+ |otherwise = 1: toBin ((n-1) `div` 2)
+ 
+drop :: Int -> [a] -> [a]
+drop n [] = []
+drop n (x:xs)
+ |n <= 0 = (x:xs)
+ |otherwise = drop (n-1) xs
+
+take :: Int -> [a] -> [a]
+take n [] = []
+take n (x:xs)
+ |n <= 0 = []
+ |otherwise = x: take (n-1) xs
+ 
+insert :: Ord a => a -> [a] -> [a]
+insert e [] = [e]
+insert e (x:xs)
+ |e <= x = e:(x:xs)
+ |otherwise = x: insert e xs 
+
