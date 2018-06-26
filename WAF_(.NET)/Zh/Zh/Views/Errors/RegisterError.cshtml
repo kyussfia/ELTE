@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Register Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Zh.Models.ViewModel.NewErrorViewModel
+
+<form method="post" enctype="multipart/form-data" asp-controller="Errors" asp-action="createError">
+    <div asp-validation-summary="ModelOnly" class="alert alert-success alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" />&nbsp;
+        <span asp-validation-for="Title"></span>
+    </div>
+
+    <div>
+        <label asp-for="Description"></label>
+        <input asp-for="Description" />&nbsp;
+        <span asp-validation-for="Description"></span>
+    </div>
+
+    <div>
+        <label asp-for="Picture"></label>
+        <input asp-for="Picture" />
+        <span asp-validation-for="Picture"></span>
+    </div>
+
+    <div>
+        <input class="btn btn-success" type="submit" value="Register" />
+    </div>
+</form>

@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Login Advertiser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm()) // egy űrlapban töltjük ki a tartalmat
+{
+    @Html.AntiForgeryToken() // védelem XSRF támadás ellen
+
+    Html.RenderPartial("LoginForm");
+}

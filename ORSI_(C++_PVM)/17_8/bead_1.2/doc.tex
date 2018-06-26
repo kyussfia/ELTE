@@ -1,0 +1,167 @@
+\documentclass[12pt]{article}
+
+%margó méretek zakdogában 32mm
+\usepackage[a4paper,
+inner = 25mm,
+outer = 25mm,
+top = 25mm,
+bottom = 25mm]{geometry}
+
+\usepackage{lmodern}
+\usepackage[magyar]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{setspace}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{setspace}
+
+\setstretch{1.2}
+\begin{document}
+    
+\begin{titlepage}
+    \vspace*{0cm}
+    \centering
+    \begin{tabular}{cp{1cm}c}
+        \begin{minipage}{4cm}
+            \vspace{0pt}
+            \includegraphics[width=1\textwidth]{elte_cimer}
+        \end{minipage} & &
+        \begin{minipage}{7cm}
+            \vspace{0pt}Eötvös Loránd Tudományegyetem \vspace{10pt} \newline
+            Informatikai Kar \vspace{10pt} \newline
+            Programozási Nyelvek és Fordítóprogramok Tanszék
+        \end{minipage}
+    \end{tabular}
+    
+    \vspace*{0.2cm}
+    \rule{\textwidth}{1pt}
+    
+    \vspace*{3cm}
+    {\Huge Osztott rendszerek specifikációja és implementációja }
+    
+    \vspace*{0.5cm}
+    {\normalsize IP-08bORSIG}
+    
+    \vspace{2cm}
+    {\huge Dokumentáció az 1. beadandóhoz}
+    
+    \vspace*{5cm}
+    
+    {\large \verb|Mikus Márk István| } % (név)
+    
+    {\large \verb|CM6TSV| }  % (neptun)
+        
+    
+    \vfill
+    
+    \vspace*{1cm}
+    2017. október 02. % (dátum)
+\end{titlepage}
+
+\section{Kitűzött feladat}
+Adott egy input fájl, melyben bizalmas adatokat tartalmazó szöveget találhatunk. Arról azonban nem tudunk közvetlen meggyőződni, hogy az információk helyesek és nem kerültek módosításra, így a kriptográfiában megismertek módjára hashelnünk kell az adatokat, hogy ellenőrizhessük, hogy az a hivatalos ellenőrzőkóddal megegyezik e, hogy nyugodtan támaszkodjunk az ott olvasottra.\\
+
+Az inputfájl felépítése az alábbi: Az első sorban egy $N$, nemnegatív egész szám olvasható, ezt követően összesen $N$ sornyi szöveges információt találhatunk. Arra vonatkozóan, hogy egy sorban pontosan hány szó található, nincs közvetlen információnk, de mindegyikben legalább 1, és legfeljebb 100.
+
+A fent említett hash függvényt szavakra definiáljuk. Az itt említett szavakba nem tartoznak bele a whitespace karakterek. A függvényünk minden szóra az alábbi módon működik:\\
+
+ \verb|'hashérték' : Nemnegatív egész szám := 0;| \\
+
+A szó egy 'c' betűjének hashkódja (\verb|'kód'|) az alábbi módon áll elő:
+
+\begin{verbatim}
+    'kód' : Nemnegatív egész szám := 1638; (0x666)
+    ha 'c' ASCII értéke páratlan:
+        a 'kód'-ot bitenként shifteljük balra 11-et
+    egyébként:
+         'kód'-ot shifteljük 6-ot bitenként balra.
+    'kód' := 'kód' XOR ('c' ASCII értéke BITENKÉNTI ÉSELVE 255-el); (0xFF)
+    Ha az így kapott 'kód' prím szám, akkor bitenként 'vagy'-oljuk,
+    amennyiben nem prím, 'és'-eljük össze 305419896-tal. (0x12345678)
+\end{verbatim}
+
+Egy szó hashértéke a benne szereplő betűk hashértékének összegeként áll elő. Egy sor/szöveg hashértéke a benne szereplő szavak hashértékének szóközzel vett konkatenációjaként definiálható.
+
+Feltehetjük, hogy a szövegben az angol ábécé betűit használó szavak (tehát magyar/orosz/koreai stb. készletbe tartozó karakterek nem), valamint általános írásjelek (pont, vessző, kérdő- és felkiáltójel, aposztróf, kettőspont stb.) találhatóak.
+
+Annak érdekében, hogy hatékonyan működjön a programunk, a hasht ne szavanként, hanem soronként állítsuk elő, így egyszerre több sorhoz tartozó értéket párhuzamosan tudunk kiszámolni. A program olvassa be az adatokat, majd $N$ folymatot indítva számítsa ki az egyes sorokhoz tartozó hash-értékeket, majd az így kapott adatokat írja ki az $"output.txt"$ fájlba. A fő szál hasheléshez tartozó számítást ne végezzen!\\
+
+Példa bemenet ($input.txt$):\\\\
+$4$\\
+$Never \hspace{1mm} gonna \hspace{1mm} give \hspace{1mm} you \hspace{1mm} up,\hspace{1mm} never \hspace{1mm} gonna \hspace{1mm} let you \hspace{1mm} down$\\
+$Never \hspace{1mm} gonna \hspace{1mm} run \hspace{1mm} around \hspace{1mm} and \hspace{1mm} desert \hspace{1mm} you$\\
+$Never \hspace{1mm} gonna \hspace{1mm} make \hspace{1mm} you \hspace{1mm} cry, \hspace{1mm} never \hspace{1mm} gonna \hspace{1mm} say \hspace{1mm} goodbye$\\
+$Never \hspace{1mm} gonna \hspace{1mm} tell \hspace{1mm} a \hspace{1mm} lie \hspace{1mm} and \hspace{1mm} hurt \hspace{1mm} you$\\
+
+Az ehhez tartozó kimenet ($output.txt$):\\\\
+$6312424\hspace{1mm} 311932945\hspace{1mm} 9453976\hspace{1mm} 9449808\hspace{1mm} 3158280\hspace{1mm} 6312456\hspace{1mm} 311932945\hspace{1mm} 3158328\hspace{1mm} 9449808\hspace{1mm} 6308256\hspace{1mm}$\\
+$6312424\hspace{1mm} 311932945\hspace{1mm} 3158344\hspace{1mm} 311937161\hspace{1mm} 305633089\hspace{1mm} 311937147\hspace{1mm} 9449808\hspace{1mm}$\\
+$6312424\hspace{1mm} 311932945\hspace{1mm} 617549246\hspace{1mm} 9449808\hspace{1mm} 6308208\hspace{1mm} 6312456\hspace{1mm} 311932945\hspace{1mm} 614399340\hspace{1mm} 15758024\hspace{1mm}$\\
+$6312424\hspace{1mm} 311932945\hspace{1mm} 3162528\hspace{1mm} 305624697\hspace{1mm} 6304048\hspace{1mm} 305633089\hspace{1mm} 3162552\hspace{1mm} 9449808\hspace{1mm}$
+
+\section{Felhasználói dokumentáció}
+
+A program egy konzolból futtatható alkalmazás, amellyet elindítva egy input.txt nevű, bemenő adatállományt feldolgozva előállít egy kimenő, output.txt nevű fájlt, benne az eredménnyel.
+
+\subsection{Rendszer-követelmények, telepítés}
+
+A programunk több platformon is futtatható, amely támogatja a (.exe) kiterjesztésű futtatható alkalmazások futtatását. Dinamikus függősége nincsen, bármelyik, manapság használt PC-n működik. Külön telepíteni nem szükséges, elég a futtatható állományt elhelyezni a számítógépen.
+
+\subsection{A program használata}
+
+A program használata egyszerű, külön paramétereket nem vár, így intézőből és parancssorból is indítható. A parancsorból való futtatáshoz, elég csak a parancssort megnyitni (\textit{Windows-on: Start Menü > cmd}), majd a parancssorba belenavigálni abba a mappába ahol a futtatható állomány és az input.txt el van helyezve (Pl.: \verb|C:\Never|). Ha a megfelelő mappában állunk elég begépelni a következőt: \verb|<a futtatható állomány neve>.exe| (Pl.: Ha a futtatható állomány neve 'a' , akkor: \verb|a.exe|).
+
+Az intézőből való futtatáshoz elég kitallózni a megfelelő mappát, majd dupla kattintással elindítani a programot. A futtatható állomány mellett kell elhelyezni az \textit{input.txt} nevű fájlt, mely a bemeneti adatokat tartalmazza, a fenti specifikációnak megfelelően. Figyeljünk az ebben található adatok helyességére és megfelelő tagolására, mivel az alkalmazás külön ellenőrzést nem végez erre vonatkozóan. A futás során az alkalmazás mellett található \textit{output.txt} fájl tartalmazza a kapott eredményt, ahol az \textit{i}-ik sor a bemeneti fájl \textit{i+1}-ik sorában található szöveg $hash$-elt alakját jelenti.
+
+\section{Fejlesztői dokumentáció}
+
+A program lényegét tekintve egy egyszerűbb C++ kód (C++ 11. szabvánnyal), egyetlen állományba szervezve benne a főporgram gericét adó \verb|main()| továbbá a segédmetódusok:
+\begin{itemize}
+    \item \verb|isPrime(int number)|
+    \item \verb|hash_char(char& c)|
+    \item \verb|(hash_word(std::string& string)|
+    \item \verb|hash_line(std::string data)|
+\end{itemize}
+
+\subsection{Megoldási mód}
+
+A kódunkat logikailag két részre bonthatjuk, egy fő-, illetve több alfolyamatra. A fő folyamatunkat a \verb|main()| függvény fogja megvalósítani, mely beolvassa az inputként kapott fájl tartalmát, majd egy $N$ méretű $string$ vektort tölt fel annak adataiból. Az alfolyamatokhoz ennek a vektornak egy-egy elemét társítjuk, melyek elvégzik a szükséges számításokat, majd az így kapott eredményeket a főfolyamat fogja a kimeneti fájlba írni.
+Az alfolyamatok a kapott szöveget feldolgozza szavakra, majd a szavakat karakterekre, és sorrendben visszafelé kiszámítják a helyes hasheket. (Szavaknál hash-összeg, szövegnél hashek konkatenációja)
+
+\subsection{Implementáció}
+
+Az említett vektort \verb|std::vector<std::string>| típussal fogjuk megvalósítani, míg az alfolyamatokat egy \verb|std::future<std:string>| típusparaméterű vektorban fogjuk tárolni. Az egyes objektumok a kívánt visszatérési értéket is tartalmazni fogják, ezeknek külön memóriát nem kell foglalni. A szükséges $N$ folyamatot az \verb|std::async()| függvény segítségével, azonnal fogjuk új szálon indítani, paraméterül a végrehajtandó \verb|hash_line()| függvényt, illetve a vektor egy elemét fogjuk átadni. Ez a függvény az egy sorhoz tartozó hash-t állítja elő úgy, hogy feldarabolja szavakra, majd egyesével hash-eli a szavakat a \verb|hash_word()| metódussal, s ezek eredményét összefűzi szóközökkel elválasztva és ezt adja vissza a főfolyamatnak majd. A \verb|hash_word()| függvény miután megkapja a kódolandó szót, összegzi a karaktereinek hash-ét (\verb|hash_char()|) majd visszatér az összeggel. A \verb|hash_char()| függvény a feladat leírásának megfelelő működéssel bír.
+
+A feladat egyszerűsége révén egyetlen forrásfájlban, a \verb|bead.cpp|-ben található a teljes implementációs kód.
+
+\subsection{Fordítás menete}
+
+A programunk forráskódját a \verb|bead.cpp| fájl tartalmazza. A fordításhoz elengedhetetlen egy \verb|C++11| szabványt támogató fordítóprogram a rendszeren. Ehhez használhatjuk az \textit{MSVC}, \textit{g++} és \textit{clang} bármelyikét. A fordítás menete (6.4.0-s verziójú g++ használata esetén) a következő: \verb|'g++ bead.cpp'|. A speciális, \verb|-std=c++11| kapcsoló nem szükséges, mert alapértelmezés szerint ez a verziójú fordítóprogram már a C++11-es szabványt követi. Miután a kód lefordult, létrejön a forráskód melett egy $a.exe$ fájl, amely a kész futtatható állomány.
+
+\subsection{Tesztelés}
+
+A program tesztelése során különböző méretű bemeneti fájlokkal futtattam. Az így kapott fájlok mindig a specifikációnak megfelelően.
+A programom minden esetben a tőle elvárt kimenetet állította elő, így a tesztesetek alapján helyesnek gondolhatjuk a működését.
+
+A számítógépemben található 4 magból 3-at kikapcsolva, (időben) szekvenciális lefutást tudtam előállítani, 2 tesztesettel (4 soros és egy 40 soros). 1 processzormag esetén a 40 soros fájlra a futásidő $\sim$2.23 mp, míg a 4 soros fájlra $\sim$0.04 mp volt.
+Sorban visszakapcsolva a magokat az alábbiakat tapasztaltam:
+
+\begin{center}
+    \begin{tabular}{| l | r | r |}
+      \hline
+       & 4 soros fájl & 40 soros fájl \\ \hline
+      1 mag & $\sim$0.04 mp & $\sim$2.23 mp \\ \hline
+      2 mag & $\sim$0.1 mp & $\sim$0.23 mp \\ \hline
+      3 mag & $\sim$0.11 mp & $\sim$0.20 mp \\ \hline
+      4 mag & $\sim$0.04 mp & $\sim$0.43 mp \\
+      \hline
+    \end{tabular}
+\end{center}
+
+A magokat isszakapcsolása során a $\sim$2.23 mp egészen $\sim$0.43 mp-ig csökkent, így megállapíthatjuk, hogy a párhuzamosított program tényleg gyorsabban futott, mint a szekvenciális változata (Intel i5-4590 @ 3.30GHz processzorral).\\
+\\
+\end{document}

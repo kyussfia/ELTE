@@ -1,0 +1,460 @@
+\documentclass[10pt]{article}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\author{Mikus M\'{a}rk Istv\'{a}n}
+\title{}
+\usepackage[paperwidth=595pt,paperheight=841pt,top=70pt,right=70pt,bottom=70pt,left=70pt]{geometry}
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1}       \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin       \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin  \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+
+% new LaTeX commands
+
+
+\begin{document}
+
+\begin{center}
+	{\Huge Orsi beadand\'{o} feladat  - dokument\'{a}ci\'{o}}
+\end{center}
+
+\begin{center}
+	{\large 2016.11.05.}
+\end{center}
+
+{\large Valamikor, a nem t\'{u}l t\'{a}voli j\"{o}v\H{o}ben az Informatikai Kar
+t\'{u}ln\H{o}tt a programoz\'{o}k\'{e}pz\'{e}s keretein. A hatalmas
+t\'{u}ljelentkez\'{e}s \'{e}s munkaer\H{o}piaci ig\'{e}ny miatt
+sz\"{u}ks\'{e}gess\'{e} v\'{a}lt tov\'{a}bbi hallgat\'{o}k felv\'{e}tele, akik
+k\'{e}s\H{o}bb a megszerzett tud\'{a}st versenyk\"{o}r\"{u}lm\'{e}nyek
+k\"{o}z\"{o}tt tudj\'{a}k hasznos\'{\i}tani. Vil\'{a}goss\'{a} v\'{a}lt, hogy a
+profi fejleszt\H{o}k \'{e}s a hivat\'{a}sos felhaszn\'{a}l\'{o}k
+egy\"{u}ttm\H{u}k\"{o}d\'{e}se elengedhetetlen. B\'{a}r tov\'{a}bbra is hatalmas
+\'{e}rdekl\H{o}d\'{e}s \"{o}vezte a programoz\'{o}i k\'{e}pz\'{e}st, \'{a}m egyre
+t\"{o}bben j\"{o}ttek gamer amb\'{\i}ci\'{o}kkal. Az egyetem \'{u}gy
+d\"{o}nt\"{o}tt, hogy \'{u}j Kart ind\'{\i}t a j\'{a}t\'{e}kos
+k\"{o}z\"{o}ss\'{e}g ig\'{e}nyeinek kiszolg\'{a}l\'{a}s\'{a}ra, hogy a profi
+eSportol\'{o}k k\"{o}z\"{o}ss\'{e}ge min\H{o}s\'{e}gi oktat\'{a}st kaphasson az
+ELTE-n bel\"{u}l.}
+
+{\large A k\"{u}l\"{o}nb\"{o}z\H{o} tansz\'{e}kekhez, az oktat\'{o}i \'{e}s
+hallgat\'{o}i l\'{e}tsz\'{a}mhoz, valamint a g\'{e}ptermek
+felszerelts\'{e}g\'{e}hez azonban sz\"{u}ks\'{e}ges inform\'{a}ci\'{o} a
+megfelel\H{o} j\'{a}t\'{e}kost\'{a}borral ar\'{a}nyos er\H{o}forr\'{a}sok
+biztos\'{\i}t\'{a}sa. A proginf.-es k\'{e}pz\'{e}sben r\'{e}sztvev\H{o}, B
+szakir\'{a}nyos di\'{a}kokra b\'{\i}zz\'{a}k a kisz\'{a}m\'{\i}t\'{a}s\'{a}t
+annak, hogy milyen s\'{u}ly\'{u} a k\"{u}l\"{o}nb\"{o}z\H{o} j\'{a}t\'{e}kok
+ir\'{a}nti \'{e}rdekl\H{o}d\'{e}s, hogy ehhez m\'{e}rve igaz\'{\i}thass\'{a}k a
+tant\'{a}rgyi feloszt\'{a}st.}
+
+{\large A felv\'{e}teliz\H{o}k k\"{o}z\"{o}tt ez\'{e}rt el\H{o}zetes
+felm\'{e}r\'{e}st v\'{e}geztek, ki milyen j\'{a}t\'{e}kokkal j\'{a}tszik
+szabadidej\'{e}ben. Az \'{\i}gy kapott adathalmaz k\"{o}zkedvelt j\'{a}t\'{e}kai
+k\"{o}z\"{u}l~\textit{M}~kapott d\"{o}nt\H{o} mennyis\'{e}g\H{u} szavazatot,
+\'{\i}gy a m\'{a}sodik k\"{o}rben ezekre sz\H{u}k\"{u}lt a k\'{e}rd\H{o}\'{\i}v,
+melyben minden hallgat\'{o} v\'{a}laszolt, hogy egy h\'{e}ten mennyi id\H{o}t
+(percet) t\"{o}lt az egyes j\'{a}t\'{e}kokkal. Term\'{e}szetesen voltak, akik nem
+csup\'{a}n egyetlen m\H{u}fajnak h\'{o}doltak, \'{\i}gy el\H{o}fordult, hogy
+t\"{o}bb kit\"{o}lt\'{e}s is \'{e}rkezett ugyan att\'{o}l a hallgat\'{o}t\'{o}l.
+A n\'{e}vtelens\'{e}g, de egyszeri v\'{a}laszad\'{a}s fenntart\'{a}s\'{a}nak
+\'{e}rdek\'{e}ben a kit\"{o}lt\H{o}ket NEPTUN-k\'{o}ddal azonos\'{\i}tott\'{a}k.
+A j\'{a}t\'{e}kokat egy-egy sz\'{o}k\"{o}zt nem tartalmaz\'{o}, sz\"{o}veg
+t\'{\i}pus\'{u} adat reprezent\'{a}lja (pl. "WoW" vagy "LoL").}
+
+	
+\section{Feladat}
+	
+
+A bemenet --~input.txt~-- els\H{o} sor\'{a}ban tartalmazza a sz\'{o}k\"{o}zzel
+elv\'{a}lasztott~N~\'{e}s~M~pozit\'{\i}v eg\'{e}szeket -- ahol
+k\"{o}vetkez\H{o}~N~sor\'{a}ban pedig egy-egy neptunk\'{o}d, j\'{a}t\'{e}kn\'{e}v
+\'{e}s percben elt\"{o}lt\"{o}tt id\H{o} (eg\'{e}sz sz\'{a}m) sz\'{o}k\"{o}zzel
+elv\'{a}lasztott h\'{a}rmas\'{a}t
+
+\begin{center}
+	{\raggedright
+	{\small N M}
+	}
+	
+	{\raggedright
+	{\small NEPTUN\_1 gameazon perc   - az 1. v\'{a}lasz adatai}
+	}
+	
+	{\raggedright
+	{\small NEPTUN\_2 gameazon perc   - az 2. v\'{a}lasz adatai}
+	}
+	
+	{\raggedright
+	{\small ...}
+	}
+	
+	{\raggedright
+	{\small ...}
+	}
+	
+	{\raggedright
+	{\small ...}
+	}
+	
+	{\raggedright
+	{\small NEPTUN\_N gameazon perc   - az N. v\'{a}lasz adatai}
+	}
+\end{center}
+
+{\normalsize A f\H{o}folyamat olvassa be az adatokat,
+ind\'{\i}tson~\textit{M}~gyerekfolyamatot, majd minden gyerekfolyamathoz
+t\'{a}rs\'{\i}tson egy-egy j\'{a}t\'{e}khoz tartoz\'{o} adathalmazt. (A
+j\'{a}t\'{e}kok sz\'{a}ma pontosan~\textit{M}, \'{\i}gy minden j\'{a}t\'{e}k
+adat\'{a}t p\'{a}rhuzamosan kell kisz\'{a}molni.) A gyerekfolyamatok dolga
+meg\'{a}llap\'{\i}tani, hogy az adott j\'{a}t\'{e}kkal mennyi id\H{o}t
+t\"{o}lt\"{o}ttek \"{o}sszesen (percben) a v\'{a}laszad\'{o}k, valamint az
+\'{a}tlagos j\'{a}t\'{e}kid\H{o} kisz\'{a}m\'{\i}t\'{a}sa az adott
+j\'{a}t\'{e}khoz (eg\'{e}sz percre lefel\'{e} kerek\'{\i}tve - floor(..) ). Ezt a
+k\'{e}t adatot k\"{u}ldje vissza a sz\"{u}l\H{o}folyamatnak.}
+
+{\normalsize A f\H{o}folyamat ezek ut\'{a}n a j\'{a}t\'{e}kokhoz tartoz\'{o},
+\"{o}sszesen \'{e}s \'{a}tlagosan elt\"{o}lt\"{o}tt id\H{o}t sz\'{o}k\"{o}zzel
+elv\'{a}lasztva a J\'{A}T\'{E}KOK azonos\'{\i}t\'{o}ja ALAPJ\'{A}N
+BET\H{U}RENDBEN \'{\i}rja az~\textit{output.txt}~kimeneti f\'{a}jlba.}
+
+\begin{center}
+	{\raggedright
+	{\small //egy p\'{e}lda sor az output f\'{a}jlb\'{o}l:}
+	}
+	
+	{\raggedright
+	{\small //WoW 6000 573}
+	}
+\end{center}
+
+{\raggedright
+	{\normalsize Tov\'{a}bbi elv\'{a}r\'{a}sok:}
+}
+
+{\normalsize A megold\'{a}saitokat egyetlen ZIP f\'{a}jlba
+t\"{o}m\"{o}r\'{\i}tve t\"{o}lts\'{e}tek fel! K\'{e}r\"{u}nk benneteket, hogy
+csak a sz\"{u}ks\'{e}ges forr\'{a}sf\'{a}jl(oka)t rakj\'{a}tok bele, ne teljes
+projektet (.exe semmik\'{e}pp sem)!}
+
+{\normalsize A k\"{u}l\"{o}nb\"{o}z\H{o} technol\'{o}gi\'{a}k miatt
+szeretn\'{e}nk mindenkit megk\'{e}rni, hogy az al\'{a}bbiak vegye figyelembe a
+felt\"{o}lt\'{e}s sor\'{a}n:}
+
+{\raggedright
+{\normalsize PVM: A k\'{e}t .cpp f\'{a}jlt, \'{e}s a Makefile.aimk-t
+egyar\'{a}nt csomagolj\'{a}tok be, a sz\"{u}l\H{o}folyamathoz tartoz\'{o} k\'{o}d
+'master.cpp' -nek legyen elnevezve.}
+}
+
+{\raggedright
+{\normalsize (C++11: Nincs k\"{u}l\"{o}n megk\"{o}t\'{e}s, tetsz\H{o}leges
+f\'{a}jln\'{e}vvel rendelkezhet.)}
+}
+
+\section{Felhaszn\'{a}l\'{o}i dokument\'{a}ci\'{o}}
+\subsection{K\"{o}rnyezet}
+
+
+A program t\"{o}bb platformon futtathat\'{o}, nincsen dinamikus
+f\"{u}gg\H{o}s\'{e}ge. Telep\'{\i}t\'{e}sre nincs sz\"{u}ks\'{e}g, elegend\H{o} a
+futtathat\'{o} \'{a}llom\'{a}ny elhelyezni a sz\'{a}m\'{\i}t\'{o}g\'{e}pen.
+
+\subsection{Haszn\'{a}lat}
+
+A program elind\'{\i}t\'{a}sa egyszer\H{u}, mivel nem v\'{a}r parancssori
+param\'{e}tereket, \'{\i}gy parancssoron k\'{\i}v\"{u}l is lehet futtatni. A
+f\'{a}jl mellett kell elhelyezni az input.txt-t 1 f\'{a}jl, melyet feldolgoz
+\'{e}s az eredm\'{e}nyt az ''output.txt'' nev\H{u} f\'{a}jlba \'{\i}rja, a
+bemeneti sorrend alapj\'{a}n. Egy lehets\'{e}ges bemenetet tartalmaz a
+mell\'{e}kelt input.txt tesztf\'{a}jl. Saj\'{a}t bemeneti f\'{a}jlok eset\'{e}n
+fontos, hogy a feladatban megadott szempontok alapj\'{a}n \'{\i}rjuk az adatokat
+az inputf\'{a}jlba, mivel a program kil\'{e}p ha az adatok a f\'{a}jlban nem
+helyesek.
+
+
+\section{Fejleszt\H{o}i dokument\'{a}ci\'{o}}
+\subsection{A megold\'{a}s m\'{o}dja}
+
+{\normalsize
+{\raggedright
+A k\'{o}dot logikailag k\'{e}t r\'{e}szre bonthatjuk, egy f\H{o} \'{e}s t\"{o}bb
+gyermekfolyamatra. A f\H{o}folyamatot a master.cpp-ben szerepl\H{o} main
+f\"{u}ggv\'{e}ny fogja megval\'{o}s\'{\i}tani. Feladata, hogy beolvassa az
+inputf\'{a}jl tartalm\'{a}t, majd a feladatban meghat\'{a}rozott m\'{o}don
+l\'{e}trehozzon alfolyamatokat.
+}
+}
+
+{\normalsize
+Az N sor szavazat, illetve a M fajta csoport, meghat\'{a}roz\'{o} k\'{e}t
+pozit\'{\i}v eg\'{e}sz sz\'{a}m, beolvas\'{a}sa ut\'{a}n. Egy olyan
+strukt\'{u}r\'{a}ba olvassuk be az adatokat, amely t\'{a}mogatja, az adatok
+csoportos\'{\i}t\'{a}s\'{a}t kulcs szerint. Erre sz\"{u}ks\'{e}g lesz, amikor
+kiosztjuk a gyerekfolyamatoknak, a r\'{e}szfeladatokat. Egy gyermek
+r\'{e}szfeladata, hogy meghat\'{a}rozza a hozz\'{a} tartoz\'{o} kateg\'{o}ria,
+\"{o}sszes illetve \'{a}tlagos idej\'{e}t, majd vissza\"{u}zenje a
+sz\"{u}l\H{o}nek.
+
+A f\H{o}folyamat az alfolyamatokb\'{o}l visszanyert adatot, rendezett
+form\'{a}ban az output.txt f\'{a}jlba \'{\i}rja bele.
+}
+
+\subsection{Implement\'{a}ci\'{o}}
+
+{\normalsize
+{\raggedright
+A C++ megval\'{o}s\'{\i}t\'{a}s sor\'{a}n, a nyelvi elemek k\"{o}z\"{u}l, a
+legmegfelel\H{o}bb adatstrukt\'{u}ra az \textbf{std::map, } azon bel\"{u}l is a
+\textbf{std::multimap}, mivel a map egy asszociat\'{\i}v adatstrukt\'{u}ra, amely
+tartja a rendezetts\'{e}g\'{e}t a kulcsai szerint n\"{o}vekv\H{o} sorrendben.
+(J\'{a}t\'{e}kn\'{e}vsorrend) Tov\'{a}bb\'{a} egyedi kulcsokkal kell ell\'{a}tni
+az egyes elemeket. Ezt kik\"{u}sz\"{o}b\"{o}lend\H{o}en a multimap m\'{a}r
+megenged t\"{o}bb elemet ugyanahhoz a kulcshoz, \'{e}s ugyan\'{u}gy tartja a
+rendezetts\'{e}get.
+}}
+
+{\normalsize
+{\raggedright
+Az implement\'{a}ci\'{o} a master.cpp sz\"{u}l\H{o}folyamatb\'{o}l \'{e}s a
+child.cpp gyerekfolyamatok main f\"{u}ggv\'{e}nyeinek t\"{o}rzs\'{e}ben
+tal\'{a}lhat\'{o}.
+}}
+
+\subsection{Ford\'{\i}t\'{a}s}
+
+{\normalsize
+A program forr\'{a}sk\'{o}dja a master.cpp illetve a child.cpp. A program
+ford\'{\i}t\'{a}s\'{a}hoz k\"{o}vetelm\'{e}ny egy c++11 szabv\'{a}nyt
+t\'{a}mogat\'{o} ford\'{\i}t\'{o}program megl\'{e}te a rendszeren.
+
+A fejleszt\'{e}s, ill. tesztel\'{e}s sor\'{a}n a g++ ford\'{\i}t\'{o}t
+haszn\'{a}ltam. A ford\'{\i}t\'{o}ban speci\'{a}lis
+be\'{a}ll\'{\i}t\'{a}sk\'{e}nt a stringeket t\'{a}mogat\'{o} -Wno-write-strings
+kapcsol\'{o}t is alkalmazni kell.
+
+Az --std=c++11 kapcsol\'{o}m is sz\"{u}ks\'{e}ges, mert alap\'{e}rtelmezetten
+r\'{e}gebbi c++ szabv\'{a}nyt t\'{a}mogat a ford\'{\i}t\'{o}.
+
+A programhoz csatolt Makefile.aimk f\'{a}jl seg\'{\i}ts\'{e}get ny\'{u}jt a
+ford\'{\i}t\'{a}shoz, mert mag\'{a}ba foglalja a ford\'{\i}t\'{a}shoz
+sz\"{u}ks\'{e}ges inform\'{a}ci\'{o}kat.
+}
+\newline
+\newline
+\subsection{Tesztel\'{e}s}
+
+{\normalsize
+{\raggedright
+A program helyes m\H{u}k\"{o}d\'{e}s\'{e}t, k\"{u}l\"{o}nb\"{o}z\H{o} a
+feladathoz kapott tesztel\'{e}si anyagok seg\'{\i}ts\'{e}g\'{e}vel v\'{e}geztem.
+A mint\'{a}k \'{a}ltal\'{a}nos, \'{e}s p\'{a}r sz\'{e}ls\H{o}s\'{e}ges eseteket
+dolgoznak fel.
+}
+}
+\newline
+\newline
+
+\begin{enumerate}
+	\item Input\_1.txt
+	\begin{center}
+		{\raggedright
+			11 7
+		}
+		
+		{\raggedright
+			D482J4 LoL 606
+		}
+		
+		{\raggedright
+			D482J4 OW 857
+		}
+		
+		{\raggedright
+			BZJW9I HotS 2551
+		}
+		
+		{\raggedright
+			LFQSJN DotA 2137
+		}
+		
+		{\raggedright
+			LFQSJN LoL 1667
+		}
+		
+		{\raggedright
+			U4NOA1 CoD 1354
+		}
+		
+		{\raggedright
+			U4NOA1 MC 1277
+		}
+		
+		{\raggedright
+			TYGS6Y CoD 1442
+		}
+		
+		{\raggedright
+			AEJRLZ GTAV 182
+		}
+		
+		{\raggedright
+			ED06UQ DotA 1264
+		}
+		
+		{\raggedright
+			6VSJ3K MC 193
+		}
+	\end{center}
+
+	\item Output\_1.txt
+	\begin{center}
+{\raggedright
+CoD 2796 1398
+}
+
+{\raggedright
+DotA 3401 1700
+}
+
+{\raggedright
+GTAV 182 182
+}
+
+{\raggedright
+HotS 2551 2551
+}
+
+{\raggedright
+LoL 2273 1136
+}
+
+{\raggedright
+MC 1470 735
+}
+
+{\raggedright
+OW 857~857
+}
+	\end{center}
+
+	\item Input\_2.txt
+\begin{center}
+
+{\raggedright
+6 5
+}
+
+{\raggedright
+9MQGI1 MC 61
+}
+
+{\raggedright
+9MQGI1 WoW 1564
+}
+
+{\raggedright
+NC2XBQ LoL 2378
+}
+
+{\raggedright
+NC2XBQ GTAV 733
+}
+
+{\raggedright
+EMV17T WoW 387
+}
+
+{\raggedright
+JXJJTU HotS 352
+}
+	\end{center}
+
+	\item Output\_2.txt
+	\begin{center}
+{\raggedright
+GTAV 733 733
+}
+
+{\raggedright
+HotS 352 352
+}
+
+{\raggedright
+LoL 2378 2378
+}
+
+{\raggedright
+MC 61 61
+}
+
+{\raggedright
+WoW 1951 975
+}
+
+	\end{center}
+
+	\item Input\_3.txt
+\begin{center}
+
+{\raggedright
+2 2
+}
+
+{\raggedright
+PXXMYG OW 1319
+}
+
+{\raggedright
+PXXMYG CoD 2440
+}
+	\end{center}
+
+	\item Output\_3.txt
+\begin{center}
+
+{\raggedright
+CoD 2440 2440
+}
+
+
+{\raggedright
+OW 1319 1319
+}
+	\end{center}
+
+
+	\item Input\_4.txt\hspace{15pt}
+\begin{center}
+
+{\raggedright
+1 1
+}
+
+{\raggedright
+PXXMYG WoW 1319
+}
+	\end{center}
+
+	\item Output\_4.txt
+\begin{center}
+
+{\raggedright
+WoW 1319 1319
+}
+
+	\end{center}
+\end{enumerate}
+
+\end{document}

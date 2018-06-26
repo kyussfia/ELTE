@@ -1,0 +1,135 @@
+﻿@using ELTE.TravelAgency.Models;
+@using System.Globalization;
+
+@model RentViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* megjelenítjük az apartman adatait *@
+
+<div class="contentHead">@Model.Apartment.Building.Name</div>
+<div class="contentBody">
+    <table width="600">
+        <tr>
+            <td>
+                <strong>Város:</strong> @Model.Apartment.Building.City.Name
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Tengerpart távolság:</strong> @Model.Apartment.Building.SeaDistance méter
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Tengerpart típus: </strong> @Html.DisplayFor(r => r.Apartment.Building.ShoreType) @* meghívjuk az egyedi megjelenítőnket *@
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="contentComment">
+                    <strong>
+                        @Model.Apartment.Room.
+                    </strong> @Model.Apartment.Comment
+                </div>
+                <div class="contentDay">
+                    <strong>Fordulónap:</strong> @Html.DisplayFor(r => r.Apartment.TurndayOfWeek) @* meghívjuk az egyedi megjelenítőnket *@
+                </div>
+                <div class="contentPrice">
+                    <strong>Ár:</strong> @Model.Apartment.Price EUR/éjszaka
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    @* majd bekérjük/megjelenítjük a foglalás adatait *@
+
+    @using (Html.BeginForm()) // egy űrlapban töltjük ki a tartalmat
+    {
+    @Html.AntiForgeryToken() // védelem XSRF támadás ellen
+
+    <table>
+        <tr>
+            <td colspan="2" valign="middle">
+                @* globális modellhibák megjelenítése *@
+                <div class="failureNotification">@Html.ValidationSummary(true, "A foglalást nem sikerült teljesíteni!")</div>
+
+                <div class="contentHead">
+                    Személyes adatok:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td width="120">
+                Név:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.TextBoxFor(rent => rent.GuestName, new { size = "40" })
+                @* szövegbeviteli mezőt generálunk, amelynek megadjuk a méretét is *@
+                @Html.ValidationMessageFor(rent => rent.GuestName)
+                @* hibaüzenet megjelenítése *@
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Számlázási cím:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.TextBoxFor(rent => rent.GuestAddress, new { size = "40" })
+                @Html.ValidationMessageFor(rent => rent.GuestAddress)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail cím:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(rent => rent.GuestEmail, new { htmlAttributes = new { size = "40" } })
+                @* a szerkesztőelemet a modell szabja meg, de így befolyásolhatjuka méretét *@
+                @Html.ValidationMessageFor(rent => rent.GuestEmail)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telefonszám:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(rent => rent.GuestPhoneNumber)
+                @Html.ValidationMessageFor(rent => rent.GuestPhoneNumber)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" valign="middle">
+                <div class="contentHead">
+                    Foglalási adatok:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Foglalás kezdete:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(rent => rent.RentStartDate)
+                @Html.ValidationMessageFor(rent => rent.RentStartDate)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Foglalás vége:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(rent => rent.RentEndDate)
+                @Html.ValidationMessageFor(rent => rent.RentEndDate)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <input type="submit" value="Foglalás" class="button" />
+            </td>
+        </tr>
+    </table>
+    }
+</div>

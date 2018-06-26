@@ -1,0 +1,129 @@
+% BEGIN -- SETUP DOCUMENT (OVERLEAF) --
+\documentclass[a4paper,12pt]{amsart}%
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{nopageno}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{tetel}{T\'etel}
+\usepackage[british]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+\usepackage[pdftex]{graphicx}
+\addbibresource{ref.bib}
+\let\cite\parencite
+\begin{document}
+% END -- SETUP DOCUMENT (OVERLEAF) --
+
+% BEGIN -- SETUP DOCUMENT (TEXMAKER) --
+% \documentclass[a4paper,12pt]{article}
+% \usepackage{hyperref}
+% \usepackage{apacite}
+% \begin{document}
+% \bibliographystyle{apacite}
+% END -- SETUP DOCUMENT (TEXMAKER) --
+
+\title{ ORSI. 3. Beadandó feladat }
+\author{Mikus Márk István}
+\date{Nov 27, 2016}
+\maketitle
+
+\section{Feladat}
+A bemenet input.txt első sorában egy N pozitív egész olvasható, ennyi diáknak kell biztosítani termet, míg a következő N sorban a hallgatók NEPTUN-kódjai, azaz N string követi egymást, ez mutatja a jelentkezési sorrendet.\\
+\\
+Egy lehetséges bemeneti fájl:\\
+7\\
+OSAVH1\\
+T0NDJB\\
+4S1UPL\\
+AXKAW4\\
+22TQP7\\
+NM8VPS\\
+PJVNEU\\
+\\
+Egy lehetséges kimeneti fájl:
+\\
+22TQP7\\
+4S1UPL\\
+AXKAW4\\
+NM8VPS\\
+OSAVH1\\
+PJVNEU\\
+T0NDJB\\
+
+\subsection{Megjegyzések.}
+
+
+\section{Felhasználói dokumentáció}
+
+\subsection{Környezet}
+
+A program platformfüggetlen, a program futtatásához elég a futtatható állományok elindítása. 
+Telepítésre nincs szükség. 
+
+\subsection{Használat}
+
+A futtatáskor parancssori paramétert nem vár a program.
+
+A futtatható állomány mellé kell helyezni az input.txt fájlt.Illetve ugyanide kell létrehozni egy üres output.txt nevű fájlt.
+A program az input fájlból fog dolgozni, majd az output fájlba írja az eredményt, ha tudja.
+Ha nem tudja manipulálni a megfelelő fájlokat, a program hibajelzést ad.
+
+\section{Fejlesztői dokumentáció}
+\subsection{A megoldás módja}
+A kódot logikailag két részre szeparáltuk, mester és gyermek folyamatra. A master.cpp forrásfájlban található főfüggvény (main) reprezentálja a mesterszálat, a programkonstrukciónkban. A gyermekfolyamatok implementálása a child.cpp-ben kap helyet.
+Itt kerül implementálásra, a megoldás magját adó rekurzív összefédülő renedezés-algoritmus. Illetve az ahhoz tartozó két függvény: a merge, amellyel sorozatokat rendezünk, és a mergeSort, amely az oszd meg és uralkodj elvén, szétosztja két újabb gyermek között az input sorozat felét.
+
+A mester szálon lévő program kizárólagos feladata, az input fájlból az adatok beolvasása, majd azok továbbítása a gyerek felé.
+A végeredmény megkapásakor pedig, azt egy output fájlba kell írnia.
+
+\subsection{Implementáció}
+Az implementálás során a fentebb említett szemlélet volt a mérvadó.
+A program hibakezelést végez, a a fájlokkal való kommunikáció során(, majd később a pvm spwan metódusa kapcsán is).
+Az inputot a program egy string tömbbe pakolja be.Amely n elemű.
+A string tömböt egy szintén n-es forciklussal tölti fel.
+
+Majd ugyanezen végigiterálva elküldjük a gyereknek a méretét, majd magát a tömböt is.
+A főfolyamat ezek után már csak visszavár egy n méretű string tömböt, amit miután sikeresen fogad, beleír az output fájlba.
+
+A gyermekfolyamat törzse lényegében az üzenetek fogadásából áll, majd az eredmény előőállításából és végül az eredmény visszaküldéséből.
+
+Az eredmény előállítását a mergeSort nevű 3 paraméteres függvény végzi, amely rekuzívan hívható, s minden híváskor létrehoz 2 gyermeket, akiknek, a megfelelő szeletek méretétt és magát a szeletet is átküldi, majd viszontvárja az eredményt.
+
+\subsection{Fordítás}
+A program forráskódja a már említett master.cpp illetve a child.cpp. A program fordításához követelmény egy c++11
+szabványt támogato fordítóprogram megléte a rendszeren.
+A fejlesztés, ill. tesztelés során a g++ fordítót használtam. A fordítóban speciális beallításként a
+stringeket támogató -Wno-write-strings kapcsolót is alkalmazni kell.
+Az std=c++11 kapcsoló is szükséges, mert alapertelmezetten régebbi c++ szabvanyt támogat a fordító.
+A programhoz csatolt Makefile.aimk fajl segítséget nyújt a fordítashoz, mert magába foglalja a fordításhoz szükseges összes információt.
+Ennek segítségévek elég meghívni az aimk, parancsot a forrássájlok könyvtárában állva. Majd miután végezett, futtatható is a program.
+
+(PVM futtatása esetén: mostmár kiadható a pvm parancs, majd a pdm démonból indítható spawn-nal a master folyamat.)
+
+\subsection{Tesztelés}	
+
+A tesztelést és a futtatást, PVM környezetben végeztem.
+Ehhez hozzáférheetőséget kaptam az ELTE Atlasz nnevű kiszolgálójához.
+A merge metódust, amely az összefésülést végzi, a kari honlapokon talált segédanyagok alapján implementáltam.
+Ahogy a mergeSort metódust a feladathoz kapcsolt, rekurzív leírás alapján került megvalósításra.
+
+A merge metódushoz gyakorlati számnításokat végeztem a szélsősélges tesztesetekre. (1,2 eleműek összefűzése)
+A mergeSort metódust, pedig futtatások során teszteltem, figyelve arra, hogy felépülésre kerül-e a megfelelő bejárási fa.
+
+Megjegyzés:\\
+Sajnálatos módon az atlasz kiszámíthatatlan viselkedést produkált a fejlesztés alatt.
+
+% BEGIN -- END DOCUMENT (OVERLEAF) --
+\printbibliography
+\end{document}
+% END -- END DOCUMENT (OVERLEAF) --
+
+% BEGIN -- END DOCUMENT (TEXMAKER) --
+% \bibliography{ref}{}
+% \end{document}
+% END -- END DOCUMENT (TEXMAKER) --

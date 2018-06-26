@@ -1,0 +1,57 @@
+﻿@using AuctionSite.Models.Entities;
+@model Item
+@{
+    ViewData["Title"] = "Item Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var currentPrice = Model.HasBid ? Model.TopBid.Price : Model.OriginalBid;
+}
+
+@if (Model == null)
+{
+    <div class="well">
+        <h2>There are no registered items, yet.</h2>
+    </div>
+}
+else
+{
+    <div class="well">
+        <h2>Item Details:</h2>
+    </div>
+    <div class="row">
+        <div class="well">
+            <h3>@Model.Name</h3> <br />
+            Picture: <a href="@Url.Action("Image", new { itemId = Model.Id })" target="_blank">
+                <img src="@Url.Action("Image", new { itemId = Model.Id })" class="contentImage" />
+            </a><br />
+            <!-- Picture: @Model.Picture <br />-->
+            Description: @Model.Description <br />
+            Closed at: @Model.ClosedAt <br />
+            Created at: @Model.CreatedAt <br />
+            Base Price: @Model.OriginalBid&nbsp;@Model.Currency <br />
+            Current Price: @currentPrice&nbsp;@Model.Currency <br />
+        </div>
+
+        <label>Bid history: </label> <br />
+        <table class="table table-bordered table-hover"> 
+            <thead>
+                <tr>
+                    <th>#</th> 
+                    <th>Bid price</th> 
+                    <th>Username</th> 
+                    <th>Bid at</th> 
+               </tr> 
+            </thead> 
+            <tbody>
+                @foreach (Bid bid in Model.BidHistory)
+                {
+                    <tr>
+                        <th scope="row">@bid.Id</th>
+                        <td>@bid.Price</td>
+                        <td>@bid.User.Username</td>
+                        <td>@bid.CreatedAt</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

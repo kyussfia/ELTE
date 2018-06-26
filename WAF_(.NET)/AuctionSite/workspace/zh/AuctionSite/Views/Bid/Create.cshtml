@@ -1,0 +1,44 @@
+﻿    @using Microsoft.AspNetCore.Mvc.ModelBinding;
+@model AuctionSite.Models.ViewModel.NewBidViewModel;
+
+@{
+    ViewData["Title"] = "Make Bid on Item";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="well"><h1><a asp-controller="Item" asp-action="get" asp-route-itemId="@ViewBag.Item.Id">@ViewBag.Item.Name</a></h1></div>
+
+<div class="well">
+    @if (ViewBag.Item.Bids.Count > 0)
+    {
+        <p class="itemBid">Price: @ViewBag.Item.TopBid.Price&nbsp;@ViewBag.Item.Currency</p><br />
+    }
+    else
+    {
+        <p class="itemBid">Price: @ViewBag.Item.OriginalBid&nbsp;@ViewBag.Item.Currency</p><br />
+    }
+
+    <a class="itemBid" asp-controller="Category" asp-action="List" asp-route-categoryId="@ViewBag.Item.Category.Id">@ViewBag.Item.Category.Name</a><br />
+    <a class="itemAdv" asp-controller="Advertiser" asp-action="List" asp-route-advertiserId="@ViewBag.Item.AdvertiserId">@ViewBag.Item.Advertiser.Name</a>
+</div>
+
+<div class="well">
+    <h2>Make bid on @ViewBag.Item.Name</h2>
+
+    @using (Html.BeginForm()) // egy űrlapban töltjük ki a tartalmat
+    {
+        @Html.AntiForgeryToken() // védelem XSRF támadás ellen
+
+        @if (ViewData.ModelState.GetFieldValidationState("Price") == Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState.Invalid)
+        {
+            <div class="failureNotification alert alert-danger alert-dismissible fade in">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                @Html.ValidationSummary(true, "Your bid can not be saved.")
+                @Html.ValidationMessageFor(b => b.Price)
+            </div>
+        }
+
+        @Html.LabelFor(b => b.Price)@:&nbsp;@Html.EditorFor(b => b.Price)&nbsp;@Html.ValidationMessageFor(b => b.Price)
+        <br /><br/>
+        <input class="btn btn-success button" type="submit" value="Make bid" />
+    }
+</div>

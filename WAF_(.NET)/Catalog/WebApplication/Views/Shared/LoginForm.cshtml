@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding;
+@model WebApplication.Models.LoginViewModel;
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="well">
+    <h2>Bejelentkezési adatok:</h2>
+    @if (ViewBag.Information != null)
+    {
+        <div class="failureNotification alert alert-danger alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @ViewBag.Information
+        </div>
+    }
+    @if (null != Model && !Model.IsValid)
+    {
+        <div class="failureNotification alert alert-danger alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @Html.ValidationSummary(true, "A bejelentkezés sikertelen!")
+        </div>
+    }
+</div>
+<div class="well">
+    <h3>Username:</h3>
+    @if (ViewData.ModelState.GetFieldValidationState("Username") == Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState.Invalid)
+    {
+        <div class="failureNotification alert alert-danger alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @Html.ValidationMessageFor(a => a.Username)
+        </div>
+    }
+    @Html.EditorFor(a => a.Username)&nbsp;
+    @Html.ValidationMessageFor(a => a.Username)
+</div>
+<div class="well">
+    <h3>Password:</h3>
+    @if (ViewData.ModelState.GetFieldValidationState("Password") == Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState.Invalid)
+    {
+        <div class="failureNotification alert alert-danger alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @Html.ValidationMessageFor(a => a.Password)
+        </div>
+    }
+    @Html.EditorFor(a => a.Password)&nbsp;
+    @Html.ValidationMessageFor(a => a.Password)
+</div>
+<div class="well">
+    <input class="btn btn-success button" type="submit" value="Bejelentkezés" />
+</div>  

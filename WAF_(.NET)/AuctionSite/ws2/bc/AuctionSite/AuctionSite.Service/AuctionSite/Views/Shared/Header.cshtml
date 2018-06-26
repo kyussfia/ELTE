@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Http; 
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@if (Context.Session.GetString("user") == null && Context.Session.GetString("advertiser") == null)
+{
+    <div class="my-2 my-lg-0 form-inline">
+        <div class="dropdown sign">
+            <div class="dropbtn btn btn-success">Sign in</div>
+            <div class="dropdown-content">
+                <a class="btn btn-success" asp-controller="Account" asp-action="LoginAdvertiser">as Advertiser</a>
+                <a class="btn btn-success" asp-controller="Account" asp-action="LoginCustomer">as Customer</a>
+            </div>
+        </div>
+        <div class="dropdown reg">
+            <div class="dropbtn btn btn-warning">Register</div>
+            <div class="dropdown-content">
+                <a class="btn btn-warning" asp-controller="Account" asp-action="RegisterAdvertiser">as Advertiser</a>
+                <a class="btn btn-warning" asp-controller="Account" asp-action="RegisterCustomer">as Customer</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <form class="my-2 my-lg-0 form-inline" method="post">
+        <div class="dropdown user">
+            @if (Context.Session.GetString("user") != null)
+            {
+                <div class="dropbtn btn btn-success">
+                    @Context.Session.GetString("user")
+                    <p>(as Customer)</p>
+            </div>
+            }
+            else
+            {
+                @if (Context.Session.GetString("advertiser") != null)
+                {
+                    <div class="dropbtn btn btn-success">
+                        @Context.Session.GetString("advertiser")
+                        <p>(as Advertiser)</p>
+                    </div>
+                }
+            }
+            <div class="dropdown-content">
+                <input type="submit" class="btn btn-success" asp-controller="Account" asp-action="Logout" value="Logout" />               
+            </div>
+        </div>
+    </form>
+}

@@ -1,0 +1,99 @@
+﻿@using ELTE.TravelAgency.Models;
+@using System.Globalization;
+@using GoogleMapsHelpers;
+
+@model Building
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // megadjuk az elrendezést
+}
+
+@* csak a törzset adjuk meg *@
+
+@* amennyiben nem töltöttünk semmilyen adatot *@
+@if (Model == null)
+{
+    <div class="contentText">Jelenleg nincs elérhető szálláshely.</div>
+}
+else
+{
+    <div class="contentHead">@Model.Name</div>
+    <div class="contentBody">
+        <table width="600">
+            <tr>
+                <td>
+                    <strong>Város:</strong> @Model.City.Name
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Tengerpart távolság:</strong> @Model.SeaDistance méter
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Tengerpart típus: </strong> @Html.DisplayFor(b => b.ShoreType) @* meghívjuk az egyedi megjelenítőnket *@
+                </td>
+            </tr>
+            <tr>
+                <td height="400">
+                    <div class="contentComment">
+                        <strong>Elhelyezkedés:</strong> <br /><br />
+                        @Html.GoogleMaps(new { style = "width: 600px; height: 400px"})
+                        @Html.StaticMapsApi(new MapOptions(Model.LocationX.ToString("F6", System.Globalization.CultureInfo.CreateSpecificCulture("en-US")) + "," + Model.LocationY.ToString("F6", System.Globalization.CultureInfo.CreateSpecificCulture("en-US")), 13))
+                        @* betöltjük a Google térképet, és megjelöljük benne az épület elhelyezkedését *@
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="contentComment">
+                        <strong>Leírás:</strong> @Model.Comment
+                    </div>
+                </td>
+            </tr>
+            @if (ViewBag.Images != null && ViewBag.Images.Count > 0) // ha van kép az épülethez
+            {
+                <tr>
+                    <td>
+                        <div class="contentComment">
+                            <strong>Képek:</strong><br />
+                            @foreach (Int32 id in ViewBag.Images) // a képek azonosítóit a nézet adataihoz töltöttük be
+                            {
+                                <a href="@Url.Action("Image", new { imageId = id, isLarge = true })" target="_blank">
+                                    @* képként betöltjük a kis méretű képet, a nagy méretűre pedig elhelyezünk egy hivatkozást *@
+                                    <img src="@Url.Action("Image", new { imageId = id })" class="contentImage" />
+                                </a>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <table width="600">
+        @foreach (Apartment apartment in Model.Apartment)
+        {
+            <tr>
+                <td>
+                    <div class="contentComment">
+                        <strong>
+                            @apartment.Room.
+                        </strong> @apartment.Comment
+                    </div>
+                    <div class="contentDay">
+                        <strong>Fordulónap:</strong> @Html.DisplayFor(b => apartment.TurndayOfWeek) @* meghívjuk az egyedi megjelenítőnket *@
+                    </div>
+                    <div class="contentPrice">
+                        <strong>Ár:</strong> @apartment.Price EUR/éjszaka
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.ActionLink("Szállás lefoglalása", "Index", "Rent", new { apartmentId = apartment.Id }, new { @class="contentLink" })
+                </td>
+            </tr>
+        }
+    </table>
+}

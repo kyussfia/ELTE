@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Register as Advertiser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AuctionSite.Models.ViewModel.RegisterAdvertiserViewModel
+
+<form method="post" asp-controller="Account" asp-action="RegisterAdvertiser">
+    <div asp-validation-summary="ModelOnly" class="alert alert-success alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />&nbsp;
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Username"></label>
+        <input asp-for="Username" />&nbsp;
+        <span asp-validation-for="Username"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" />&nbsp;
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <div>
+        <label asp-for="ConfirmPassword"></label>
+        <input asp-for="ConfirmPassword" />&nbsp;
+        <span asp-validation-for="ConfirmPassword"></span>
+    </div>
+
+    <div>
+        <input class="btn btn-success"type="submit" value="Register" />
+    </div>
+</form>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:view="clr-namespace:LightDuel"
+             xmlns:controls="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="LightDuel.GamePage"
+             Title="Ligh-Duel" BackgroundColor="LightGray">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FieldStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="Margin" Value="1" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+            </Style>
+            <Color x:Key="BorderColor">#E1E1E1</Color>
+            <Style x:Key="BorderStyle" TargetType="view:AutoSizeContentView">
+            <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+            <Setter Property="Padding" Value="3,1,1,3"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid Padding="0" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Button Text="P1 Right" Grid.Row="0" Command="{Binding P1RCommand}" HorizontalOptions="Start" BackgroundColor="Blue" Opacity="0.3" Margin="0"/>
+        <Button Text="P1 Left" Grid.Row="0" Command="{Binding P1LCommand}" HorizontalOptions="End" BackgroundColor="Blue" Opacity="0.3" Margin="0"/>
+
+        <Button Text="Menü" Grid.Row="1" Command="{Binding MenuCommand}" HorizontalOptions="Start" />
+        <Label Text="{Binding Time}" Grid.Row="1" HorizontalOptions="Center" />
+        <Button Text="{Binding PauseText}" Grid.Row="1" Command="{Binding PauseCommand}" HorizontalOptions="End" />
+
+        <view:AutoSizeContentView Grid.Row="2" Style="{StaticResource BorderStyle}">
+            <controls:FlowListView SeparatorVisibility="Default" FlowColumnCount="{Binding Size}"  FlowItemsSource="{Binding Fields}" RowHeight="{Binding ButtonHeight}">
+            <!-- a játéktáblát egy sorfolytos listával valósítjuk meg    -->
+            <controls:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <!-- a rács elemei gombok lesznek -->
+                        <view:SquareButton VerticalOptions="Center" HorizontalOptions="Center" BorderWidth="1" BorderColor="Black">
+                        <Button.Style>
+                            <!-- megadjuk az elemek stílusát -->
+                            <Style TargetType="Button">
+                                    <Setter Property="BackgroundColor" Value="{Binding Color}"/>
+                                    <Setter Property="BorderColor" Value="Black"/>
+                                </Style>
+                        </Button.Style>
+                    </view:SquareButton>
+                </DataTemplate>
+            </controls:FlowListView.FlowColumnTemplate>
+            </controls:FlowListView>
+        </view:AutoSizeContentView>
+
+        <Button Text="P2 Left" Grid.Row="3" Command="{Binding P2LCommand}" HorizontalOptions="Start" BackgroundColor="Red" Opacity="0.3" Margin="0" />
+        <Button Text="P2 Right" Grid.Row="3" Command="{Binding P2RCommand}" HorizontalOptions="End" BackgroundColor="Red" Opacity="0.3" Margin="0" />
+    </Grid>
+</ContentPage>

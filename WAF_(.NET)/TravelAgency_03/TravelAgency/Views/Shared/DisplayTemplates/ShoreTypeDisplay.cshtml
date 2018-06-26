@@ -1,0 +1,21 @@
+﻿@model Int32?
+
+@* megadjuk, hogyan jelenjen meg a tengerpart típus *@
+
+@{
+    Func<Int32?, String> shoreType = shoreTypeId =>
+    {
+        if (shoreTypeId == null)
+            return "?";
+
+        switch (shoreTypeId.Value)
+        {
+            case 0: return "homokos";
+            case 1: return "kavicsos";
+            case 2: return "sziklás";
+            default: return "(n/i)";
+        };
+    };
+}
+
+<span>@shoreType(Model)</span>

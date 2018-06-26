@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+
+<p>This project is made by Mark Mikus, in the case of WAF course on ELTE, in 2018.</p>
+
+<h3>Auction portal:</h3>
+<p>Készítsünk egy aukciókkal foglakozó online rendszert, ahol különböző tárgyakra licitálhatnak a felhasználók.</p>
+<ol>
+    <li><strong>részfeladat</strong>: a webes felületet a licitálók használhatják a tárgyak megtekintésére, illetve ajánlattételre.
+        <ul>
+            <li> + A főoldalon a legutoljára meghirdetett 20 tárgy listázódik (név, hirdető, jelenlegi licitösszeg),</li>
+            <li> + Lehetőségünk van kategóriánként megtekinteni az összes (még aktív) hirdetést.</li>
+            <li> + Egy oldalon legfeljebb 20 tárgy látható (a meghirdetés dátuma szerint csökkenő sorrendben), </li>
+            <li> + Az oldalak között lapozni lehet. </li>
+            <li> + A lista szűrhető név(részlet)re.</li>
+            <li> + tárgyat kiválasztva megjelennek a  részletes adatok (kép, leírás, lezárás és meghirdetés dátuma, aktuális licit).</li>
+            <li> + A licitálónak előbb regisztrálnia kell az oldalon (név, telefonszám, e-mail cím, felhasználónév, jelszó, megerősített jelszó), majd ezt követően bejelentkezhet. </li>
+            <li> + A bejelentkezett felhasználó kijelentkezhet. </li>
+            <li> + Bejelentkezést követően érhető el a licitálás minden aktív tárgynál.</li>
+            <li> + Licitáláshoz ki kell jelölni a tárgyat és meg kell adni az összeget.</li>
+            <li> + Első licitesetén az összegnek a minimális licitnek kell lennie, később pedig mindenképpen nagyobbnak kell lennie a korábbi liciteknél.</li>
+            <li> + Egy felhasználó tetszőlegesen sokszor licitálhat egy tárgyra.</li>
+            <li> + A licitet visszavonni nem lehet.</li>
+            <li> + A felhasználó külön listázhatja azokat a tárgyakat, amelyekre legalább egyszer licitált. </li>
+            <li> + A listában külön megjelöljük az aktív tárgyakat, valamint azokat, ahol vezeti a licitet. </li>
+        </ul>
+    </li>
+    <li><strong>részfeladat</strong>: az asztali grafikus felületet az akciók hirdetői használhatják új tárgyak felvitelére, valamint a licitálás helyzetének lekérdezésére.
+        <ul>
+            <li> + Hirdetőként bejelentkezhetünk az alkalmazásba a felhasználónév és a jelszó megadásával. </li>
+            <li> + Ezt követően lehetőségünk van a meghirdetett tárgyak követésére, új tárgy felvitelére, valamint kijelentkezésre.</li>
+            <li> + Új tárgy felvitelekor megadjuk az elnevezést, a kategóriát, a leírást, a kezdő licitösszeget, a licitálás lezárásának dátumát. </li>
+            <li> + Továbbá feltölthetünk egy képet is a tárgyhoz.</li>           
+            <li> + A meghirdetett tárgyak (a licitálás lezárási ideje szerint) listázódnak, és minden tárgynál megjelenik, hogy jelenleg mennyit ajánlottak érte. </li> 
+            <li> A tárgyat kiválasztva megkapjuk az összes információt képpel együtt, valamint az összes addigi licitet (dátum, név, összeg).</li> 
+            <li> + Lehetőségünk van a licit azonnali lezárására (csak ha valaki már licitált rá, ekkor az aktuális licitáló viszi a tárgyat).</li> 
+            <li>
+                Az adatbázis az alábbi adatokat tárolja: 
+                <ul>
+                    <li>hirdetők (név, felhasználónév, jelszó);</li>
+                    <li>felhasználók (név, felhasználónév, jelszó, telefonszám, e-mail cím);</li>
+                    <li>kategóriák (név);</li>
+                    <li>tárgyak (név, kategória, leírást, kezdő licit, lezárás dátuma, kép);</li>
+                    <li>licitek (tárgy, felhasználó, összeg, dátum).</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+

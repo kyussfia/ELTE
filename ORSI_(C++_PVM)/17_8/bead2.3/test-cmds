@@ -1,0 +1,14 @@
+spawn -> master 0 ures.txt output.txt
+spawn -> master 1 ures.txt output.txt
+
+spawn -> master 2 i1.txt output.txt
+spawn -> master 1 i1.txt output.txt
+
+spawn -> master -1 i2.txt output.txt
+spawn -> master 3 i2.txt output.txt
+
+spawn -> master -2 i3.txt output.txt
+spawn -> master 7 i3.txt output.txt
+
+spawn -> master 20 i4.txt output.txt
+spawn -> master 21 i4.txt output.txt

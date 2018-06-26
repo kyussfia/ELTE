@@ -1,0 +1,100 @@
+#include <pvm3.h>
+#include <vector>
+#include <iostream>
+#include <stdlib.h>
+/* CM6TSV */
+int main()
+{
+	int parent_id = pvm_parent();
+	
+	pvm_recv(parent_id, 1);
+
+	char answer;
+	
+	int k;
+	pvm_upkint(&k, 1, 1);
+
+	pvm_initsend(PvmDataDefault);
+	if (k == 0)
+	{
+		answer = '1'; //send true
+		pvm_pkbyte(&answer, 1, 1);
+		pvm_send(parent_id, 1);
+		pvm_exit();
+	} else {
+		unsigned int n;
+		pvm_upkuint(&n, 1 ,1);
+
+		if (n == 0)
+		{
+			answer = '0';
+			pvm_pkbyte(&answer, 1, 1);
+			pvm_send(parent_id, 1);
+			pvm_exit();
+		} else {
+			std::vector<int> child_tasks(2);
+
+			int started = pvm_spawn(const_cast<char*>("child"), 0, PvmTaskDefault, 0, 2, child_tasks.data());
+			if (started < 2)
+			{
+				for (int i = 0; i < started; i++)
+				{
+					pvm_kill(child_tasks[i]);
+				}
+				
+				pvm_exit();
+				std::cout << "Spawn error!" << std::endl;
+				exit(2);
+			}
+
+			std::vector<int> data(n);
+			pvm_upkint(data.data(), n, 1);
+
+			int tail = data.back();
+			data.pop_back(); //popped
+
+			n = n - 1;
+			
+			//1 child: k n-1 popped
+			pvm_pkint(&k, 1, 1);
+			pvm_pkuint(&n, 1, 1);
+			pvm_pkint(data.data(), n, 1);
+			pvm_send(child_tasks[0], 1);
+
+			k = k - tail;
+
+			//2 child: k-tail n-1 popped
+			pvm_initsend(PvmDataDefault);
+			pvm_pkint(&k, 1, 1);
+			pvm_pkuint(&n, 1, 1);
+			pvm_pkint(data.data(), n, 1);
+			pvm_send(child_tasks[1], 1);
+
+			//-----------------------
+			// Recieve
+
+			for (auto i : child_tasks)
+			{
+				pvm_recv(i, 1);
+				pvm_upkbyte(&answer, 1, 1);
+
+				if (answer == '1')
+				{
+					pvm_initsend(PvmDataDefault);
+					pvm_pkbyte(&answer, 1, 1);
+					pvm_send(parent_id, 1);
+					pvm_exit();
+					break;
+				}
+			}
+
+			if (answer == '0') {
+				pvm_initsend(PvmDataDefault);
+				pvm_pkbyte(&answer, 1, 1);
+				pvm_send(parent_id, 1);
+				pvm_exit();
+			}
+		}
+	}
+	return 0;
+}

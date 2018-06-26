@@ -1,0 +1,35 @@
+﻿@using Zh.Models;
+@using Microsoft.AspNetCore.Http;
+@model Error
+@{
+    ViewData["Title"] = "Error Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null)
+{
+    <div class="well">
+        <h2>There are no registered items, yet.</h2>
+    </div>
+}
+else
+{
+    <div class="well">
+        <h2>Item Details:</h2>
+    </div>
+    <div class="row">
+        <div class="well">
+            <h3>@Model.Title</h3> <br />
+            <br />
+            <div class="well picture">
+                <a href="@Url.Action("Image", new { errId = Model.Id })" target="_blank">
+                    <img alt="Error's picture'" src="@Url.Action("Image", new { errId = Model.Id })" class="contentImage" />
+                </a>
+            </div>
+            <br />
+            Description: @Model.Description <br />
+            Created at: @Model.CreatedAt <br />
+            Number of requests: @Model.NumOfRequests <br />
+        </div>      
+    </div>
+}

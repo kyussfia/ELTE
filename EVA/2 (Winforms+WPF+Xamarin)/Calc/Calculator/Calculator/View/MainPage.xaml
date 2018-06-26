@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<view:OrientationAwareContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                  xmlns:view="clr-namespace:ELTE.Calculator.View"
+                                  x:Class="ELTE.Calculator.View.MainPage"
+                                  x:Name="ContentPage"
+                                  Title="Calculator">
+  <!-- a saját lap típusunkat használjuk fel -->
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <!-- stílusok a vezérlőknek -->
+      <Style x:Key="BasicButtonStyle" TargetType="Button">
+        <Setter Property="FontSize">
+          <Setter.Value>
+            <OnIdiom x:TypeArguments="x:Double" Phone="15" Tablet="45"/>
+          </Setter.Value>
+        </Setter>
+        <Setter Property="WidthRequest">
+          <Setter.Value>
+            <OnIdiom x:TypeArguments="x:Double" Phone="40" Tablet="90"/>
+          </Setter.Value>
+        </Setter>
+        <Setter Property="HeightRequest">
+          <Setter.Value>
+            <OnIdiom x:TypeArguments="x:Double" Phone="40" Tablet="90"/>
+          </Setter.Value>
+        </Setter>
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Margin" Value="2" />
+      </Style>
+      <Style x:Key="FunctionButtonStyle" TargetType="Button" BasedOn="{StaticResource BasicButtonStyle}">
+        <Setter Property="BackgroundColor" Value="Green" />
+        <Setter Property="BorderColor" Value="Green" />
+      </Style>
+      <Style x:Key="NumberButtonStyle" TargetType="Button" BasedOn="{StaticResource BasicButtonStyle}">
+        <Setter Property="BackgroundColor" Value="Gray" />
+        <Setter Property="BorderColor" Value="Gray" />
+      </Style>
+      <Style x:Key="NumberFieldStyle" TargetType="Label">
+        <Setter Property="FontSize">
+          <Setter.Value>
+            <OnIdiom x:TypeArguments="x:Double" Phone="40" Tablet="120"/>
+          </Setter.Value>
+        </Setter>
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+        <Setter Property="Margin" Value="10" />
+      </Style>
+      <Style x:Key="NumberListViewLabelStyle" TargetType="Label">
+        <Setter Property="FontSize">
+          <Setter.Value>
+            <OnIdiom x:TypeArguments="x:Double" Phone="15" Tablet="30"/>
+          </Setter.Value>
+        </Setter>
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="Margin" Value="5" />
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout>
+    <StackLayout.Triggers>
+      <!-- reagálunk az elforgatásokra -->
+      <DataTrigger TargetType="StackLayout" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="True">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+      </DataTrigger>
+      <DataTrigger TargetType="StackLayout" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="False">
+        <Setter Property="Orientation" Value="Vertical" />
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+      </DataTrigger>
+    </StackLayout.Triggers>
+    <Grid Padding="0" ColumnSpacing="0" RowSpacing="0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+      </Grid.ColumnDefinitions>
+      <Grid.Triggers>
+        <DataTrigger TargetType="Grid" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="True">
+          <Setter Property="HorizontalOptions" Value="Fill" />
+        </DataTrigger>
+        <DataTrigger TargetType="Grid" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="False">
+          <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        </DataTrigger>
+      </Grid.Triggers>
+      
+      <Label Text="{Binding NumberFieldValue}" Grid.Row="0" Grid.ColumnSpan="4" Style="{StaticResource NumberFieldStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="1" Text="1" Grid.Row="1" Grid.Column="0" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="2" Text="2" Grid.Row="1" Grid.Column="1" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="3" Text="3" Grid.Row="1" Grid.Column="2" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="4" Text="4" Grid.Row="2" Grid.Column="0" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="5" Text="5" Grid.Row="2" Grid.Column="1" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="6" Text="6" Grid.Row="2" Grid.Column="2" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="7" Text="7" Grid.Row="3" Grid.Column="0" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="8" Text="8" Grid.Row="3" Grid.Column="1" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="9" Text="9" Grid.Row="3" Grid.Column="2" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="0" Text="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="," Text="," Grid.Row="4" Grid.Column="2" Style="{StaticResource NumberButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="+" Text="+" Grid.Row="1" Grid.Column="3" Style="{StaticResource FunctionButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="-" Text="-" Grid.Row="2" Grid.Column="3" Style="{StaticResource FunctionButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="×" Text="×" Grid.Row="3" Grid.Column="3" Style="{StaticResource FunctionButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="÷" Text="÷" Grid.Row="4" Grid.Column="3" Style="{StaticResource FunctionButtonStyle}" />
+      <Button Command="{Binding CalculateCommand}" CommandParameter="=" Text="=" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" Style="{StaticResource FunctionButtonStyle}" />
+    </Grid>
+    <ListView ItemsSource="{Binding Calculations}" WidthRequest="380">
+      <ListView.Triggers>
+        <DataTrigger TargetType="ListView" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="True">
+          <Setter Property="HorizontalOptions" Value="Fill" />
+        </DataTrigger>
+        <DataTrigger TargetType="ListView" Binding="{Binding Source={x:Reference ContentPage}, Path=IsLandscape}" Value="False">
+          <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        </DataTrigger>
+      </ListView.Triggers>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Label Text="{Binding}" Style="{StaticResource NumberListViewLabelStyle}" />
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</view:OrientationAwareContentPage>

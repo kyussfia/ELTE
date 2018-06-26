@@ -1,0 +1,80 @@
+﻿@using AuctionSite.Models.Entities;
+@using Microsoft.AspNetCore.Http;
+
+@model PaginatedList<Item>
+@{
+    ViewData["Title"] = "MyItems";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="well">
+    <h2>My Items</h2><h4>(Total: @Model.Total)</h4>
+</div>
+@if (Model == null || Model.Total == 0)
+{
+    <div class="well">
+        <h3>There are no bidded items.</h3>
+    </div>
+}
+else
+{
+
+    @using (Html.BeginForm("MyItems", "Item", FormMethod.Get))
+    {
+        <div class="form-inline my-2 my-lg-0 form-actions no-color">
+            <p>
+                Find by name: <input class="form-control mr-sm-2" type="search" name="SearchString" placeholder="Search" aria-label="Search" value="@ViewBag.CurrentFilter" />
+                <input type="submit" value="Search" class="btn btn-outline-default my-2 my-sm-0" /> |
+                <a asp-controller="Item" asp-action="MyItems">Back to Full List</a>
+            </p>    
+        </div>
+    }
+    <div class="row">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            if (i > 0 && i % 3 == 0)
+            {
+                @:</div><div class="row">
+            }
+            <div class="col-sm-4">
+                <div class="well">
+                    <a class="itemName" asp-controller="Item" asp-action="get" asp-route-itemId="@Model[i].Id">@Model[i].Name</a><br />
+                    @if (Model[i].ClosedAt > DateTime.Now)
+                    {
+                        <span class="label label-success details">Active</span><br />
+                        <a class="btn btn-info itemBid myItemsBid" asp-controller="Bid" asp-action="Create" asp-route-itemIdInt="@Model[i].Id">Bid</a><br />
+                    }
+                    else
+                    {
+                        <span class="label label-danger details">Expired</span><br />
+                    }
+                    @if (Model[i].TopBid.UserId == ViewBag.CurrentUserId)
+                    {
+                        <span class="label label-success details">You have the Top bid.</span><br />
+                    }
+                    else
+                    {
+                        <span class="label label-danger details">You're not lead the bid</span><br />
+                    }
+                    <a class="itemAdv" asp-controller="Advertiser" asp-action="List" asp-route-advertiserId="@Model[i].AdvertiserId">@Model[i].Advertiser.Name</a>
+                </div>
+            </div>
+        }
+    </div>
+    <a asp-action="MyItems"
+       asp-route-searchString="@ViewBag.CurrentFilter"
+       asp-route-page="@(Model.PageIndex - 1)"
+       class="btn btn-default @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="MyItems"
+       asp-route-searchString="@ViewBag.CurrentFilter"
+       asp-route-page="@(Model.PageIndex + 1)"
+       class="btn btn-default @nextDisabled">
+        Next
+    </a>
+}
+
+

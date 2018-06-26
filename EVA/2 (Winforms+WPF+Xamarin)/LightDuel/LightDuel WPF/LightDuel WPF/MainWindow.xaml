@@ -1,0 +1,63 @@
+﻿<Window x:Class="LightDuel_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Light-Duel" Height="960" Width="987" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF0F0F0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Menu x:Name="Menu" DockPanel.Dock="Top" Grid.Row="0">
+            <MenuItem Header="_Új játék">
+                <MenuItem Header="_Kicsi (12)" Command="{Binding LittleCommand}"/>
+                <MenuItem Header="K_özepes (24)" Command="{Binding MidCommand}"/>
+                <MenuItem Header="_Nagy (36)" Command="{Binding LargeCommand}"/>
+            </MenuItem>
+        </Menu>
+
+        <Button Content="{Binding PauseText}" Grid.Row="1" Command="{Binding PauseCommand}" HorizontalAlignment="Left" Width="70" />
+        <Label Content="{Binding Time}" HorizontalAlignment="Center" Grid.Row="1" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="24"/>
+
+        <ItemsControl Grid.Row="2" ItemsSource="{Binding Fields}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="{Binding Size}" Columns="{Binding Size}" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemContainerStyle>
+                <Style>
+                    <Setter Property="Grid.Row" Value="{Binding Size}" />
+                    <Setter Property="Grid.Column" Value="{Binding Size}" />
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button>
+                        <Button.Style>
+                            <!-- megadjuk az elemek stílusát -->
+                            <Style TargetType="Button">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <SolidColorBrush Color="{Binding Color}" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <SolidColorBrush Color="{Binding Color}" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</Window>

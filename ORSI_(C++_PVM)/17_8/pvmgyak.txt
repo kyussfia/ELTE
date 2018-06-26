@@ -1,0 +1,103 @@
+LEsz egy home-om : /home/.
+
+Kell pvm3/src/...
+		 /bin/
+
+pvm_spawn(miyen folyamatok indulnak, )
+pvm_spawn((char*)"child", 0m PvmTaskDefault, 0, 1, &childID);
+
+pvm_initsend(PvmTaskDefault);
+pvm_pkint(&data, ennyit küldj el (ez itt 1), 1);
+
+ végére pvm_exit();
+
+
+//// ufttatás
+aimk
+ aimk links parancs
+
+ belépps:
+ pvm
+
+ pvm> spawn -> master
+
+
+ eof : indott folyamatok számú legyen
+
+
+ quit : > kilép
+
+ halt: kilővi a folyamatokatű
+
+
+
+ tóth melinda pvm: doksik anyagok
+
+
+
+ //
+ /*
+
+Paraméterek:
+
+
+int main()
+
+for (int i=0; i<argc; i++)
+{
+    std::cout<<"Arg " << argv[i] <<
+}
+
+
+
+spawn
+
+*/
+
+spawn -> master 213 sdf dfs
+
+
+halt kilépés!!!
+
+f(n: Z, s: SET(Z))
+n = 0 -> return true
+n /= 0 && s = oüres => return false
+----|
+	|-->
+	|
+	|-->
+
+
+7 {1, 2, 3}
+-7=0?
+-nem üres?
+két szál indul:
+----- 6 {2, 3}
+	-nem
+	-nem
+	---------- 4 {3}
+			-nem
+			-nem
+			------ 1 {} hamis
+
+
+
+			------ 4 {} hamis
+
+
+
+
+	---------- 6 {3}
+
+			-nem
+			-nem
+			-------- 3 {} hamis
+
+
+			-------- 6 {} hamis
+
+
+
+---- 7 {2, 3}
+
+ ----------

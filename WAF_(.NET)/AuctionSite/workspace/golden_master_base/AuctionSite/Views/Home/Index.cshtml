@@ -1,0 +1,42 @@
+﻿@using AuctionSite.Models.Entities;
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+@if (ViewBag.Items == null || ViewBag.Items.Count == 0)
+{
+    <div class="well">
+        <h2>There are no registered items, yet.</h2>
+    </div>
+}
+else
+{
+    <div class="well">
+        <h2>Latest 20 items on the site:</h2>
+    </div>
+    <div class="row">
+        @for (int i = 0; i < ViewBag.Items.Count; i++)
+        {
+            if (i > 0 && i % 3 == 0)
+            {
+                @:</div><div class="row">
+            }
+            <div class="col-sm-4">
+                <div class="well">
+                    <a class="itemName" asp-controller="Item" asp-action="Get" asp-route-itemId="@ViewBag.Items[i].Id">@ViewBag.Items[i].Name</a><br/>
+                    @if (ViewBag.Items[i].Bids.Count > 0)
+                    {
+                        <p class="itemBid">Price: @ViewBag.Items[i].TopBid.Price&nbsp;@ViewBag.Items[i].Currency</p><br />
+                    }
+                    else
+                    {
+                        <p class="itemBid">Price: @ViewBag.Items[i].OriginalBid&nbsp;@ViewBag.Items[i].Currency</p><br />
+                    }
+                    <a class="itemBid" asp-controller="Category" asp-action="List" asp-route-categoryId="@ViewBag.Items[i].Category.Id">@ViewBag.Items[i].Category.Name</a><br />
+                    <a class="itemAdv" asp-controller="Advertiser" asp-action="Get" asp-route-advertiserId="@ViewBag.Items[i].AdvertiserId">@ViewBag.Items[i].Advertiser.Name</a>
+                </div>
+            </div>
+        }     
+    </div>
+}

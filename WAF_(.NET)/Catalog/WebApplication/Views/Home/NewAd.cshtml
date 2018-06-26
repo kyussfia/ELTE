@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding;
+@model WebApplication.Models.NewLoginViewModel;
+
+@{
+    ViewData["Title"] = "Make new";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <form method="post" asp-controller="Home" asp-action="NewAd" style="margin-top: 100px;">
+        <div asp-validation-summary="ModelOnly" class="alert alert-success alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        </div>
+        <div>
+            <label asp-for="Place"></label>
+            <input asp-for="Place" />&nbsp;
+            <span asp-validation-for="Place"></span>
+        </div>
+
+        <div>
+            <label asp-for="CreatedAt"></label>
+            <input asp-for="CreatedAt" />&nbsp;
+            <span asp-validation-for="CreatedAt"></span>
+        </div>
+
+        <div>
+            <label asp-for="Spec"></label>
+            <select asp-for="Spec"
+                     asp-items="@(new SelectList(Model.Species))">
+                <option>Please select one</option>
+            </select>
+            <span asp-validation-for="Spec"></span>
+        </div>
+        <div>
+            <input class="btn btn-success" type="submit" value="Register" />
+        </div>
+    </form>
+</div>

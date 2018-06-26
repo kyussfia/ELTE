@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TravelAgencyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Apartment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BuildingId" Type="int" Nullable="false" />
+          <Property Name="Room" Type="int" Nullable="false" />
+          <Property Name="Turnday" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="varchar" MaxLength="1000" />
+          <Property Name="Price" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Building">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="CityId" Type="int" Nullable="false" />
+          <Property Name="SeaDistance" Type="int" Nullable="false" />
+          <Property Name="ShoreId" Type="int" />
+          <Property Name="Features" Type="int" />
+          <Property Name="LocationX" Type="float" Nullable="false" />
+          <Property Name="LocationY" Type="float" Nullable="false" />
+          <Property Name="Comment" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="BuildingImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BuildingId" Type="int" Nullable="false" />
+          <Property Name="ImageSmall" Type="varbinary(max)" Nullable="false" />
+          <Property Name="ImageLarge" Type="varbinary(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="40" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Guest">
+          <Key>
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="UserPassword" Type="binary" MaxLength="64" />
+          <Property Name="Name" Type="varchar" MaxLength="60" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="200" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="20" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rent">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ApartmentId" />
+            <PropertyRef Name="StartDate" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="ApartmentId" Type="int" Nullable="false" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="EndDate" Type="date" Nullable="false" />
+        </EntityType>
+        <Association Name="ApartmentToBuilding">
+          <End Role="Building" Type="Self.Building" Multiplicity="1" />
+          <End Role="Apartment" Type="Self.Apartment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Building">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Apartment">
+              <PropertyRef Name="BuildingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="BuldingToCity">
+          <End Role="City" Type="Self.City" Multiplicity="1" />
+          <End Role="Building" Type="Self.Building" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Building">
+              <PropertyRef Name="CityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ImageToBuilding">
+          <End Role="Building" Type="Self.Building" Multiplicity="1" />
+          <End Role="BuildingImage" Type="Self.BuildingImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Building">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BuildingImage">
+              <PropertyRef Name="BuildingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RentToApartement">
+          <End Role="Apartment" Type="Self.Apartment" Multiplicity="1" />
+          <End Role="Rent" Type="Self.Rent" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Apartment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Rent">
+              <PropertyRef Name="ApartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RentToGuest">
+          <End Role="Guest" Type="Self.Guest" Multiplicity="1" />
+          <End Role="Rent" Type="Self.Rent" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Guest">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="Rent">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TravelAgencyModelStoreContainer">
+          <EntitySet Name="Apartment" EntityType="Self.Apartment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Building" EntityType="Self.Building" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BuildingImage" EntityType="Self.BuildingImage" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Guest" EntityType="Self.Guest" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rent" EntityType="Self.Rent" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="ApartmentToBuilding" Association="Self.ApartmentToBuilding">
+            <End Role="Building" EntitySet="Building" />
+            <End Role="Apartment" EntitySet="Apartment" />
+          </AssociationSet>
+          <AssociationSet Name="BuldingToCity" Association="Self.BuldingToCity">
+            <End Role="City" EntitySet="City" />
+            <End Role="Building" EntitySet="Building" />
+          </AssociationSet>
+          <AssociationSet Name="ImageToBuilding" Association="Self.ImageToBuilding">
+            <End Role="Building" EntitySet="Building" />
+            <End Role="BuildingImage" EntitySet="BuildingImage" />
+          </AssociationSet>
+          <AssociationSet Name="RentToApartement" Association="Self.RentToApartement">
+            <End Role="Apartment" EntitySet="Apartment" />
+            <End Role="Rent" EntitySet="Rent" />
+          </AssociationSet>
+          <AssociationSet Name="RentToGuest" Association="Self.RentToGuest">
+            <End Role="Guest" EntitySet="Guest" />
+            <End Role="Rent" EntitySet="Rent" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TravelAgencyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Apartment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BuildingId" Type="Int32" Nullable="false" />
+          <Property Name="Room" Type="Int32" Nullable="false" />
+          <Property Name="Turnday" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Building" Relationship="Self.ApartmentToBuilding" FromRole="Apartment" ToRole="Building" />
+          <NavigationProperty Name="Rent" Relationship="Self.RentToApartement" FromRole="Apartment" ToRole="Rent" />
+        </EntityType>
+        <EntityType Name="Building">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CityId" Type="Int32" Nullable="false" />
+          <Property Name="SeaDistance" Type="Int32" Nullable="false" />
+          <Property Name="ShoreId" Type="Int32" />
+          <Property Name="Features" Type="Int32" />
+          <Property Name="LocationX" Type="Double" Nullable="false" />
+          <Property Name="LocationY" Type="Double" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Apartment" Relationship="Self.ApartmentToBuilding" FromRole="Building" ToRole="Apartment" />
+          <NavigationProperty Name="City" Relationship="Self.BuldingToCity" FromRole="Building" ToRole="City" />
+          <NavigationProperty Name="BuildingImage" Relationship="Self.ImageToBuilding" FromRole="Building" ToRole="BuildingImage" />
+        </EntityType>
+        <EntityType Name="BuildingImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BuildingId" Type="Int32" Nullable="false" />
+          <Property Name="ImageSmall" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="ImageLarge" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <NavigationProperty Name="Building" Relationship="Self.ImageToBuilding" FromRole="BuildingImage" ToRole="Building" />
+        </EntityType>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Building" Relationship="Self.BuldingToCity" FromRole="City" ToRole="Building" />
+        </EntityType>
+        <EntityType Name="Rent">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ApartmentId" />
+            <PropertyRef Name="StartDate" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ApartmentId" Type="Int32" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="Apartment" Relationship="Self.RentToApartement" FromRole="Rent" ToRole="Apartment" />
+          <NavigationProperty Name="Guest" Relationship="TravelAgencyModel.RentToGuest" FromRole="Rent" ToRole="Guest" />
+        </EntityType>
+        <Association Name="ApartmentToBuilding">
+          <End Role="Building" Type="Self.Building" Multiplicity="1" />
+          <End Role="Apartment" Type="Self.Apartment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Building">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Apartment">
+              <PropertyRef Name="BuildingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RentToApartement">
+          <End Role="Apartment" Type="Self.Apartment" Multiplicity="1" />
+          <End Role="Rent" Type="Self.Rent" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Apartment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Rent">
+              <PropertyRef Name="ApartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="BuldingToCity">
+          <End Role="City" Type="Self.City" Multiplicity="1" />
+          <End Role="Building" Type="Self.Building" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Building">
+              <PropertyRef Name="CityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ImageToBuilding">
+          <End Role="Building" Type="Self.Building" Multiplicity="1" />
+          <End Role="BuildingImage" Type="Self.BuildingImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Building">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BuildingImage">
+              <PropertyRef Name="BuildingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TravelAgencyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Apartment" EntityType="Self.Apartment" />
+          <EntitySet Name="Building" EntityType="Self.Building" />
+          <EntitySet Name="BuildingImage" EntityType="Self.BuildingImage" />
+          <EntitySet Name="City" EntityType="Self.City" />
+          <EntitySet Name="Rent" EntityType="Self.Rent" />
+          <AssociationSet Name="ApartmentToBuilding" Association="Self.ApartmentToBuilding">
+            <End Role="Building" EntitySet="Building" />
+            <End Role="Apartment" EntitySet="Apartment" />
+          </AssociationSet>
+          <AssociationSet Name="RentToApartement" Association="Self.RentToApartement">
+            <End Role="Apartment" EntitySet="Apartment" />
+            <End Role="Rent" EntitySet="Rent" />
+          </AssociationSet>
+          <AssociationSet Name="BuldingToCity" Association="Self.BuldingToCity">
+            <End Role="City" EntitySet="City" />
+            <End Role="Building" EntitySet="Building" />
+          </AssociationSet>
+          <AssociationSet Name="ImageToBuilding" Association="Self.ImageToBuilding">
+            <End Role="Building" EntitySet="Building" />
+            <End Role="BuildingImage" EntitySet="BuildingImage" />
+          </AssociationSet>
+          <EntitySet Name="Guest" EntityType="TravelAgencyModel.Guest" />
+          <AssociationSet Name="RentToGuest" Association="TravelAgencyModel.RentToGuest">
+            <End Role="Guest" EntitySet="Guest" />
+            <End Role="Rent" EntitySet="Rent" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Guest">
+          <Key>
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Rent" Relationship="TravelAgencyModel.RentToGuest" FromRole="Guest" ToRole="Rent" />
+          <Property Name="UserPassword" Type="Binary" MaxLength="64" FixedLength="true" />
+        </EntityType>
+        <Association Name="RentToGuest">
+          <End Type="TravelAgencyModel.Guest" Role="Guest" Multiplicity="1" />
+          <End Type="TravelAgencyModel.Rent" Role="Rent" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Guest">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="Rent">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TravelAgencyModelStoreContainer" CdmEntityContainer="TravelAgencyEntities">
+          <EntitySetMapping Name="Apartment">
+            <EntityTypeMapping TypeName="TravelAgencyModel.Apartment">
+              <MappingFragment StoreEntitySet="Apartment">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BuildingId" ColumnName="BuildingId" />
+                <ScalarProperty Name="Room" ColumnName="Room" />
+                <ScalarProperty Name="Turnday" ColumnName="Turnday" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Building">
+            <EntityTypeMapping TypeName="TravelAgencyModel.Building">
+              <MappingFragment StoreEntitySet="Building">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CityId" ColumnName="CityId" />
+                <ScalarProperty Name="SeaDistance" ColumnName="SeaDistance" />
+                <ScalarProperty Name="ShoreId" ColumnName="ShoreId" />
+                <ScalarProperty Name="Features" ColumnName="Features" />
+                <ScalarProperty Name="LocationX" ColumnName="LocationX" />
+                <ScalarProperty Name="LocationY" ColumnName="LocationY" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BuildingImage">
+            <EntityTypeMapping TypeName="TravelAgencyModel.BuildingImage">
+              <MappingFragment StoreEntitySet="BuildingImage">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BuildingId" ColumnName="BuildingId" />
+                <ScalarProperty Name="ImageSmall" ColumnName="ImageSmall" />
+                <ScalarProperty Name="ImageLarge" ColumnName="ImageLarge" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="City">
+            <EntityTypeMapping TypeName="TravelAgencyModel.City">
+              <MappingFragment StoreEntitySet="City">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rent">
+            <EntityTypeMapping TypeName="TravelAgencyModel.Rent">
+              <MappingFragment StoreEntitySet="Rent">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ApartmentId" ColumnName="ApartmentId" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Guest">
+            <EntityTypeMapping TypeName="TravelAgencyModel.Guest">
+              <MappingFragment StoreEntitySet="Guest">
+                <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

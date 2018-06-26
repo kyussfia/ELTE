@@ -1,0 +1,77 @@
+﻿@using AuctionSite.Models.Entities;
+@using Microsoft.AspNetCore.Http;
+
+@model PaginatedList<Item>
+@{
+    ViewData["Title"] = "Category Item List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="well">
+    <h2>Items of @ViewBag.CurrentCategory.Name</h2><h4>(Total: @Model.Total)</h4>
+</div>
+@if (Model == null || Model.Total == 0)
+{
+    <div class="well">
+        <h3>There are no available items.</h3>
+    </div>
+}
+else
+{
+               
+
+    @using (Html.BeginForm("List", "Category", FormMethod.Get))
+    {
+        <div class="form-inline my-2 my-lg-0 form-actions no-color">
+            <p>
+                Find by name: <input class="form-control mr-sm-2" type="search" name="SearchString" placeholder="Search" aria-label="Search" value="@ViewBag.CurrentFilter" />
+                <input type="submit" value="Search" class="btn btn-outline-default my-2 my-sm-0" /> |
+                <a asp-controller="Category" asp-action="List" asp-route-categoryId="@ViewBag.CurrentCategory.Id">Back to Full List</a>
+                @Html.Hidden("categoryId", (int)ViewBag.CurrentCategory.Id)
+            </p>
+        </div>
+    }            
+    <div class="row">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            if (i > 0 && i % 3 == 0)
+            {
+                    @:</div><div class="row">
+            }
+            <div class="col-sm-4">
+                <div class="well">
+                    <a class="itemName" asp-controller="Item" asp-action="get" asp-route-itemId="@Model[i].Id">@Model[i].Name</a><br />
+                    @if (Model[i].Bids.Count > 0)
+                    {
+                        <p class="itemBid">Price: @Model[i].TopBid.Price&nbsp;@Model[i].Currency</p><br />
+                    }
+                    else
+                    {
+                        <p class="itemBid">Price: @Model[i].OriginalBid&nbsp;@Model[i].Currency</p><br />
+                    }
+                    @if (Context.Session.GetString("user") != null)
+                    {
+                        <a class="btn btn-info itemBid" asp-controller="Bid" asp-action="Create" asp-route-itemIdInt="@Model[i].Id">Bid</a><br />
+                    }
+                    <a class="itemAdv" asp-controller="Advertiser" asp-action="List" asp-route-advertiserId="@Model[i].AdvertiserId">@Model[i].Advertiser.Name</a>
+                </div>
+            </div>
+        }
+    </div>
+    <a asp-action="List"
+        asp-route-searchString="@ViewBag.CurrentFilter"
+        asp-route-categoryId="@ViewBag.CurrentCategory.Id"
+        asp-route-page="@(Model.PageIndex - 1)"
+        class="btn btn-default @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="List"
+        asp-route-searchString="@ViewBag.CurrentFilter"
+        asp-route-categoryId="@ViewBag.CurrentCategory.Id"
+        asp-route-page="@(Model.PageIndex + 1)"
+        class="btn btn-default @nextDisabled">
+        Next
+    </a>
+}

@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+@if (ViewBag.LoggedMessage != null)
+{
+    <div class="alert alert-success alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong>&nbsp;@ViewBag.LoggedMessage
+    </div>
+}
+
+@if (ViewBag.Errors == null || ViewBag.Errors.Count == 0)
+{
+    <div class="well">
+        <h2>There are no registered error, yet.</h2>
+    </div>
+}
+else
+{
+    <div class="well">
+        <h2>Latest 30 days errors on the site:</h2>
+    </div>
+    <div class="row">
+        @for (int i = 0; i < ViewBag.Errors.Count; i++)
+        {
+            if (i > 0 && i % 3 == 0)
+            {
+            @:</div><div class="row">
+            }
+            <div class="col-sm-4">
+                <div class="well">
+                    <a class="itemName" asp-controller="Errors" asp-action="Get" asp-route-errorId="@ViewBag.Errors[i].Id">@ViewBag.Errors[i].Title</a><br />
+                </div>
+            </div>
+        }
+    </div>
+}

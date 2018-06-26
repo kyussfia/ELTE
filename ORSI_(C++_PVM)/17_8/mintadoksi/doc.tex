@@ -1,0 +1,168 @@
+\documentclass[12pt]{article}
+
+%margó méretek zakdogában 32mm
+\usepackage[a4paper,
+inner = 25mm,
+outer = 25mm,
+top = 25mm,
+bottom = 25mm]{geometry}
+
+
+%packagek, ha használni akarunk valamit menet közben
+\usepackage{lmodern}
+\usepackage[magyar]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{setspace}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{setspace}
+
+\setstretch{1.2}
+\begin{document}
+	
+	
+
+% a címlap, túl sokat nem kell módosítani rajta, leszámítva a neved/neptunodat (dátumot)
+\begin{titlepage}
+	\vspace*{0cm}
+	\centering
+	\begin{tabular}{cp{1cm}c}
+		\begin{minipage}{4cm}
+			\vspace{0pt}
+			\includegraphics[width=1\textwidth]{elte_cimer}
+		\end{minipage} & &
+		\begin{minipage}{7cm}
+			\vspace{0pt}Eötvös Loránd Tudományegyetem \vspace{10pt} \newline
+			Informatikai Kar \vspace{10pt} \newline
+			Programozási Nyelvek és Fordítóprogramok Tanszék
+		\end{minipage}
+	\end{tabular}
+	
+	\vspace*{0.2cm}
+	\rule{\textwidth}{1pt}
+	
+	\vspace*{3cm}
+	{\Huge Osztott rendszerek specifikációja és implementációja }
+	
+	\vspace*{0.5cm}
+	{\normalsize IP-08bORSIG}
+	
+	\vspace{2cm}
+	{\huge Dokumentáció az \textit{i}. beadandóhoz}
+	
+	\vspace*{5cm}
+	
+	{\large \verb|Gabriel Reyes| } % (név)
+	
+	{\large \verb|REAPER| }  % (neptun)
+		
+	
+	\vfill
+	
+	\vspace*{1cm}
+	2017. szeptember 22. % (dátum)
+\end{titlepage}
+
+\section{Kitűzött feladat}
+\begin{itshape}
+	A feladat részletes leírása. Nagyrészt a BEAD-on található kiírás (a körítés mellé opcionális), figyelve a formázásra, hogy a copy-paste miatt ne csússzon szét a szöveg, ne legyenek felesleges sortörések, értelmetlen, vagy rosszul elválasztott mondatok. Ha gondoljátok, egyéni megjegyzésekkel ki lehet egészíteni, ha szerintetek az átláthatóbbá teszi a feladat kiírását.\\
+\end{itshape}
+
+A bemeneti fájl -- input.txt -- első sorában, szóközzel elválasztva olvashatóak az $n$ és $m$ pozitív egészek, a következő $n$ sorában pedig egy-egy $m$ hosszú sorozat, azaz egy $m$ dimenziós vektor szóközökkel elválasztott, valós ($\mathbb{R}$) elemei:\\
+\\
+$n \quad m\\ $
+$x_{1,1} \quad x_{1,2} \dots x_{1,m} \quad $ - az 1. vektor koordinátái\\
+$\dots\\ $
+$\dots\\ $
+$x_{n,1} \quad x_{n,2} \dots x_{n,m} \quad $ - az n. vektor koordinátái\\
+
+A program olvassa be az adatokat, majd párhuzamosan számolja ki az $n$ darab vektor hosszát (kettes norma).
+Az így kapott eredményeket -- a vektorok sorszámának megfelelően -- írja ki az output.txt kimeneti fájlba.
+
+\section{Felhasználói dokumentáció}
+
+\begin{itshape}
+	Ide tartozik minden, amit közölni kell a felhasználóval ahhoz, hogy használni tudja a programot. Olyan módon kell fogalmazni, hogy a corvinusos vagy BTK-s hallgató is megértse, ha leül a gép elé, azaz ezt a részt programozni nem tudó emberek fogják olvasni.
+\end{itshape}
+
+\subsection{Rendszer-követelmények, telepítés}
+
+\begin{itshape}
+	Milyen függőségei vannak a programnak? Ide kerülhet pl. ha szükség van valamilyen keretrendszerre (.NET, JVM), vagy egyébre (pl. DirectX, OpenGL, VisualC++), ami nélkül a program hibásan vagy egyáltalán nem működne. Szükséges telepíteni a programunkat? Ha igen, annak a lépéseit részletezni kell.\\
+\end{itshape}
+
+A programunk több platformon is futtatható, dinamikus függősége nincsen, bármelyik, manapság használt PC-n működik. Külön telepíteni nem szükséges, elég a futtatható állományt elhelyezni a számítógépen.
+
+\subsection{A program használata}
+
+\begin{itshape}
+	 Hogyan indítjuk el a programot, parancssorból vagy intézőben? Ha több fájlból áll a program, melyiket kell pontosan elindítani? (Tehát ne a 'functions.dll'-t próbálja futtatni a felhasználó, hanem a 'kecske.exe'-t.) Ha kezdeti paramétereket kell átadni a programnak, azt is említsük meg. Milyen egyéb fájlokat vár/használ az alkalmazásunk, ezeket hova tegyük? Hogyan kell kinéznie a bemeneti fájlnak? Van rá külön névmegkötés? Ennek helyességét ellenőrzi a program, vagy felteszi, hogy a specifikációnak megfelelnek az adatok? Ha kimenetet is generál a szoftver, azt hol találhatjuk meg a futtatás végeztével? Hogyan kell értelmezni a kapott eredményt?\\
+\end{itshape}
+
+A program használata egyszerű, külön paramétereket nem vár, így intézőből is indítható. A futtatható állomány mellett kell elhelyezni az \textit{input.txt} nevű fájlt, mely a bemeneti adatokat tartalmazza, a fenti specifikációnak megfelelően. Figyeljünk az ebben található adatok helyességére és megfelelő tagolására, mivel az alkalmazás külön ellenőrzést nem végez erre vonatkozóan. A futás során az alkalmazás mellett található \textit{output.txt} fájl tartalmazza a kapott eredményt, ahol az \textit{i}-ik sor a bemeneti fájl \textit{i}-ik sorában található vektor hosszát jelenti valós számként ábrázolva.
+
+\section{Fejlesztői dokumentáció}
+
+\begin{itshape}
+	Ez a rész azoknak szól, akik esetleg átnézik a forráskódodat, vagy később az ő feladatuk lesz tovább dolgozni a programon, felhasználva azt más projektben vagy csak szimplán fejleszteni/kiegészíteni új funkciókkal. Feltehetjük, hogy aki ezt olvassa, ért a C++hoz, és tisztában van a programozásban használatos fogalmakkal (tömbök, indexelés, függvények, szálak stb..).
+\end{itshape}
+
+\subsection{Megoldási mód}
+
+
+\begin{itshape}
+A kitűzött feladatot hogy értelmezted? Milyen módot választottál ennek megoldására? Miért pont azt az algoritmust / reprezentációt használod, amelyiket? Mivel jobb ez, mint a többi lehetőség?	\\
+\end{itshape}
+
+A kódunkat logikailag két részre bonthatjuk, egy fő-, illetve több alfolyamatra. A fő folyamatunkat a \verb|main()| függvény fogja megvalósítani, mely beolvassa az inputként kapott fájl tartalmát, majd egy $N \times M$ mátrixot tölt fel annak adataiból. Az alfolyamatokhoz ennek a mátrixnak egy-egy sorát társítjuk, melyek elvégzik a szükséges számításokat, majd az így kapott eredményeket a főfolyamat fogja a kimeneti fájlba írni.
+\subsection{Implementáció}
+
+\begin{itshape}
+A megoldási módban leírtakat hogyan valósítottad meg C++ban? Az ott leírt absztrakt reprezentációnak milyen típus felel meg a nyelvben? (pl. rendezett pár megvalósítása esetén std::pair<T,T'>-t használunk.) A megoldást hány fájlba szervezted? Ha többre, akkor melyik fájlban mi található, és mi alapján lett szétbontva? (pl. az osztályban található műveletek definíciói kerültek külön.) Nem kell azonban a másik végletbe sem esni, tehát túl részletezni, hogy a for ciklusban mire van az 'i' változó, vagy hogy mit jelent egy összeg kiszámítása előtt az 'int sum=0;' sor. \\
+\end{itshape}
+
+Az említett mátrixot \verb|std::vector<std::vector<double>>| típussal fogjuk megvalósítani, míg az alfolyamatokat egy \verb|std::future<double>| típusparaméterű vektorban fogjuk tárolni. Az egyes objektumok a kívánt visszatérési értéket is tartalmazni fogják, ezeknek külön memóriát nem kell foglalni. A szükséges $N$ folyamatot az \verb|std::async()| függvény segítségével, azonnal fogjuk új szálon indítani, paraméterül a végrehajtandó \verb|vector_length()| függvényt, illetve a mátrix egy sorát fogjuk átadni. Ez a függvény az euklideszi normált, azaz a:\\
+$ ||v||_{2} = \sqrt{ \sum\limits_{i=1}^{n} |v_{i}|^2} \qquad (v \in \mathbb{R}^{n})$-t számolja ki, majd ezzel az értékkel tér vissza. A feladat egyszerűsége révén egyetlen forrásfájlban, a \verb|main.cpp|-ben található a teljes implementációs kód.
+
+
+\subsection{Fordítás menete}
+
+\begin{itshape}
+Hogy kaphatunk a megadott forráskódból futtatható állományt? Milyen fordító szükséges ehhez, annak melyik verziója? Ha valamilyen extra flag-et kell használni ahhoz, hogy leforduljon a kód, akkor mi ez és miért van rá szükség?\\
+\end{itshape}
+
+A programunk forráskódját a \verb|main.cpp| fájl tartalmazza. A fordításhoz elengedhetetlen egy \verb|C++11| szabványt támogató fordítóprogram a rendszeren. Ehhez használhatjuk az \textit{MSVC}, \textit{g++} és \textit{clang} bármelyikét. A fordítás menete (4.9.2-es verziójú g++ használata esetén) a következő: \verb|'g++ main.cpp -std=c++11'|. A speciális, \verb|-std=c++11| kapcsoló azért szükséges, mert alapértelmezés szerint ez a verziójú fordítóprogram még a régi, C++98-as szabványt követi, melyben a felhasznált nyelvi elemek még nem voltak jelen.
+
+
+\subsection{Tesztelés}
+
+\begin{itshape}
+Milyen tesztelést hajtottál végre a programon, hogy megbizonyosodj arról, hogy helyesen működik? Ha párhuzamosságot használ a program, hogyan győződtél meg arról, hogy így hamarabb lefutott, mint szekvenciálisan nézve? Ha gyorsabb, milyen mértékben, legalábbis mihez képest gyorsabb? Milyen architektúra alatt jött elő a gyorsulás (egy Xeon Phi-s szörnyetegen vagy egy Pentium 2-es gépen)? \\
+\end{itshape}
+
+A program tesztelése során különböző méretű bemeneti fájlokat generáltam egy python script segítségével. Az így kapott fájlok mindig a specifikációnak megfelelően, az átlagostól a szélsőséges esetekig terjedtek.
+A programom minden esetben a tőle elvárt kimenetet állította elő, így a tesztesetek alapján helyesnek gondolhatjuk a működését.
+
+A számítógépemben található 4 magból 3-at kikapcsolva, (időben) szekvenciális lefutást tudtam előállítani, így egy átlagos méretű fájl esetében (10-50 vektor, 100-1000 elemmel) a futási idő $\sim$0.4 mp körüli volt. A magokat sorban visszakapcsolva ez az idő egészen $\sim$0.017 mp-ig csökkent, így megállapíthatjuk, hogy a párhuzamosított program tényleg gyorsabban futott, mint a szekvenciális változata (Intel i5-3570K processzorral).\\
+\\
+\\
+\begin{itshape}
+Általánosságban figyeljetek a helyesírásra, és a szöveg formázására. A megadott szempontok alapján elvárt elemek mindenképp legyenek benne, ez a mintadokumentáció a kitett feladathoz is azért készült, hogy legyen egy irányelv, pontosan mit is szeretnénk látni.
+
+Lehetőség szerint a fejezetcím és a hozzá tartozó információ között ne legyen oldaltörés, ekkor inkább a \verb|\newpage| paranccsal kezdjétek új oldalon az egészet, vagy szimplán egészítsétek ki / fogalmazzátok át előtte az információkat, hogy könnyebb legyen olvasni.
+\end{itshape}
+
+\subsection{Mérés}
+	\begin{center}
+		\begin {tabular} {| l | l | l |}
+			\hline
+			input & 1 mag &  4 mag \hline \hline
+			input1.txt (sor, elem) & 12.3 sec & 5.3 sec \hline
+			\end{tabular}
+		\end{center}
+
+\end{document}

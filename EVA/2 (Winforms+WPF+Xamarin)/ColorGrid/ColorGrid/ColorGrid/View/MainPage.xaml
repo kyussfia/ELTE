@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:view="clr-namespace:ELTE.ColorGrid.View"
+             xmlns:controls="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="ELTE.ColorGrid.View.MainPage">
+   <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="MediumLabelStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="Medium" />
+        <!-- relatív betűméret -->
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Margin" Value="5" />
+      </Style>
+      <Style x:Key="MediumButtonStyle" TargetType="Button">
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="BackgroundColor" Value="Blue" />
+        <Setter Property="BorderColor" Value="Blue" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Margin" Value="10" />
+      </Style>
+      <Style x:Key="ColorButtonStyle" TargetType="Button">
+            <Style.Triggers>
+                <!-- a színezés a nézetmodellben lévő adat függvényében fog változni -->
+                <DataTrigger TargetType="Button" Binding="{Binding ColorNumber}" Value="0">
+                    <Setter Property="BackgroundColor" Value="Green" />
+                </DataTrigger>
+                <DataTrigger TargetType="Button" Binding="{Binding ColorNumber}" Value="1">
+                    <Setter Property="BackgroundColor" Value="White" />
+                </DataTrigger>
+                <DataTrigger TargetType="Button" Binding="{Binding ColorNumber}" Value="2">
+                    <Setter Property="BackgroundColor" Value="Red" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+      
+    <StackLayout Orientation="Horizontal" Grid.Row="0">
+      <Label Text="Rows:" VerticalOptions="Start" Style="{StaticResource MediumLabelStyle}" />
+      <Slider Minimum="0" Maximum="10" Value="{Binding RowCount}" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />      
+    </StackLayout>
+    <StackLayout Orientation="Horizontal" Grid.Row="1">
+      <Label Text="Cols:" VerticalOptions="Start" Style="{StaticResource MediumLabelStyle}" />
+      <Slider Minimum="0" Maximum="10" Value="{Binding ColumnCount}" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+      <!-- a maximumot hozzákötjük a másik vezérlőhöz -->
+    </StackLayout>
+    <Button Command="{Binding ChangeSizeCommand}" Text="Change size" Style="{StaticResource MediumButtonStyle}" Grid.Row="2" />
+    <view:AutoSizeContentView Grid.Row="3">
+      <!-- automatikusan méreteződő tartalom -->
+      <controls:FlowListView FlowItemsSource="{Binding Fields}" FlowColumnCount="{Binding ColumnCount}" HorizontalOptions="Center" VerticalOptions="Center">
+        <!-- külső vezérlő, amelyből rácsot készítünk -->
+        <controls:FlowListView.FlowColumnTemplate>
+          <DataTemplate>
+            <view:SquareButton Command="{Binding FieldChangeCommand}" CommandParameter="{Binding}" Style="{StaticResource ColorButtonStyle}" />
+            <!-- a rácsot négyzetes gombokkal töltjük fel -->
+          </DataTemplate>
+        </controls:FlowListView.FlowColumnTemplate>
+      </controls:FlowListView>      
+    </view:AutoSizeContentView>
+  </Grid>
+
+</ContentPage>
